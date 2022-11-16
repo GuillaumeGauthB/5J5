@@ -159,6 +159,7 @@
     <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoProcedural\Scripts\Noise.cs" />
     <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Forms\SetRoomCustomPropertyUIForm.cs" />
     <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\BezierCurve\BezierControlPointMode.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\5J5__projet\Scripts\gestion_connexion.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\eurof_tt.txt" />
