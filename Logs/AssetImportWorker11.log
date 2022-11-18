@@ -681,3 +681,39 @@ Received Import Request.
   path: Assets/ShaderGraph/Shader Graphs_mushroomGlow.mat
   artifactKey: Guid(1c24d3f1c08ea804d9f88a5c1c6c202a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/ShaderGraph/Shader Graphs_mushroomGlow.mat using Guid(1c24d3f1c08ea804d9f88a5c1c6c202a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2c06266dd47f546bc885b91dd13400') in 0.025789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 916.531847 seconds.
+  path: Assets/ShaderGraph/Shader Graphs_mushroomGlow.mat
+  artifactKey: Guid(1c24d3f1c08ea804d9f88a5c1c6c202a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderGraph/Shader Graphs_mushroomGlow.mat using Guid(1c24d3f1c08ea804d9f88a5c1c6c202a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae92f8782bf9eaa8ff4cddab0739b9c1') in 1.548714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.254236 seconds.
+  path: Assets/ShaderGraph/Shader Graphs_mushroomGlow.mat
+  artifactKey: Guid(1c24d3f1c08ea804d9f88a5c1c6c202a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderGraph/Shader Graphs_mushroomGlow.mat using Guid(1c24d3f1c08ea804d9f88a5c1c6c202a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dde9045d3fecc3ef54841df1294bfa0') in 0.019798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 98.389309 seconds.
+  path: Assets/ShaderGraph/crystalGlow.shadergraph
+  artifactKey: Guid(66715624d26b6cd41b7672e35e4c5f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderGraph/crystalGlow.shadergraph using Guid(66715624d26b6cd41b7672e35e4c5f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac994e712149a3ebeb11988cdd4db6a') in 1.223310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 133.541812 seconds.
+  path: Assets/Props/Stylized Crystal/Prefab
+  artifactKey: Guid(83fa5217c255ec9448388f305d35a310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Stylized Crystal/Prefab using Guid(83fa5217c255ec9448388f305d35a310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf00b8f3a8bf73ed5f29ae5e2fff7c5a') in 0.006048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.062802 seconds.
+  path: Assets/Props/Stylized Crystal/Prefab/crystal_17_2.prefab
+  artifactKey: Guid(465c505844950da499dcf096a6da4409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Stylized Crystal/Prefab/crystal_17_2.prefab using Guid(465c505844950da499dcf096a6da4409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd3079b171d2683096daf84ffaf649d') in 0.915437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.180321 seconds.
+  path: Assets/Props/Stylized Crystal/Mesh/crystal_17_2.fbx
+  artifactKey: Guid(4d7cc98ae5cab2947a8d9fa3c15e4fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Stylized Crystal/Mesh/crystal_17_2.fbx using Guid(4d7cc98ae5cab2947a8d9fa3c15e4fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67cb1940de01400f36fbdddaab36bd51') in 0.024338 seconds 
