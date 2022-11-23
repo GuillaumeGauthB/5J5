@@ -15,7 +15,7 @@ C:/Users/miss_/OneDrive/Documents/TPJeu/5J5
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-58138
+54223
 Successfully changed project path to: C:/Users/miss_/OneDrive/Documents/TPJeu/5J5
 C:/Users/miss_/OneDrive/Documents/TPJeu/5J5
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/miss_/OneDrive/Documents/TPJeu/5J5
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 131.35 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 158.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.16f1 (7321c9670bc2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.1.16f1/Editor/Data/Resources/UnitySubsystems
@@ -63,95 +63,95 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2022.1.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2022.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2022.1.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2022.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002515 seconds.
+Registered in 0.004669 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 120.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 87.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.968 seconds
+- Completed reload, in  0.638 seconds
 Domain Reload Profiling:
-	ReloadAssembly (968ms)
-		BeginReloadAssembly (152ms)
+	ReloadAssembly (639ms)
+		BeginReloadAssembly (124ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (712ms)
-			LoadAssemblies (148ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (361ms)
+			LoadAssemblies (120ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (176ms)
-				TypeCache.Initialize (176ms)
-					TypeCache.ScanAssembly (173ms)
-				ResolveRequiredComponents (1ms)
+			SetupTypeCache (80ms)
+				TypeCache.Initialize (80ms)
+					TypeCache.ScanAssembly (78ms)
+				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (408ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (217ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (12ms)
-				RefreshPlugins (121ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (192ms)
-				ProcessInitializeOnLoadMethodAttributes (69ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009237 seconds.
+Registered in 0.004903 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\miss_\OneDrive\Documents\TPJeu\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\miss_\OneDrive\Documents\TPJeu\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 115.24 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 88.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.743 seconds
+- Completed reload, in  1.017 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1745ms)
-		BeginReloadAssembly (196ms)
+	ReloadAssembly (1017ms)
+		BeginReloadAssembly (83ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (1400ms)
-			LoadAssemblies (197ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (854ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (416ms)
-				TypeCache.Initialize (403ms)
-					TypeCache.ScanAssembly (396ms)
-				ResolveRequiredComponents (13ms)
+			SetupTypeCache (233ms)
+				TypeCache.Initialize (223ms)
+					TypeCache.ScanAssembly (220ms)
+				ResolveRequiredComponents (9ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (86ms)
-			SetupLoadedEditorAssemblies (650ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (463ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (8ms)
-				RefreshPlugins (115ms)
-				BeforeProcessingInitializeOnLoad (119ms)
-				ProcessInitializeOnLoadAttributes (304ms)
-				ProcessInitializeOnLoadMethodAttributes (95ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (216ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.86 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5978 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (348.6 KB). Loaded Objects now: 6432.
-Memory consumption went from 0.92 GB to 0.92 GB.
-Total: 7.211500 ms (FindLiveObjects: 0.525000 ms CreateObjectMapping: 1.266500 ms MarkObjects: 5.182700 ms  DeleteObjects: 0.235300 ms)
+Unloading 5983 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (350.5 KB). Loaded Objects now: 6450.
+Memory consumption went from 0.93 GB to 0.93 GB.
+Total: 3.588500 ms (FindLiveObjects: 0.372300 ms CreateObjectMapping: 0.248400 ms MarkObjects: 2.794000 ms  DeleteObjects: 0.172700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,322 +166,340 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 221855.498199 seconds.
-  path: Assets/Cartoon low poly tree/Materials/tree.mat
-  artifactKey: Guid(faff3c7e646bbbe4fb407521f496cea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Materials/tree.mat using Guid(faff3c7e646bbbe4fb407521f496cea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c80432303e22b7508e09db451f36951f') in 0.357484 seconds 
+  Time since last request: 194894.847882 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Building Combination
+  artifactKey: Guid(c21d9ba0b706f7d4fadde52bea3861f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Building Combination using Guid(c21d9ba0b706f7d4fadde52bea3861f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea15f9cb3f24abbef2104acccf7929d2') in 0.012080 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.269112 seconds.
-  path: Assets/Cartoon low poly tree/Materials
-  artifactKey: Guid(2730e24939082454b990be1e932987bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Materials using Guid(2730e24939082454b990be1e932987bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2027c2a565919e02ad6db0ce2334ce8c') in 0.013297 seconds 
+  Time since last request: 0.107910 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Building Combination/BuildingAT07_a.prefab
+  artifactKey: Guid(a9d75ae70f113fe4daa46ba82c5bbe47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Building Combination/BuildingAT07_a.prefab using Guid(a9d75ae70f113fe4daa46ba82c5bbe47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6861eb744ac2addb4c4f4f796507221c') in 0.420781 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.934407 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs
-  artifactKey: Guid(ad413e6f79a70ff4c80c062f08d873b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs using Guid(ad413e6f79a70ff4c80c062f08d873b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c65a268a6215b2af18d4813997a01a5') in 0.015735 seconds 
+  Time since last request: 2.236220 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Materials/FK01.mat
+  artifactKey: Guid(2248972af89825947b59ce02e824b172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Materials/FK01.mat using Guid(2248972af89825947b59ce02e824b172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c7221b5102ba709f2c15c87c2eb3417') in 0.082321 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.472571 seconds.
-  path: Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_lighted_up.terrainlayer
-  artifactKey: Guid(466d1d3acac3ca2408920fe63d4cb054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_lighted_up.terrainlayer using Guid(466d1d3acac3ca2408920fe63d4cb054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94627ed526256b57ada167afbeea3a8') in 0.044669 seconds 
+  Time since last request: 20.960354 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs
+  artifactKey: Guid(8bc852dd2de4e7848bb6d2f5cc500f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs using Guid(8bc852dd2de4e7848bb6d2f5cc500f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485a227366aaa9c3356faa41ca0250db') in 0.014076 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 190.229140 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree01.prefab
-  artifactKey: Guid(24d0270b9fc98d74fb763a17c168b48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree01.prefab using Guid(24d0270b9fc98d74fb763a17c168b48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89bd7b15569917f2a33a1eac7ee2344f') in 0.066791 seconds 
+  Time since last request: 30.272690 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures
+  artifactKey: Guid(970c9ac4abf7af943a454d61870bb92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures using Guid(970c9ac4abf7af943a454d61870bb92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a87d81d6cd100d0c18ac4a0d23df23') in 0.022230 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.633366 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree01.prefab
-  artifactKey: Guid(24d0270b9fc98d74fb763a17c168b48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree01.prefab using Guid(24d0270b9fc98d74fb763a17c168b48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58f97cba2e6db368d1acd9e5d21413a') in 0.031712 seconds 
+  Time since last request: 1.340144 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Building01
+  artifactKey: Guid(de8354ef66d8202469f831f9b0edb3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Building01 using Guid(de8354ef66d8202469f831f9b0edb3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a20c47b617794cde9bec47a3eba407f') in 0.014394 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 78.173446 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree02.prefab
-  artifactKey: Guid(edd50505dc2f23f418de7d565d951d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree02.prefab using Guid(edd50505dc2f23f418de7d565d951d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd832a50085ff60073db73be7cb292698') in 0.027334 seconds 
+  Time since last request: 0.098073 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Building01/Building01.prefab
+  artifactKey: Guid(9033a4a0d292c4645a4c6e941da7664a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Building01/Building01.prefab using Guid(9033a4a0d292c4645a4c6e941da7664a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b323a92a6efb72694ea96e52aef6ec45') in 0.033885 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.867238 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree02.prefab
-  artifactKey: Guid(edd50505dc2f23f418de7d565d951d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree02.prefab using Guid(edd50505dc2f23f418de7d565d951d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a27237b549c295dfd0355c20ac77c0') in 0.022459 seconds 
+  Time since last request: 15.275826 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Building16
+  artifactKey: Guid(3b29b2b4e7dc2754a9fbafaefe965d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Building16 using Guid(3b29b2b4e7dc2754a9fbafaefe965d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93adc3f5101626a3be1731cfaaabc6ee') in 0.022245 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.953179 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree01.prefab
-  artifactKey: Guid(24d0270b9fc98d74fb763a17c168b48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree01.prefab using Guid(24d0270b9fc98d74fb763a17c168b48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba217b39c520cf7ad224f86946bc3f2') in 0.021577 seconds 
+  Time since last request: 0.052792 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Building16/Building16_d01.prefab
+  artifactKey: Guid(5b39dcfa9c39f934fa2ff0902f36b514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Building16/Building16_d01.prefab using Guid(5b39dcfa9c39f934fa2ff0902f36b514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da69d18cbf0d9d3b65257fb08c483899') in 0.056239 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.296451 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree03.prefab
-  artifactKey: Guid(791e4bbcc97eb6a46b8314e9b3cee81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree03.prefab using Guid(791e4bbcc97eb6a46b8314e9b3cee81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45fca6de124d45b444943ab6e0637fce') in 0.020720 seconds 
+  Time since last request: 6.393630 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Building22
+  artifactKey: Guid(d7f3248a8219dab4faf40e181472c8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Building22 using Guid(d7f3248a8219dab4faf40e181472c8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc87cd92b49f3083c0f91a38df263159') in 0.020968 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.685549 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree03.prefab
-  artifactKey: Guid(791e4bbcc97eb6a46b8314e9b3cee81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree03.prefab using Guid(791e4bbcc97eb6a46b8314e9b3cee81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f954b8a530ee9e320a7f83bdaab26fe') in 0.027354 seconds 
+  Time since last request: 0.717159 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Building22/Building22_e02.prefab
+  artifactKey: Guid(1847918c7f52b0f4cb5fe7fbb59b2c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Building22/Building22_e02.prefab using Guid(1847918c7f52b0f4cb5fe7fbb59b2c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec65d99657566b7ec60f3e8e6c6c0ee7') in 0.039445 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.187819 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree04.prefab
-  artifactKey: Guid(7a68d5b2a44ea9c4f9769976df5fe084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree04.prefab using Guid(7a68d5b2a44ea9c4f9769976df5fe084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96698df9411b2580f34016257efc38d') in 0.051910 seconds 
+  Time since last request: 3.411922 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Chimney
+  artifactKey: Guid(ecee84e29cc007940929abf43bd6309c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Chimney using Guid(ecee84e29cc007940929abf43bd6309c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7069080e3d888ae7026394503ae085c8') in 0.015189 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.889117 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree05.prefab
-  artifactKey: Guid(ca917ce45d88a7c4ca22f74979d9d215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree05.prefab using Guid(ca917ce45d88a7c4ca22f74979d9d215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71dfa2a60739c801b14f4ce621c4ce7a') in 0.024691 seconds 
+  Time since last request: 0.385856 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Chimney/Chimney01.prefab
+  artifactKey: Guid(8ddcb62f6c2df7e478384fd8781918eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Chimney/Chimney01.prefab using Guid(8ddcb62f6c2df7e478384fd8781918eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f90bd64267b1d5c41a5c7b6f27fe5c') in 0.037705 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.839513 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree04.prefab
-  artifactKey: Guid(7a68d5b2a44ea9c4f9769976df5fe084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree04.prefab using Guid(7a68d5b2a44ea9c4f9769976df5fe084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec764a0d0b342e609e77604d0e043cc8') in 0.022978 seconds 
+  Time since last request: 2.260340 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Decoration
+  artifactKey: Guid(72660b5d3cca27f4c9b9b7ff976d7c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Decoration using Guid(72660b5d3cca27f4c9b9b7ff976d7c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e26ba05753ad721ea06503cef7bf754') in 0.011458 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.744426 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree05.prefab
-  artifactKey: Guid(ca917ce45d88a7c4ca22f74979d9d215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree05.prefab using Guid(ca917ce45d88a7c4ca22f74979d9d215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c355976a79bb0d945e97cc26876e36b') in 0.032021 seconds 
+  Time since last request: 0.092195 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Decoration/Hanger01_a01.prefab
+  artifactKey: Guid(bd99fd9ce0a4d7146a8ea6912f781027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Decoration/Hanger01_a01.prefab using Guid(bd99fd9ce0a4d7146a8ea6912f781027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ccada410f8059323cd5803dcea544f') in 0.056495 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.587977 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree04.prefab
-  artifactKey: Guid(7a68d5b2a44ea9c4f9769976df5fe084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree04.prefab using Guid(7a68d5b2a44ea9c4f9769976df5fe084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe65cd3b019c9f5bf4483bc4b2f9224') in 0.020061 seconds 
+  Time since last request: 2.640496 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Door
+  artifactKey: Guid(fb0316b378768f54eb6b924efe504d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Door using Guid(fb0316b378768f54eb6b924efe504d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd152ae1b3e35ff9b427b295c1346a174') in 0.015506 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.979597 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree04.prefab
-  artifactKey: Guid(7a68d5b2a44ea9c4f9769976df5fe084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree04.prefab using Guid(7a68d5b2a44ea9c4f9769976df5fe084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67142e88c9af575a404e56eb5b052292') in 0.021286 seconds 
+  Time since last request: 0.051295 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Door/Door14.prefab
+  artifactKey: Guid(a76d6dc72bc81434e93a247dcc2fe116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Door/Door14.prefab using Guid(a76d6dc72bc81434e93a247dcc2fe116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6bd4ee519ef9132b61c0af99f18f9f') in 0.057498 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.893787 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree04.prefab
-  artifactKey: Guid(7a68d5b2a44ea9c4f9769976df5fe084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree04.prefab using Guid(7a68d5b2a44ea9c4f9769976df5fe084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc09a8aabb6b9b11ea6d176093443a0') in 0.034928 seconds 
+  Time since last request: 3.291252 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Window
+  artifactKey: Guid(6e7e7cfa150653343b98510b1b7bbad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Window using Guid(6e7e7cfa150653343b98510b1b7bbad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad242dae9f660071cb70c044d34ebd67') in 0.011984 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.579731 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree06.prefab
-  artifactKey: Guid(0bd6e629b1918c049a29f3d33f529445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree06.prefab using Guid(0bd6e629b1918c049a29f3d33f529445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1b5f8320ca8417d69c48afcfcf323a') in 0.025326 seconds 
+  Time since last request: 0.133232 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Window/Railing07_a01.prefab
+  artifactKey: Guid(fa5653cdc2cc0d24d8749d5d021966cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Window/Railing07_a01.prefab using Guid(fa5653cdc2cc0d24d8749d5d021966cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04646c6caecb4fec6364d25261267eb') in 0.049739 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.505212 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree06.prefab
-  artifactKey: Guid(0bd6e629b1918c049a29f3d33f529445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree06.prefab using Guid(0bd6e629b1918c049a29f3d33f529445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145e2f312a874c9e0d337768cadb2fb4') in 0.024599 seconds 
+  Time since last request: 10.704418 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Vegetation
+  artifactKey: Guid(1412fda26443b414a82960b29cf4614f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Vegetation using Guid(1412fda26443b414a82960b29cf4614f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9642f3ab55a566d6fa36bb0666234135') in 0.014642 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.271969 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree07.prefab
-  artifactKey: Guid(d787428d69841564d8e59f6858884468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree07.prefab using Guid(d787428d69841564d8e59f6858884468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a64cde24c6c0dd3bf7df536bbf5eef1') in 0.024785 seconds 
+  Time since last request: 0.056440 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Vegetation/Vine01_a02.prefab
+  artifactKey: Guid(8ea9dc37f9ec7584cbbe5fe654ca0878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Vegetation/Vine01_a02.prefab using Guid(8ea9dc37f9ec7584cbbe5fe654ca0878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729dd754f991c94a5e6ae0e465231a26') in 0.046893 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.051259 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree07.prefab
-  artifactKey: Guid(d787428d69841564d8e59f6858884468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree07.prefab using Guid(d787428d69841564d8e59f6858884468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0370db81f0729dda4d3fd311baea57a6') in 0.023610 seconds 
+  Time since last request: 4.773190 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props
+  artifactKey: Guid(7ba12dd1ad298d84bbbd3df00cd38918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props using Guid(7ba12dd1ad298d84bbbd3df00cd38918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9892d4e934ef859b4f322f7aeafeba') in 0.015048 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.063835 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree08.prefab
-  artifactKey: Guid(8f4b015df0983224c981f94a9d33cab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree08.prefab using Guid(8f4b015df0983224c981f94a9d33cab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0243fdeb1dbaed92b233172d1cc8db96') in 0.020116 seconds 
+  Time since last request: 0.653807 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Furniture
+  artifactKey: Guid(5de50f368d9cb6f4eaddd05d9b704c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Furniture using Guid(5de50f368d9cb6f4eaddd05d9b704c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a12878c306aa0463f941932fe96561') in 0.009784 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.937640 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree08.prefab
-  artifactKey: Guid(8f4b015df0983224c981f94a9d33cab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree08.prefab using Guid(8f4b015df0983224c981f94a9d33cab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ba0aad375ed73e8c7e0a47abc2627b') in 0.024944 seconds 
+  Time since last request: 0.079111 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Furniture/Chair01_a01.prefab
+  artifactKey: Guid(83a3509435aa05244a54ca0ab2a578b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Furniture/Chair01_a01.prefab using Guid(83a3509435aa05244a54ca0ab2a578b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b916007514e2b35c46e4d55f0092d95') in 0.053963 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.479050 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree09.prefab
-  artifactKey: Guid(0451ad284e5c5a040908d2892a376e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree09.prefab using Guid(0451ad284e5c5a040908d2892a376e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec0b182aae9b05cf307c0e696b312f9') in 0.019415 seconds 
+  Time since last request: 3.357254 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Lighting
+  artifactKey: Guid(d84840f55483cf343bf963a4a34e835e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Lighting using Guid(d84840f55483cf343bf963a4a34e835e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7467f83b6e74e0fa96aa0f56e13fa97') in 0.011896 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.915977 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree09.prefab
-  artifactKey: Guid(0451ad284e5c5a040908d2892a376e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree09.prefab using Guid(0451ad284e5c5a040908d2892a376e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d59fa6f37e682549258a23f3686f58') in 0.023906 seconds 
+  Time since last request: 0.551281 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Lighting/Light02_a04.prefab
+  artifactKey: Guid(6001da597a12e8d45bcda50edd56772e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Lighting/Light02_a04.prefab using Guid(6001da597a12e8d45bcda50edd56772e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a680ebccf7b25d7b6578ddc7c0b70fa') in 0.037675 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.063089 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree10.prefab
-  artifactKey: Guid(27ecdb7e65f6dd64194f49d16636a2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree10.prefab using Guid(27ecdb7e65f6dd64194f49d16636a2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff731e4b847600919235752665aeb14') in 0.021986 seconds 
+  Time since last request: 3.818522 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Sign
+  artifactKey: Guid(4e30e577241e33047b8c22ec3d659232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Sign using Guid(4e30e577241e33047b8c22ec3d659232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ae638f3c3e39ca511b2a19265adb5a') in 0.012333 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.424102 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree10.prefab
-  artifactKey: Guid(27ecdb7e65f6dd64194f49d16636a2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree10.prefab using Guid(27ecdb7e65f6dd64194f49d16636a2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00c66c1c5b2c465956df7518514a96e') in 0.019159 seconds 
+  Time since last request: 0.049545 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Sign/Shop_sign01_b05.prefab
+  artifactKey: Guid(d81e4d74d077ac641a0b0eda01258ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Sign/Shop_sign01_b05.prefab using Guid(d81e4d74d077ac641a0b0eda01258ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50805d6921d46da718a2bd2f0b721b89') in 0.046181 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.867349 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree11.prefab
-  artifactKey: Guid(5d1b0f53facb86747a21079050aff993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree11.prefab using Guid(5d1b0f53facb86747a21079050aff993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65550b21c8d052e541ccb192b3ff273') in 0.027142 seconds 
+  Time since last request: 3.644553 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Farm
+  artifactKey: Guid(8fb153b92dbaa2e4bb3406aaa8c21864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Farm using Guid(8fb153b92dbaa2e4bb3406aaa8c21864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60effff25d2145b88dd405532546b19') in 0.010502 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.485425 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree11.prefab
-  artifactKey: Guid(5d1b0f53facb86747a21079050aff993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree11.prefab using Guid(5d1b0f53facb86747a21079050aff993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93bdd251a85def2162d8eb263db21b78') in 0.021370 seconds 
+  Time since last request: 0.080959 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Farm/Trough01_a01.prefab
+  artifactKey: Guid(8de2689dfe865154899af6901203bff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Farm/Trough01_a01.prefab using Guid(8de2689dfe865154899af6901203bff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f380cf69eede969292490430f8f620b6') in 0.034981 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.065478 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree12.prefab
-  artifactKey: Guid(c8d6ff8da70fce64cb04d008fce7982e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree12.prefab using Guid(c8d6ff8da70fce64cb04d008fce7982e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678ff450e4a3fbc41e3370645287cd76') in 0.024623 seconds 
+  Time since last request: 6.168859 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(5fe5892142ee7314ca485eb2406d515f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(5fe5892142ee7314ca485eb2406d515f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f966feed23a58aec275520f76b59020') in 0.033930 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005582 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\miss_\OneDrive\Documents\TPJeu\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\miss_\OneDrive\Documents\TPJeu\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.120 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1121ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (944ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (294ms)
+				TypeCache.Initialize (281ms)
+					TypeCache.ScanAssembly (268ms)
+				ResolveRequiredComponents (13ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (384ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (11ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5842 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (309.9 KB). Loaded Objects now: 6545.
+Memory consumption went from 0.91 GB to 0.91 GB.
+Total: 3.235000 ms (FindLiveObjects: 0.327200 ms CreateObjectMapping: 0.214900 ms MarkObjects: 2.639100 ms  DeleteObjects: 0.053200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 49.295569 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree12.prefab
-  artifactKey: Guid(c8d6ff8da70fce64cb04d008fce7982e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree12.prefab using Guid(c8d6ff8da70fce64cb04d008fce7982e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e386dd3f183e0cb7a7c3900ba79bbba') in 0.044723 seconds 
+  Time since last request: 146.898741 seconds.
+  path: Assets/RPGPP_LT
+  artifactKey: Guid(bd9db25d03764074b824dfc89c87af1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT using Guid(bd9db25d03764074b824dfc89c87af1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a877a77509428c3567fa1c06d3b45a37') in 0.022465 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 41.322819 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree02.prefab
-  artifactKey: Guid(edd50505dc2f23f418de7d565d951d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree02.prefab using Guid(edd50505dc2f23f418de7d565d951d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61bc965027b9d34509f9fe041130ed5a') in 0.031665 seconds 
+  Time since last request: 2.168000 seconds.
+  path: Assets/Forest Pack
+  artifactKey: Guid(8f9a70d2c5ef5824c81f73fe21a8b571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Pack using Guid(8f9a70d2c5ef5824c81f73fe21a8b571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce20c87ba23599b94a7f5ea775446eb') in 0.011177 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.344747 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree03.prefab
-  artifactKey: Guid(791e4bbcc97eb6a46b8314e9b3cee81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree03.prefab using Guid(791e4bbcc97eb6a46b8314e9b3cee81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282a7754d65972415bd3132bc97d02e2') in 0.032837 seconds 
+  Time since last request: 0.724083 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite
+  artifactKey: Guid(a4447afaa82856a4ea96949ed2413271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite using Guid(a4447afaa82856a4ea96949ed2413271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2fcb12dd6d03627289e35433c6db624') in 0.013069 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.070538 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree04.prefab
-  artifactKey: Guid(7a68d5b2a44ea9c4f9769976df5fe084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree04.prefab using Guid(7a68d5b2a44ea9c4f9769976df5fe084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ee33cf9d9e6c6e078102884caa5c41') in 0.021889 seconds 
+  Time since last request: 1.853007 seconds.
+  path: Assets/Fantasy Skybox FREE
+  artifactKey: Guid(2f9cedb13f82cae47b414f6db0e68aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE using Guid(2f9cedb13f82cae47b414f6db0e68aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ffb6798df421fa0a20dcb10ecace25d') in 0.011897 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.207472 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree05.prefab
-  artifactKey: Guid(ca917ce45d88a7c4ca22f74979d9d215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree05.prefab using Guid(ca917ce45d88a7c4ca22f74979d9d215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51627d01f377ebe6ddfc555b8ca5a5ad') in 0.017449 seconds 
+  Time since last request: 1.592016 seconds.
+  path: Assets/Cartoon low poly tree
+  artifactKey: Guid(4418779f00fcc0d4faf64383b293a015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon low poly tree using Guid(4418779f00fcc0d4faf64383b293a015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '848b33edb1583507b0a802ba4af59154') in 0.011550 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.033265 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree06.prefab
-  artifactKey: Guid(0bd6e629b1918c049a29f3d33f529445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree06.prefab using Guid(0bd6e629b1918c049a29f3d33f529445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af09eb264f86394cc3687621127186e7') in 0.018547 seconds 
+  Time since last request: 1.030376 seconds.
+  path: Assets/AN Interactive Physical Door Pack
+  artifactKey: Guid(1ec49e9de532ec846a917c4a4b42724a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AN Interactive Physical Door Pack using Guid(1ec49e9de532ec846a917c4a4b42724a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8335375c80842c7db012646ee055e41c') in 0.010354 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 107.908614 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree07.prefab
-  artifactKey: Guid(d787428d69841564d8e59f6858884468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree07.prefab using Guid(d787428d69841564d8e59f6858884468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c7078aeb76a38b3e9473112e640d71') in 0.021364 seconds 
+  Time since last request: 1.791025 seconds.
+  path: Assets/Aligned Games
+  artifactKey: Guid(b6f2ffc6e25151f458f70d7e1902cdc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games using Guid(b6f2ffc6e25151f458f70d7e1902cdc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41bbe7eeb14328d3d12ed259e3a03102') in 0.011067 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.295155 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree08.prefab
-  artifactKey: Guid(8f4b015df0983224c981f94a9d33cab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree08.prefab using Guid(8f4b015df0983224c981f94a9d33cab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445c1c59a976d35be802cef54bdb60bc') in 0.031947 seconds 
+  Time since last request: 3.171149 seconds.
+  path: Assets/AN Interactive Physical Door Pack/Materials
+  artifactKey: Guid(701e5daf96dddf441800bd51a1dfeea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AN Interactive Physical Door Pack/Materials using Guid(701e5daf96dddf441800bd51a1dfeea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4927fd7befdc00167c0b416bf4eb78f9') in 0.019918 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 58.902572 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree10.prefab
-  artifactKey: Guid(27ecdb7e65f6dd64194f49d16636a2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree10.prefab using Guid(27ecdb7e65f6dd64194f49d16636a2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ea17c99b7e30e566d4e35e44173af0') in 0.033120 seconds 
+  Time since last request: 0.054081 seconds.
+  path: Assets/AN Interactive Physical Door Pack/Materials/AN_HeroMaterial.physicMaterial
+  artifactKey: Guid(83a87d1fe1117f3419f7246ec123d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AN Interactive Physical Door Pack/Materials/AN_HeroMaterial.physicMaterial using Guid(83a87d1fe1117f3419f7246ec123d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8648f3c51d470419c401d31e7c6817a7') in 0.029392 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.736574 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree11.prefab
-  artifactKey: Guid(5d1b0f53facb86747a21079050aff993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree11.prefab using Guid(5d1b0f53facb86747a21079050aff993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe5c7fc72f13e5d2df9e84b72016e6c') in 0.022812 seconds 
+  Time since last request: 0.000041 seconds.
+  path: Assets/AN Interactive Physical Door Pack/Materials/Hero.mat
+  artifactKey: Guid(cc358a401e37531449cc4a5f72fc6e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AN Interactive Physical Door Pack/Materials/Hero.mat using Guid(cc358a401e37531449cc4a5f72fc6e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae568af420c5cd0b654f724adb32570') in 0.230142 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.039608 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree12.prefab
-  artifactKey: Guid(c8d6ff8da70fce64cb04d008fce7982e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree12.prefab using Guid(c8d6ff8da70fce64cb04d008fce7982e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f1422dc4c7350a628943af00539bd3') in 0.025223 seconds 
+  Time since last request: 14.554083 seconds.
+  path: Assets/AN Interactive Physical Door Pack/Prefabs
+  artifactKey: Guid(e1eef81f8a730c0469e983aba68da95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AN Interactive Physical Door Pack/Prefabs using Guid(e1eef81f8a730c0469e983aba68da95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1efb0d883c4ae575deb8d1cf2b98b12') in 0.022941 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1051.137285 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree01.prefab
-  artifactKey: Guid(24d0270b9fc98d74fb763a17c168b48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree01.prefab using Guid(24d0270b9fc98d74fb763a17c168b48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc788a55a8b88c53be9cf248c0301ec9') in 4.902721 seconds 
+  Time since last request: 0.058710 seconds.
+  path: Assets/AN Interactive Physical Door Pack/Prefabs/Button_Prefab.prefab
+  artifactKey: Guid(8ce9455b1080bbc41a3a2b7c67787eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AN Interactive Physical Door Pack/Prefabs/Button_Prefab.prefab using Guid(8ce9455b1080bbc41a3a2b7c67787eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b8ba79c354235645c1d89ed509884a') in 0.129231 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree09.prefab
-  artifactKey: Guid(0451ad284e5c5a040908d2892a376e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree09.prefab using Guid(0451ad284e5c5a040908d2892a376e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe152f58a78e9e0f7aeb7f9a6e385bc3') in 0.056922 seconds 
+  Time since last request: 0.000198 seconds.
+  path: Assets/AN Interactive Physical Door Pack/Prefabs/Door_Prefab_Opened.prefab
+  artifactKey: Guid(4ecf6aa2a2182cf4c843c0d565e94cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AN Interactive Physical Door Pack/Prefabs/Door_Prefab_Opened.prefab using Guid(4ecf6aa2a2182cf4c843c0d565e94cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c4c13798410d128e0143984decc8c3') in 0.037795 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree04.prefab
-  artifactKey: Guid(7a68d5b2a44ea9c4f9769976df5fe084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree04.prefab using Guid(7a68d5b2a44ea9c4f9769976df5fe084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5989c053e6aacab9e0664c9403512846') in 0.055218 seconds 
+  Time since last request: 0.000048 seconds.
+  path: Assets/AN Interactive Physical Door Pack/Prefabs/Socket_Prefab.prefab
+  artifactKey: Guid(df06f9cad31d47947affd5ac95ae6c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AN Interactive Physical Door Pack/Prefabs/Socket_Prefab.prefab using Guid(df06f9cad31d47947affd5ac95ae6c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de343fbb0151e5dca454a42806766f0') in 0.055304 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000112 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree08.prefab
-  artifactKey: Guid(8f4b015df0983224c981f94a9d33cab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree08.prefab using Guid(8f4b015df0983224c981f94a9d33cab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1d6e83c0bfeefee2889ecf45e7f5b6') in 0.058850 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree11.prefab
-  artifactKey: Guid(5d1b0f53facb86747a21079050aff993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree11.prefab using Guid(5d1b0f53facb86747a21079050aff993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7fb40a274253cb6edd86ea8ec47804d') in 0.047928 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree07.prefab
-  artifactKey: Guid(d787428d69841564d8e59f6858884468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree07.prefab using Guid(d787428d69841564d8e59f6858884468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05859f7545480763c0e1074e02eb2e0f') in 0.057864 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree10.prefab
-  artifactKey: Guid(27ecdb7e65f6dd64194f49d16636a2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree10.prefab using Guid(27ecdb7e65f6dd64194f49d16636a2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a237f8439a163c79a7a0c13663bb830') in 0.058859 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree05.prefab
-  artifactKey: Guid(ca917ce45d88a7c4ca22f74979d9d215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree05.prefab using Guid(ca917ce45d88a7c4ca22f74979d9d215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88fadb34c711cd3eed348dfa592ff58') in 0.069871 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree12.prefab
-  artifactKey: Guid(c8d6ff8da70fce64cb04d008fce7982e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree12.prefab using Guid(c8d6ff8da70fce64cb04d008fce7982e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5491ab8190aa92152fe622c32ee8ffc1') in 0.054314 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree03.prefab
-  artifactKey: Guid(791e4bbcc97eb6a46b8314e9b3cee81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree03.prefab using Guid(791e4bbcc97eb6a46b8314e9b3cee81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f744ce7c58c357c56562f1312da4ccc6') in 0.073811 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Cartoon low poly tree/Prefabs/tree06.prefab
-  artifactKey: Guid(0bd6e629b1918c049a29f3d33f529445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Prefabs/tree06.prefab using Guid(0bd6e629b1918c049a29f3d33f529445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9fbd9c44b3513f0e320791799cdcfeb') in 0.054633 seconds 
+  Time since last request: 0.000255 seconds.
+  path: Assets/AN Interactive Physical Door Pack/Prefabs/Lever_Prefab.prefab
+  artifactKey: Guid(a0164d9c476080e449c72cf58e7709ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AN Interactive Physical Door Pack/Prefabs/Lever_Prefab.prefab using Guid(a0164d9c476080e449c72cf58e7709ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b776c3d7cde0d2ac47555f48ff4f914c') in 0.055476 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

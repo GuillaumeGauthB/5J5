@@ -15,7 +15,7 @@ C:/Users/miss_/OneDrive/Documents/TPJeu/5J5
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-58138
+54223
 Successfully changed project path to: C:/Users/miss_/OneDrive/Documents/TPJeu/5J5
 C:/Users/miss_/OneDrive/Documents/TPJeu/5J5
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/miss_/OneDrive/Documents/TPJeu/5J5
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 132.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 139.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.16f1 (7321c9670bc2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.1.16f1/Editor/Data/Resources/UnitySubsystems
@@ -63,95 +63,95 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2022.1.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2022.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2022.1.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2022.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003631 seconds.
+Registered in 0.002490 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 119.12 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 94.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.007 seconds
+- Completed reload, in  0.507 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1008ms)
-		BeginReloadAssembly (167ms)
+	ReloadAssembly (508ms)
+		BeginReloadAssembly (51ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (728ms)
-			LoadAssemblies (163ms)
+		EndReloadAssembly (366ms)
+			LoadAssemblies (50ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (191ms)
-				TypeCache.Initialize (189ms)
-					TypeCache.ScanAssembly (187ms)
-				ResolveRequiredComponents (1ms)
+			SetupTypeCache (84ms)
+				TypeCache.Initialize (84ms)
+					TypeCache.ScanAssembly (83ms)
+				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (404ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (226ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (14ms)
-				RefreshPlugins (119ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (187ms)
-				ProcessInitializeOnLoadMethodAttributes (70ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (90ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009730 seconds.
+Registered in 0.004942 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\miss_\OneDrive\Documents\TPJeu\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\miss_\OneDrive\Documents\TPJeu\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 108.90 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 80.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.718 seconds
+- Completed reload, in  1.031 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1719ms)
-		BeginReloadAssembly (200ms)
+	ReloadAssembly (1032ms)
+		BeginReloadAssembly (89ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (1377ms)
-			LoadAssemblies (212ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (869ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (419ms)
-				TypeCache.Initialize (405ms)
-					TypeCache.ScanAssembly (397ms)
-				ResolveRequiredComponents (13ms)
+			SetupTypeCache (219ms)
+				TypeCache.Initialize (210ms)
+					TypeCache.ScanAssembly (207ms)
+				ResolveRequiredComponents (9ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (82ms)
-			SetupLoadedEditorAssemblies (624ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (494ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (8ms)
-				RefreshPlugins (109ms)
-				BeforeProcessingInitializeOnLoad (112ms)
-				ProcessInitializeOnLoadAttributes (296ms)
-				ProcessInitializeOnLoadMethodAttributes (92ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (253ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5978 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (348.6 KB). Loaded Objects now: 6432.
-Memory consumption went from 0.92 GB to 0.92 GB.
-Total: 6.242000 ms (FindLiveObjects: 0.741200 ms CreateObjectMapping: 0.334100 ms MarkObjects: 4.869700 ms  DeleteObjects: 0.295200 ms)
+Unloading 5983 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (350.5 KB). Loaded Objects now: 6450.
+Memory consumption went from 0.93 GB to 0.93 GB.
+Total: 7.621100 ms (FindLiveObjects: 0.509100 ms CreateObjectMapping: 0.280800 ms MarkObjects: 6.088700 ms  DeleteObjects: 0.741000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -164,6 +164,240 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 194879.984741 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SCharacter_Bird1.prefab
+  artifactKey: Guid(22e82e37709fde34fb65a2fd28fbfb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SCharacter_Bird1.prefab using Guid(22e82e37709fde34fb65a2fd28fbfb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a51ae3b65d9810a814782115f8bb77') in 0.302538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SCharacter_Turtle.prefab
+  artifactKey: Guid(d2d67fda15fa26342932fffde03aeb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SCharacter_Turtle.prefab using Guid(d2d67fda15fa26342932fffde03aeb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7009e135346b081467a2d2369dbce409') in 0.051460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SCharacter_Butterfly.prefab
+  artifactKey: Guid(18b8af6b3106d4940a5e534dc18c0344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SCharacter_Butterfly.prefab using Guid(18b8af6b3106d4940a5e534dc18c0344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d4f294e221f8116c49db17bef28073') in 0.054495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SCharacter_Fish.prefab
+  artifactKey: Guid(925bc3fd925fd0c4c80d7e83b67ba239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SCharacter_Fish.prefab using Guid(925bc3fd925fd0c4c80d7e83b67ba239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5b8875163c61bb97cd3cb299206aee') in 0.043277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_LiliBlossom.prefab
+  artifactKey: Guid(e896a7f6f83380b40972e13f5039022a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_LiliBlossom.prefab using Guid(e896a7f6f83380b40972e13f5039022a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b708a6b2e2f696236e9818aba04039') in 0.080262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_Rock1.prefab
+  artifactKey: Guid(e86571f2f1251004b98a744302eca0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_Rock1.prefab using Guid(e86571f2f1251004b98a744302eca0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c1724eb7878ddc69c0e8c44dbd6840') in 0.049167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_SmallRocks.prefab
+  artifactKey: Guid(8bf68561aec61914b8418e72b44a57dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_SmallRocks.prefab using Guid(8bf68561aec61914b8418e72b44a57dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef2f458980b751ac051abff3f1075ff') in 0.056732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_Leaf.prefab
+  artifactKey: Guid(8ae7718c33e89b042b204b36902c7745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_Leaf.prefab using Guid(8ae7718c33e89b042b204b36902c7745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0c37c8dfd4528105190fde8ec7d9ae') in 0.046651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_MossRocks1.prefab
+  artifactKey: Guid(55ffe20335c698d4fbf469301e953712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_MossRocks1.prefab using Guid(55ffe20335c698d4fbf469301e953712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520cf7bca7a46feb3a02c1e101e8f9d2') in 0.037017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_Tree.prefab
+  artifactKey: Guid(fac5acd5ad489214781636c608a0c628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_Tree.prefab using Guid(fac5acd5ad489214781636c608a0c628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c1f041fc5cfe8a95d027a47527375a') in 0.069231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SCharacter_Squirrel.prefab
+  artifactKey: Guid(4a7d6cee9f1328e468c9f485779e2c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SCharacter_Squirrel.prefab using Guid(4a7d6cee9f1328e468c9f485779e2c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7855b672cc9f1cf0d4791a162f28ab6a') in 0.048193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_StickBlack.prefab
+  artifactKey: Guid(f900edf8c5b608246b6a17324ef82ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_StickBlack.prefab using Guid(f900edf8c5b608246b6a17324ef82ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5feac62795396ddd760cd4ad9ad86bd8') in 0.063082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.850327 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Building Combination/BuildingAT07_b.prefab
+  artifactKey: Guid(9c899610785b0c344a60a99f81a7b599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Building Combination/BuildingAT07_b.prefab using Guid(9c899610785b0c344a60a99f81a7b599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e90b92f4ee7209f2f7bcda2cd2c525') in 0.110526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.545286 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Materials/FK02.mat
+  artifactKey: Guid(5a6070f734103f2418182466ef8be3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Materials/FK02.mat using Guid(5a6070f734103f2418182466ef8be3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5a0304fba8198d89d8e9086abc1378') in 0.075926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Materials/Flower07.mat
+  artifactKey: Guid(028bd54f96227d14ea2d9672bbf25067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Materials/Flower07.mat using Guid(028bd54f96227d14ea2d9672bbf25067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058219145ab120b3fdb5a2ac570df3fd') in 0.044084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.711045 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Building01/Building01_d02.prefab
+  artifactKey: Guid(8841453141b7e0e41aeefed8999e05fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Building01/Building01_d02.prefab using Guid(8841453141b7e0e41aeefed8999e05fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197235e51f91c04945f083b42f297268') in 0.038437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.880541 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Decoration/Vane01_a01.prefab
+  artifactKey: Guid(e8623453a3709ad429e35b16a63634ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Decoration/Vane01_a01.prefab using Guid(e8623453a3709ad429e35b16a63634ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84783ea275e873a25cca5d5e4384acda') in 0.034425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.742375 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Door/Door16_d02.prefab
+  artifactKey: Guid(c94c647d1bcd15f4497307fc7cef4ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Door/Door16_d02.prefab using Guid(c94c647d1bcd15f4497307fc7cef4ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef09c3d6421e0a6d4301afeddb5782c') in 0.056989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.450958 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Window/Window01_b01.prefab
+  artifactKey: Guid(ea40f15626c42da4b885dfc336e10d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Window/Window01_b01.prefab using Guid(ea40f15626c42da4b885dfc336e10d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a6d619469dc6a78f9d3471d85ef6f7') in 0.049604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Window/Window06_b04.prefab
+  artifactKey: Guid(c707e67a0d554814a9e598752d32bf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Window/Window06_b04.prefab using Guid(c707e67a0d554814a9e598752d32bf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c9feed29fd3a4ad24f32d1eaeb24c6') in 0.038011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.740936 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Vegetation/Vine01_b02.prefab
+  artifactKey: Guid(57e05925a943368449d724762e92632e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Vegetation/Vine01_b02.prefab using Guid(57e05925a943368449d724762e92632e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503bb0ba1c974a2ad691d36f3abf0f41') in 0.046725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.554348 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Furniture/Table01_a02.prefab
+  artifactKey: Guid(95cfd78d41b57b847a8d5a80df5d6edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Furniture/Table01_a02.prefab using Guid(95cfd78d41b57b847a8d5a80df5d6edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd173137865f1db52f8f11bbc09d4470') in 0.036392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.887088 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Sign/Shop_sign08_c01.prefab
+  artifactKey: Guid(2cb8fee6351f7fe41af5e1f284b8b19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Sign/Shop_sign08_c01.prefab using Guid(2cb8fee6351f7fe41af5e1f284b8b19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f950ddb04f01db7275661ef0f6aa83e') in 0.043631 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006285 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\miss_\OneDrive\Documents\TPJeu\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\miss_\OneDrive\Documents\TPJeu\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.122 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1123ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (946ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (295ms)
+				TypeCache.Initialize (281ms)
+					TypeCache.ScanAssembly (268ms)
+				ResolveRequiredComponents (14ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (386ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (11ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5842 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (309.9 KB). Loaded Objects now: 6543.
+Memory consumption went from 0.91 GB to 0.91 GB.
+Total: 3.715100 ms (FindLiveObjects: 0.310600 ms CreateObjectMapping: 0.200300 ms MarkObjects: 3.138500 ms  DeleteObjects: 0.064000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 169.498741 seconds.
+  path: Assets/AN Interactive Physical Door Pack/Materials/Chess Material.mat
+  artifactKey: Guid(29af290d0a921aa468fd3fbb03e23b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AN Interactive Physical Door Pack/Materials/Chess Material.mat using Guid(29af290d0a921aa468fd3fbb03e23b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfacdbfd572f347a6facf61a7112fee') in 0.260116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.651824 seconds.
+  path: Assets/AN Interactive Physical Door Pack/Prefabs/Door_Prefab_Closed.prefab
+  artifactKey: Guid(07dd0ed6acb5c5140a213008cf7b2a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AN Interactive Physical Door Pack/Prefabs/Door_Prefab_Closed.prefab using Guid(07dd0ed6acb5c5140a213008cf7b2a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095c5c46f3ba1ad77252b4f60a35fdc5') in 0.048275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019145 seconds.
+  path: Assets/AN Interactive Physical Door Pack/Prefabs/Plug_Prefab.prefab
+  artifactKey: Guid(3ac4eac9dad0c2f478914438235bb36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AN Interactive Physical Door Pack/Prefabs/Plug_Prefab.prefab using Guid(3ac4eac9dad0c2f478914438235bb36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c362fa2271573e209249bc715bc7dbd') in 0.045375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/AN Interactive Physical Door Pack/Prefabs/Hero_Prefab.prefab
+  artifactKey: Guid(a53b80592d7404d498fb05550c9144d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AN Interactive Physical Door Pack/Prefabs/Hero_Prefab.prefab using Guid(a53b80592d7404d498fb05550c9144d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab2bcea98d6ecec0eefcda6434c49c4') in 0.040486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/AN Interactive Physical Door Pack/Prefabs/Valve_Prefab.prefab
+  artifactKey: Guid(ed77bee00f19eb7419ea483b781779b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AN Interactive Physical Door Pack/Prefabs/Valve_Prefab.prefab using Guid(ed77bee00f19eb7419ea483b781779b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341f400c84f7a25411ad6596b021290d') in 0.056334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/AN Interactive Physical Door Pack/Prefabs/Vorota.prefab
+  artifactKey: Guid(ac4501ccdcc232141885926250c02bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AN Interactive Physical Door Pack/Prefabs/Vorota.prefab using Guid(ac4501ccdcc232141885926250c02bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0a284bdb6ec507a74ec7258e581bec') in 0.054946 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
