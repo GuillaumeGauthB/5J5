@@ -38,4 +38,9 @@ public class setup_nom_joueur : MonoBehaviour
         PhotonNetwork.NickName = value;
         PlayerPrefs.SetString(playerNomBase, value);
     }
+
+    public void CheckName()
+    {
+        return string.IsNullOrEmpty(PhotonNetwork.NickName) ? false : true;
+    }
 }
