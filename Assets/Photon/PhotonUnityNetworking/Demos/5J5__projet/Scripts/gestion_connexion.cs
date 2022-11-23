@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using Photon.Pun;
+//using Photon.Realtime;
 
 public class gestion_connexion : MonoBehaviourPunCallbacks
 {
@@ -23,6 +24,13 @@ public class gestion_connexion : MonoBehaviourPunCallbacks
     [SerializeField]
     private Text feedbackText;
 
+    //private LoadBalancingClient loadBalancingClient;
+
+    void Start()
+    {
+        //loadBalancingClient.RoomsCount;
+    }
+
     private void Awake()
     {
         // Activer le Sync de la scene avec les autres joueurs
@@ -33,6 +41,8 @@ public class gestion_connexion : MonoBehaviourPunCallbacks
     public void Connect()
     {
         Debug.Log("bruh this do be kinda shit");
+        
+        
     }
 
     // Voir le Lobby
