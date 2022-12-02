@@ -727,3 +727,45 @@ Received Import Request.
   path: Assets/ShaderGraph/Shader Graphs_trail.mat
   artifactKey: Guid(cb045177f199e6d41acae4b15363269c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/ShaderGraph/Shader Graphs_trail.mat using Guid(cb045177f199e6d41acae4b15363269c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3818aa7f8eb04664217fbc1327a01e31') in 0.015074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 656.741668 seconds.
+  path: Assets/ShaderGraph/Shader Graphs_trail.mat
+  artifactKey: Guid(cb045177f199e6d41acae4b15363269c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderGraph/Shader Graphs_trail.mat using Guid(cb045177f199e6d41acae4b15363269c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd229f1bd98797bba469765cea44bd8') in 0.016344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 107.278722 seconds.
+  path: Assets/ShaderGraph/Shader Graphs_trail.mat
+  artifactKey: Guid(cb045177f199e6d41acae4b15363269c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderGraph/Shader Graphs_trail.mat using Guid(cb045177f199e6d41acae4b15363269c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07542a4b9a0a6896c7b1f50e19baddce') in 0.018259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 515.842196 seconds.
+  path: Assets/ShaderGraph/portal.shadergraph
+  artifactKey: Guid(c18c4564c57c21149ae3d108e55f6056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderGraph/portal.shadergraph using Guid(c18c4564c57c21149ae3d108e55f6056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927c5eaf186a9e84a3f847b26b449d91') in 1.263836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 672.234245 seconds.
+  path: Assets/ShaderGraph/portal.shadergraph
+  artifactKey: Guid(c18c4564c57c21149ae3d108e55f6056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderGraph/portal.shadergraph using Guid(c18c4564c57c21149ae3d108e55f6056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e00e5b419b187e2ea5a7616c41ee48d') in 1.160246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.412661 seconds.
+  path: Assets/ShaderGraph/Shader Graphs_portal.mat
+  artifactKey: Guid(13475e4b165a0a0408d1d7b67a7f14e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderGraph/Shader Graphs_portal.mat using Guid(13475e4b165a0a0408d1d7b67a7f14e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3caf2c4803ed929656173e438398602f') in 0.021849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 160.791136 seconds.
+  path: Assets/ShaderGraph/Shader Graphs_portal.mat
+  artifactKey: Guid(13475e4b165a0a0408d1d7b67a7f14e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderGraph/Shader Graphs_portal.mat using Guid(13475e4b165a0a0408d1d7b67a7f14e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a941a772663fc8ee2382ed2bf3dea72') in 1.198452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.869084 seconds.
+  path: Assets/ShaderGraph/Shader Graphs_portal.mat
+  artifactKey: Guid(13475e4b165a0a0408d1d7b67a7f14e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderGraph/Shader Graphs_portal.mat using Guid(13475e4b165a0a0408d1d7b67a7f14e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9bd60d5be6fa3406e3aa12b676b903b') in 1.345440 seconds 

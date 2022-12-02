@@ -571,3 +571,9 @@ Received Import Request.
   path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Textures/UnitTextureBlue.png
   artifactKey: Guid(bf44fd0b5bb0c4142b16ba9db02789fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Textures/UnitTextureBlue.png using Guid(bf44fd0b5bb0c4142b16ba9db02789fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d9c0594dd42f53ce1c7bceacf58f82') in 0.012425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2801.086066 seconds.
+  path: Assets/ShaderGraph/Shader Graphs_trail 1.mat
+  artifactKey: Guid(11432e2e644f5674ca63d01550e26d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderGraph/Shader Graphs_trail 1.mat using Guid(11432e2e644f5674ca63d01550e26d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac37b70c60c9b2d29d24a639bc5b752') in 1.301470 seconds 
