@@ -15,7 +15,7 @@ C:/Users/miss_/OneDrive/Documents/TPJeu/5J5
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-62633
+64900
 Successfully changed project path to: C:/Users/miss_/OneDrive/Documents/TPJeu/5J5
 C:/Users/miss_/OneDrive/Documents/TPJeu/5J5
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/miss_/OneDrive/Documents/TPJeu/5J5
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 137.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 142.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.16f1 (7321c9670bc2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.1.16f1/Editor/Data/Resources/UnitySubsystems
@@ -63,82 +63,82 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2022.1.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2022.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2022.1.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2022.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001984 seconds.
+Registered in 0.002958 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 93.88 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 130.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.508 seconds
+- Completed reload, in  0.691 seconds
 Domain Reload Profiling:
-	ReloadAssembly (508ms)
-		BeginReloadAssembly (52ms)
+	ReloadAssembly (692ms)
+		BeginReloadAssembly (81ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (381ms)
-			LoadAssemblies (51ms)
+		EndReloadAssembly (502ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (76ms)
-				TypeCache.Initialize (76ms)
-					TypeCache.ScanAssembly (75ms)
+			SetupTypeCache (102ms)
+				TypeCache.Initialize (102ms)
+					TypeCache.ScanAssembly (100ms)
 				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (244ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (322ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (94ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (105ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				RefreshPlugins (130ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004869 seconds.
+Registered in 0.005334 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\miss_\OneDrive\Documents\TPJeu\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\miss_\OneDrive\Documents\TPJeu\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 91.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 92.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.088 seconds
+- Completed reload, in  1.072 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1089ms)
-		BeginReloadAssembly (84ms)
+	ReloadAssembly (1073ms)
+		BeginReloadAssembly (85ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (922ms)
-			LoadAssemblies (83ms)
+		EndReloadAssembly (905ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (247ms)
-				TypeCache.Initialize (238ms)
-					TypeCache.ScanAssembly (234ms)
+			SetupTypeCache (231ms)
+				TypeCache.Initialize (222ms)
+					TypeCache.ScanAssembly (218ms)
 				ResolveRequiredComponents (9ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (488ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (499ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (6ms)
 				RefreshPlugins (92ms)
 				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadAttributes (246ms)
 				ProcessInitializeOnLoadMethodAttributes (62ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
@@ -146,12 +146,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6048 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (350.6 KB). Loaded Objects now: 6516.
+Unloading 6049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (351.6 KB). Loaded Objects now: 6503.
 Memory consumption went from 0.94 GB to 0.94 GB.
-Total: 4.470700 ms (FindLiveObjects: 0.554000 ms CreateObjectMapping: 0.293000 ms MarkObjects: 3.466800 ms  DeleteObjects: 0.155300 ms)
+Total: 3.599100 ms (FindLiveObjects: 0.600200 ms CreateObjectMapping: 0.285200 ms MarkObjects: 2.547400 ms  DeleteObjects: 0.165100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,61 +166,17 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 537909.783915 seconds.
-  path: Assets/Gloopy/MaterielGloopy/GloopyBody.mat
-  artifactKey: Guid(3ddb32a2ff7de7146b55653ba07d010a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gloopy/MaterielGloopy/GloopyBody.mat using Guid(3ddb32a2ff7de7146b55653ba07d010a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67aa58d8634ac95105e52e8d2215f082') in 1.081595 seconds 
+  Time since last request: 2353.060940 seconds.
+  path: Assets/Scenes/Gloopy.Textures/MatcapWarp_01.png
+  artifactKey: Guid(240e9d05ed290ec428b20eb4d409ed49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Gloopy.Textures/MatcapWarp_01.png using Guid(240e9d05ed290ec428b20eb4d409ed49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628e285f281585bc3e8e3bcc06df575d') in 0.092829 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.041551 seconds.
-  path: Assets/Gloopy/MaterielGloopy/GloobyEyeHighlight.mat
-  artifactKey: Guid(eb79dbcabe6888946b865423aa841dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gloopy/MaterielGloopy/GloobyEyeHighlight.mat using Guid(eb79dbcabe6888946b865423aa841dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd763f778e6cbf89dc5139066d69c408') in 0.026255 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.878869 seconds.
-  path: Assets/Gloopy/MaterielGloopy/GloopyIris.mat
-  artifactKey: Guid(7852c32bfdbbeb742afb6c197ddef57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gloopy/MaterielGloopy/GloopyIris.mat using Guid(7852c32bfdbbeb742afb6c197ddef57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d7e09f57e3171bad8d7b4de7b23b42') in 0.025932 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.135794 seconds.
-  path: Assets/Gloopy/MaterielGloopy/GloopyFace.mat
-  artifactKey: Guid(f2478f263fe33f649b044b7b86e3e10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gloopy/MaterielGloopy/GloopyFace.mat using Guid(f2478f263fe33f649b044b7b86e3e10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f26b7f690e616ce272ef31d7a8db94') in 0.019186 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.801757 seconds.
-  path: Assets/Gloopy/MaterielGloopy/GloopyBrows.mat
-  artifactKey: Guid(593f5860329fa9247b5f2a62efe4d082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gloopy/MaterielGloopy/GloopyBrows.mat using Guid(593f5860329fa9247b5f2a62efe4d082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aaf71151cc16ed9221e35cccfc4cfc8') in 0.027926 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.261149 seconds.
-  path: Assets/Gloopy/MaterielGloopy/GloopyMouth.mat
-  artifactKey: Guid(72e7a837d912cc047b00fbbbd4c8c390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gloopy/MaterielGloopy/GloopyMouth.mat using Guid(72e7a837d912cc047b00fbbbd4c8c390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3ce9b227722f3ed7f85f392ed17bcc') in 0.019016 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.945076 seconds.
-  path: Assets/Gloopy/MaterielGloopy/GloopyHair1.mat
-  artifactKey: Guid(87ccc9a6ce30e8444ba57c22cd1bd6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gloopy/MaterielGloopy/GloopyHair1.mat using Guid(87ccc9a6ce30e8444ba57c22cd1bd6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d6cb6e19b443a7399683c131247087') in 0.022215 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.606221 seconds.
-  path: Assets/Gloopy/MaterielGloopy/GloopyHair2.mat
-  artifactKey: Guid(6a003ddf6d6e78e498e123691e4b1f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gloopy/MaterielGloopy/GloopyHair2.mat using Guid(6a003ddf6d6e78e498e123691e4b1f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264f4dcc53214d949c29c0e858787c2d') in 0.020596 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.922333 seconds.
-  path: Assets/Gloopy/MaterielGloopy/GloopyClothes.mat
-  artifactKey: Guid(bd74a13e2e10a6a4587193b727c53ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gloopy/MaterielGloopy/GloopyClothes.mat using Guid(bd74a13e2e10a6a4587193b727c53ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7075ca3c88f91d5d44d2fc9fba38d9a1') in 0.030647 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.707067 seconds.
-  path: Assets/Gloopy/Gloopy@Slow Run.fbx
-  artifactKey: Guid(88f24dea2ce520942ba83187f5274b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gloopy/Gloopy@Slow Run.fbx using Guid(88f24dea2ce520942ba83187f5274b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36559f5775a455e0b1aa9c4412136767') in 0.113133 seconds 
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scenes/Gloopy.Textures/texture_2.normal.png
+  artifactKey: Guid(8a4a71961ae8e994fa9fb03d8dad1f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Gloopy.Textures/texture_2.normal.png using Guid(8a4a71961ae8e994fa9fb03d8dad1f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff380ddc9b8c626532e91be0cba77e7') in 0.059988 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

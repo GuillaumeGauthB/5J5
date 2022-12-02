@@ -1,0 +1,71 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1670001740092600, "dur":830, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670001740093439, "dur":795, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670001740094362, "dur":69, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1670001740094431, "dur":540, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670001740094990, "dur":4795, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670001740099795, "dur":3592, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670001740103388, "dur":3222, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670001740106622, "dur":120, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670001740106755, "dur":104, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670001740107024, "dur":1140, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1670001740095002, "dur":4838, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670001740099844, "dur":483, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670001740100327, "dur":6239, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670001740095013, "dur":4896, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670001740099923, "dur":602, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670001740100900, "dur":507, "ph":"X", "name": "File",  "args": { "detail":"Assets\\UniGLTF\\Editor\\UniGLTF\\ScriptedImporter\\ZipArchivedGltfScriptedImporterEditor.cs" }}
+,{ "pid":12345, "tid":2, "ts":1670001740100526, "dur":6181, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670001740095141, "dur":4908, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670001740100956, "dur":557, "ph":"X", "name": "File",  "args": { "detail":"Assets\\Photon\\PhotonUnityNetworking\\Demos\\DemoSlotRacer\\Scripts\\BezierCurve\\Editor\\LineInspector.cs" }}
+,{ "pid":12345, "tid":3, "ts":1670001740100054, "dur":2492, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670001740102547, "dur":4287, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670001740094939, "dur":4876, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670001740099820, "dur":3557, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670001740094975, "dur":4855, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670001740099834, "dur":606, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670001740101971, "dur":504, "ph":"X", "name": "File",  "args": { "detail":"Assets\\VRM\\Runtime\\Format\\glTF_VRM_extensions.cs" }}
+,{ "pid":12345, "tid":5, "ts":1670001740100440, "dur":6256, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670001740095043, "dur":4957, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670001740100005, "dur":484, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670001740100817, "dur":528, "ph":"X", "name": "File",  "args": { "detail":"Assets\\VRM\\Runtime\\BlendShape\\BlendShapeBindingMerger.cs" }}
+,{ "pid":12345, "tid":6, "ts":1670001740100489, "dur":6213, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670001740095037, "dur":4944, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670001740099989, "dur":659, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670001740102704, "dur":567, "ph":"X", "name": "File",  "args": { "detail":"Assets\\UniGLTF\\Editor\\UniGLTF\\ExportDialog\\GltfExportWindow.cs" }}
+,{ "pid":12345, "tid":7, "ts":1670001740100649, "dur":6137, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670001740095074, "dur":4940, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670001740100798, "dur":504, "ph":"X", "name": "File",  "args": { "detail":"Assets\\Photon\\PhotonRealtime\\Demos\\DemoLoadBalancing\\ConnectAndJoinRandomLb.cs" }}
+,{ "pid":12345, "tid":8, "ts":1670001740102064, "dur":505, "ph":"X", "name": "File",  "args": { "detail":"Assets\\Photon\\PhotonChat\\Demos\\DemoChat\\NamePickGui.cs" }}
+,{ "pid":12345, "tid":8, "ts":1670001740100022, "dur":4001, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670001740095104, "dur":4932, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670001740100763, "dur":546, "ph":"X", "name": "File",  "args": { "detail":"Assets\\Photon\\PhotonChat\\Demos\\Common\\EventSystemSpawner.cs" }}
+,{ "pid":12345, "tid":9, "ts":1670001740100043, "dur":5831, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670001740095176, "dur":4890, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670001740100090, "dur":5410, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670001740095197, "dur":4900, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670001740100105, "dur":6166, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670001740095229, "dur":4883, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670001740100117, "dur":6066, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1670001740095250, "dur":4873, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1670001740101897, "dur":510, "ph":"X", "name": "File",  "args": { "detail":"Assets\\UniGLTF\\Tests\\UniGLTF\\TextureTests.cs" }}
+,{ "pid":12345, "tid":13, "ts":1670001740100129, "dur":6079, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1670001740095279, "dur":4855, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1670001740100137, "dur":6107, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1670001740095303, "dur":4878, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1670001740100860, "dur":556, "ph":"X", "name": "File",  "args": { "detail":"Assets\\Photon\\PhotonUnityNetworking\\Demos\\PunCockpit\\Scripts\\ReadOnlyProperties\\CurrentRoomPlayerTtlProperty.cs" }}
+,{ "pid":12345, "tid":15, "ts":1670001740100186, "dur":6365, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1670001740095329, "dur":4860, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1670001740100192, "dur":6178, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1670001740095368, "dur":4888, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1670001740100920, "dur":507, "ph":"X", "name": "File",  "args": { "detail":"Assets\\Photon\\PhotonUnityNetworking\\Demos\\PunCockpit\\Scripts\\Autonomous UI\\DocLinkButton.cs" }}
+,{ "pid":12345, "tid":17, "ts":1670001740101774, "dur":500, "ph":"X", "name": "File",  "args": { "detail":"Assets\\Photon\\PhotonUnityNetworking\\Demos\\PunCockpit\\Scripts\\Autonomous UI\\CurrentRoom\\CurrentRoomIsOpenToggle.cs" }}
+,{ "pid":12345, "tid":17, "ts":1670001740100259, "dur":6368, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1670001740095392, "dur":4878, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1670001740100273, "dur":6376, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1670001740095415, "dur":4860, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1670001740100280, "dur":6333, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1670001740095442, "dur":4845, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1670001740100288, "dur":6249, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670001740109932, "dur":328, "ph":"X", "name": "ProfilerWriteOutput" }
+,

@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Photon/PhotonUnityNetworking/Demos/5J5__projet/5J5_Jeu.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

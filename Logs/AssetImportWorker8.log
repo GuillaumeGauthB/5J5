@@ -1,0 +1,374 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.16f1 (7321c9670bc2) revision 7545289'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 32438 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.1.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+C:/Users/miss_/OneDrive/Documents/TPJeu/5J5
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+64900
+Successfully changed project path to: C:/Users/miss_/OneDrive/Documents/TPJeu/5J5
+C:/Users/miss_/OneDrive/Documents/TPJeu/5J5
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 123.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.16f1 (7321c9670bc2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.1.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/miss_/OneDrive/Documents/TPJeu/5J5/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti Laptop GPU (ID=0x24e0)
+    Vendor:   NVIDIA
+    VRAM:     8032 MB
+    Driver:   31.0.15.2698
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.1.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.1.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002929 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 91.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.664 seconds
+Domain Reload Profiling:
+	ReloadAssembly (664ms)
+		BeginReloadAssembly (80ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (470ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (144ms)
+				TypeCache.Initialize (143ms)
+					TypeCache.ScanAssembly (142ms)
+				ResolveRequiredComponents (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (254ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (110ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005417 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\miss_\OneDrive\Documents\TPJeu\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\miss_\OneDrive\Documents\TPJeu\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 90.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.055 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1056ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (893ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (232ms)
+				TypeCache.Initialize (223ms)
+					TypeCache.ScanAssembly (219ms)
+				ResolveRequiredComponents (9ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (497ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (90ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (353.8 KB). Loaded Objects now: 6505.
+Memory consumption went from 0.94 GB to 0.94 GB.
+Total: 3.422900 ms (FindLiveObjects: 0.377400 ms CreateObjectMapping: 0.225100 ms MarkObjects: 2.645700 ms  DeleteObjects: 0.173000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5415.911675 seconds.
+  path: Assets/ShaderGraph/ToonShader/TSGloopyHair 1.shadergraph
+  artifactKey: Guid(b6ed71ef1ddb0044a987182f23e19dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderGraph/ToonShader/TSGloopyHair 1.shadergraph using Guid(b6ed71ef1ddb0044a987182f23e19dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604e645efe7af932e20dcefb66c541cb') in 0.254550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.238763 seconds.
+  path: Assets/Supercyan Free Forest Sample/Prefabs
+  artifactKey: Guid(eff4a63e5fb72db4094c7dce6e6ae0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Prefabs using Guid(eff4a63e5fb72db4094c7dce6e6ae0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6b5360ff334c155d53867b408eb409') in 0.006693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.602344 seconds.
+  path: Assets/Supercyan Free Forest Sample/Prefabs/High Quality
+  artifactKey: Guid(74f42c695c784cd43a543aad32fc5741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Prefabs/High Quality using Guid(74f42c695c784cd43a543aad32fc5741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890eef5dd7d6ecb39868aac93f7c8ad0') in 0.004527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.497834 seconds.
+  path: Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Stone
+  artifactKey: Guid(20171ebb5bb9e274e89385cee3e136bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Stone using Guid(20171ebb5bb9e274e89385cee3e136bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11abf92292d85212107b118618922e1c') in 0.002058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043567 seconds.
+  path: Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Stone/forestpack_stone_large_1.prefab
+  artifactKey: Guid(ac1cc01cb5dbf5d4f869c403b38f8a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Stone/forestpack_stone_large_1.prefab using Guid(ac1cc01cb5dbf5d4f869c403b38f8a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a15c8b63d371e4fb50421f8c3de3c3') in 0.054457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 83.389944 seconds.
+  path: Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Stone/forestpack_stone_medium_1.prefab
+  artifactKey: Guid(29636f40562819649b730c52f1babbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Stone/forestpack_stone_medium_1.prefab using Guid(29636f40562819649b730c52f1babbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '421bf9982edf8808ed9a3cee99de92f6') in 0.016713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.280128 seconds.
+  path: Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Stone/forestpack_stone_large_1.prefab
+  artifactKey: Guid(ac1cc01cb5dbf5d4f869c403b38f8a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Stone/forestpack_stone_large_1.prefab using Guid(ac1cc01cb5dbf5d4f869c403b38f8a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8504195ed5871a923773ff0a1b6addfc') in 0.018144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.407236 seconds.
+  path: Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Stone/forestpack_stone_large_1.prefab
+  artifactKey: Guid(ac1cc01cb5dbf5d4f869c403b38f8a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Stone/forestpack_stone_large_1.prefab using Guid(ac1cc01cb5dbf5d4f869c403b38f8a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf8a2a8ad90aaae91af2bd6ac335dfd') in 0.012711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.398133 seconds.
+  path: Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Stone/forestpack_stone_large_1.prefab
+  artifactKey: Guid(ac1cc01cb5dbf5d4f869c403b38f8a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Stone/forestpack_stone_large_1.prefab using Guid(ac1cc01cb5dbf5d4f869c403b38f8a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7746a9218dbe1668237b2efc8d78bf9') in 0.017910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.784541 seconds.
+  path: Assets/RPGPP_LT/Materials/rpgpp_lt_cloud_a.mat
+  artifactKey: Guid(434bfd6528d84e643ade0d2cd5c6fe1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Materials/rpgpp_lt_cloud_a.mat using Guid(434bfd6528d84e643ade0d2cd5c6fe1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651afa8293f84b95ebc4b92a685826ee') in 0.034145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.140192 seconds.
+  path: Assets/RPGPP_LT/Textures/rpgpp_lt_sky_a.tga
+  artifactKey: Guid(5c4fa0e44769f8f46a06d96031e56a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Textures/rpgpp_lt_sky_a.tga using Guid(5c4fa0e44769f8f46a06d96031e56a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f30caecd5e969cebad53a4727f5694') in 0.033264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.094311 seconds.
+  path: Assets/ShaderGraph/ToonShader/TSGloopyHair 1.shadergraph
+  artifactKey: Guid(78ab339954223114c97a88f01934c97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderGraph/ToonShader/TSGloopyHair 1.shadergraph using Guid(78ab339954223114c97a88f01934c97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34d9b03871d4219e5ed49c21f17bd9c') in 1.042770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.975153 seconds.
+  path: Assets/ShaderGraph/ToonShader/GloopyVetements.mat
+  artifactKey: Guid(90a0435cc7725ca4e95a37333a9ffc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderGraph/ToonShader/GloopyVetements.mat using Guid(90a0435cc7725ca4e95a37333a9ffc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761fdc82043088118bd28db193b3cfbb') in 0.026174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.330905 seconds.
+  path: Assets/ShaderGraph/ToonShader/TSRoches 1.shadergraph
+  artifactKey: Guid(e15c37ed8ebc5d84a957724cbace65f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderGraph/ToonShader/TSRoches 1.shadergraph using Guid(e15c37ed8ebc5d84a957724cbace65f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc745c6887ffefd9d39f75b17bd7c57d') in 0.993940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.953628 seconds.
+  path: Assets/ShaderGraph/ToonShader/TSObjets.shadergraph
+  artifactKey: Guid(e15c37ed8ebc5d84a957724cbace65f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderGraph/ToonShader/TSObjets.shadergraph using Guid(e15c37ed8ebc5d84a957724cbace65f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ff6fa94c6c8532355e68795c6a2521') in 1.017195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.655805 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(5fe5892142ee7314ca485eb2406d515f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(5fe5892142ee7314ca485eb2406d515f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d44a869677fa6f5cf5c3a043b7e493') in 0.044597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/URPThings_Renderer.asset
+  artifactKey: Guid(19fd6684df7d2a94db0a264bc7f5ccdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URPThings_Renderer.asset using Guid(19fd6684df7d2a94db0a264bc7f5ccdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416bea61a3e057095f7664c00f59ffb1') in 0.014057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.721519 seconds.
+  path: Assets/ShaderGraph/ToonShader/TSObjets.shadergraph
+  artifactKey: Guid(e15c37ed8ebc5d84a957724cbace65f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderGraph/ToonShader/TSObjets.shadergraph using Guid(e15c37ed8ebc5d84a957724cbace65f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42990d2ad56c959eb5d3769af3c7e20') in 1.119464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 76.689770 seconds.
+  path: Assets/Cartoon low poly tree/Materials/tree.mat
+  artifactKey: Guid(faff3c7e646bbbe4fb407521f496cea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon low poly tree/Materials/tree.mat using Guid(faff3c7e646bbbe4fb407521f496cea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f960de1856d7548b175727abfc88c7') in 0.840958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.360393 seconds.
+  path: Assets/Cartoon low poly tree/Textures/Ambient Occlusion Map from Mesh DefaultMaterial.png
+  artifactKey: Guid(89b9dec6bfb273e459b0ea3e4bb41768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon low poly tree/Textures/Ambient Occlusion Map from Mesh DefaultMaterial.png using Guid(89b9dec6bfb273e459b0ea3e4bb41768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff43c9a58d9d93d0c298c0547851670') in 0.043858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.331832 seconds.
+  path: Assets/ShaderGraph/ToonShader/TSRoches 1.shadergraph
+  artifactKey: Guid(9fc65cf2c3fd9474692cbecc5701061f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderGraph/ToonShader/TSRoches 1.shadergraph using Guid(9fc65cf2c3fd9474692cbecc5701061f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574d17229452d9a0b63fa8bd8afb1842') in 1.055248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.685245 seconds.
+  path: Assets/ShaderGraph/ToonShader/TSArbres.shadergraph
+  artifactKey: Guid(9fc65cf2c3fd9474692cbecc5701061f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderGraph/ToonShader/TSArbres.shadergraph using Guid(9fc65cf2c3fd9474692cbecc5701061f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbf915394b63605e02a80450b5f9cfa') in 1.063916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.296895 seconds.
+  path: Assets/Cartoon low poly tree/Prefabs
+  artifactKey: Guid(ad413e6f79a70ff4c80c062f08d873b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon low poly tree/Prefabs using Guid(ad413e6f79a70ff4c80c062f08d873b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e263fdb70386d2edd35712fce9485d') in 0.001903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.162860 seconds.
+  path: Assets/Cartoon low poly tree/Prefabs/tree01.prefab
+  artifactKey: Guid(24d0270b9fc98d74fb763a17c168b48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon low poly tree/Prefabs/tree01.prefab using Guid(24d0270b9fc98d74fb763a17c168b48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e9260c78aead190aba9970a54e68d8') in 0.024758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Cartoon low poly tree/Prefabs/tree09.prefab
+  artifactKey: Guid(0451ad284e5c5a040908d2892a376e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon low poly tree/Prefabs/tree09.prefab using Guid(0451ad284e5c5a040908d2892a376e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca741812f9b7e831b893384b72de6536') in 0.037674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Cartoon low poly tree/Prefabs/tree04.prefab
+  artifactKey: Guid(7a68d5b2a44ea9c4f9769976df5fe084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon low poly tree/Prefabs/tree04.prefab using Guid(7a68d5b2a44ea9c4f9769976df5fe084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544ec82be495a044256b036e3fe7b345') in 0.035009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Cartoon low poly tree/Prefabs/tree08.prefab
+  artifactKey: Guid(8f4b015df0983224c981f94a9d33cab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon low poly tree/Prefabs/tree08.prefab using Guid(8f4b015df0983224c981f94a9d33cab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9eae5485dbf2b26da7698bfc9d2c19') in 0.023066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Cartoon low poly tree/Prefabs/tree11.prefab
+  artifactKey: Guid(5d1b0f53facb86747a21079050aff993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon low poly tree/Prefabs/tree11.prefab using Guid(5d1b0f53facb86747a21079050aff993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b383c96f7a3bf25062d79a4be46576') in 0.022559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Cartoon low poly tree/Prefabs/tree07.prefab
+  artifactKey: Guid(d787428d69841564d8e59f6858884468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon low poly tree/Prefabs/tree07.prefab using Guid(d787428d69841564d8e59f6858884468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f64a308582c0ca7fa38cbd6aee90942') in 0.045880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Cartoon low poly tree/Prefabs/tree10.prefab
+  artifactKey: Guid(27ecdb7e65f6dd64194f49d16636a2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon low poly tree/Prefabs/tree10.prefab using Guid(27ecdb7e65f6dd64194f49d16636a2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa985521bb57031ffa9bd14c02a943c') in 0.033525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Cartoon low poly tree/Prefabs/tree05.prefab
+  artifactKey: Guid(ca917ce45d88a7c4ca22f74979d9d215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon low poly tree/Prefabs/tree05.prefab using Guid(ca917ce45d88a7c4ca22f74979d9d215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41dbc55b39a576729ed8781a56d0a04b') in 0.035626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Cartoon low poly tree/Prefabs/tree12.prefab
+  artifactKey: Guid(c8d6ff8da70fce64cb04d008fce7982e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon low poly tree/Prefabs/tree12.prefab using Guid(c8d6ff8da70fce64cb04d008fce7982e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db2485ea97b456473cd93587fa1ce0a') in 0.028593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Cartoon low poly tree/Prefabs/tree03.prefab
+  artifactKey: Guid(791e4bbcc97eb6a46b8314e9b3cee81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon low poly tree/Prefabs/tree03.prefab using Guid(791e4bbcc97eb6a46b8314e9b3cee81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a56c495c9bfacd7567c489d8e08253') in 0.028470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Cartoon low poly tree/Prefabs/tree06.prefab
+  artifactKey: Guid(0bd6e629b1918c049a29f3d33f529445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon low poly tree/Prefabs/tree06.prefab using Guid(0bd6e629b1918c049a29f3d33f529445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231d1c52d9fd5f7e89669539ccf04a73') in 0.030051 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
