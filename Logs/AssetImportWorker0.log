@@ -4,20 +4,20 @@ OS: 'Windows 10  (10.0.19044) 64bit Education' Language: 'fr' Physical Memory: 3
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity 2022.1.16f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.1.16f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/e2051961/Documents/5J5
+C:/Users/e2051961/Documents/GitHub/5J5
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59119
-Successfully changed project path to: C:/Users/e2051961/Documents/5J5
-C:/Users/e2051961/Documents/5J5
+54157
+Successfully changed project path to: C:/Users/e2051961/Documents/GitHub/5J5
+C:/Users/e2051961/Documents/GitHub/5J5
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,11 +47,11 @@ C:/Users/e2051961/Documents/5J5
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 107.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 105.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.16f1 (7321c9670bc2)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.1.16f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/e2051961/Documents/5J5/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/e2051961/Documents/GitHub/5J5/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -60,43 +60,47 @@ Direct3D:
     VRAM:     8043 MB
     Driver:   30.0.15.1215
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity 2022.1.16f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity 2022.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity 2022.1.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56512
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity 2022.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004612 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.007466 seconds.
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 99.63 ms, found 3 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 102.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.628 seconds
+- Completed reload, in  0.613 seconds
 Domain Reload Profiling:
-	ReloadAssembly (629ms)
-		BeginReloadAssembly (66ms)
+	ReloadAssembly (614ms)
+		BeginReloadAssembly (68ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (468ms)
-			LoadAssemblies (63ms)
+		EndReloadAssembly (449ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (111ms)
-				TypeCache.Initialize (111ms)
-					TypeCache.ScanAssembly (109ms)
-				ResolveRequiredComponents (1ms)
+			SetupTypeCache (102ms)
+				TypeCache.Initialize (101ms)
+					TypeCache.ScanAssembly (100ms)
+				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (265ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (277ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (100ms)
+				RefreshPlugins (103ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (110ms)
+				ProcessInitializeOnLoadAttributes (119ms)
 				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -104,41 +108,43 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008947 seconds.
+Registered in 0.011461 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\e2051961\Documents\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\e2051961\Documents\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\e2051961\Documents\GitHub\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\e2051961\Documents\GitHub\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 106.41 ms, found 3 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 103.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.211 seconds
+- Completed reload, in  1.264 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1212ms)
-		BeginReloadAssembly (99ms)
+	ReloadAssembly (1264ms)
+		BeginReloadAssembly (107ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (1011ms)
-			LoadAssemblies (95ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1055ms)
+			LoadAssemblies (99ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (275ms)
-				TypeCache.Initialize (260ms)
-					TypeCache.ScanAssembly (256ms)
-				ResolveRequiredComponents (15ms)
+			SetupTypeCache (291ms)
+				TypeCache.Initialize (279ms)
+					TypeCache.ScanAssembly (275ms)
+				ResolveRequiredComponents (12ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (537ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (562ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (106ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (238ms)
-				ProcessInitializeOnLoadMethodAttributes (70ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (256ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
@@ -146,12 +152,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5978 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (348.7 KB). Loaded Objects now: 6431.
-Memory consumption went from 0.92 GB to 0.92 GB.
-Total: 3.884300 ms (FindLiveObjects: 0.661000 ms CreateObjectMapping: 0.690700 ms MarkObjects: 2.398200 ms  DeleteObjects: 0.133700 ms)
+Unloading 6113 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (1.6 MB). Loaded Objects now: 6560.
+Memory consumption went from 0.95 GB to 0.94 GB.
+Total: 6.461600 ms (FindLiveObjects: 0.624500 ms CreateObjectMapping: 1.097100 ms MarkObjects: 4.176900 ms  DeleteObjects: 0.561500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -165,1232 +171,559 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 180681.421745 seconds.
-  path: Assets/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(04bab141cc4ccfd4bb503034ae742441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(04bab141cc4ccfd4bb503034ae742441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b0e36dc5bae3a1bb19aab290a4bb74') in 0.034852 seconds 
+  Time since last request: 696126.292166 seconds.
+  path: Assets/New Terrain 2.asset
+  artifactKey: Guid(8493f1dbdcd5bea43a9d50a379bbd0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 2.asset using Guid(8493f1dbdcd5bea43a9d50a379bbd0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f55c75e4a0966153cec5c13da9ce87') in 0.037799 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/URPThings_Renderer.asset
-  artifactKey: Guid(19fd6684df7d2a94db0a264bc7f5ccdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URPThings_Renderer.asset using Guid(19fd6684df7d2a94db0a264bc7f5ccdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416bea61a3e057095f7664c00f59ffb1') in 0.005782 seconds 
+  Time since last request: 58.852841 seconds.
+  path: Assets/ShaderGraph/Shader Graphs_mushroomGlow.mat
+  artifactKey: Guid(1c24d3f1c08ea804d9f88a5c1c6c202a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderGraph/Shader Graphs_mushroomGlow.mat using Guid(1c24d3f1c08ea804d9f88a5c1c6c202a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b55cef6b4f22742ef62ff50375cfc0') in 0.218627 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(5fe5892142ee7314ca485eb2406d515f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(5fe5892142ee7314ca485eb2406d515f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8edd392e895c8c8e84b67b6f569d039') in 0.010599 seconds 
+  Time since last request: 183.829955 seconds.
+  path: Assets/ShaderGraph
+  artifactKey: Guid(fb648555a4e7c214d9559082212428e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderGraph using Guid(fb648555a4e7c214d9559082212428e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf943e3724f71d7a1a0765dcb2f2c00c') in 0.005813 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/URPThings.asset
-  artifactKey: Guid(5e32032bebac94242b5201e1be675d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URPThings.asset using Guid(5e32032bebac94242b5201e1be675d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ce0265e39d8fe0e086fe6062ccb419') in 0.008323 seconds 
+  Time since last request: 33.234055 seconds.
+  path: Assets/ShaderGraph/trail.shadergraph
+  artifactKey: Guid(cd5cf0927ebb6a548b906917ae31f053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderGraph/trail.shadergraph using Guid(cd5cf0927ebb6a548b906917ae31f053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422ea5fc30767dd949e0332c8874b8c4') in 1.273733 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 349.981836 seconds.
-  path: Assets/VRM/airMan.prefab
-  artifactKey: Guid(9f239a2fe47b584439fd2fe805f21e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRM/airMan.prefab using Guid(9f239a2fe47b584439fd2fe805f21e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60817dee0efde7d95c0e8751196d5819') in 0.334906 seconds 
+  Time since last request: 407.768881 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/SMAA/AreaTex.tga
+  artifactKey: Guid(73ec4ae984a0a0f44a2be737e41a6f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/SMAA/AreaTex.tga using Guid(73ec4ae984a0a0f44a2be737e41a6f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70e86b66d06660ac30ada6dbd8e39cc') in 0.031702 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.274717 seconds.
-  path: Assets/Props
-  artifactKey: Guid(8a9cbd994ffcc734db30f9e8a37d6e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props using Guid(8a9cbd994ffcc734db30f9e8a37d6e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca23282275a980f249b19d611b598fe5') in 0.005608 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010112 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\e2051961\Documents\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\e2051961\Documents\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-Mono: successfully reloaded assembly
-- Completed reload, in  1.275 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1275ms)
-		BeginReloadAssembly (135ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (995ms)
-			LoadAssemblies (92ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (383ms)
-				TypeCache.Initialize (371ms)
-					TypeCache.ScanAssembly (365ms)
-				ResolveRequiredComponents (11ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (400ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (227ms)
-				ProcessInitializeOnLoadMethodAttributes (68ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.16 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5970 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 73 unused Assets / (4.3 MB). Loaded Objects now: 6579.
-Memory consumption went from 0.92 GB to 0.92 GB.
-Total: 4.261900 ms (FindLiveObjects: 0.372700 ms CreateObjectMapping: 0.335500 ms MarkObjects: 2.390300 ms  DeleteObjects: 1.162100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 2.914391 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Editor/CopyIcon.png
+  artifactKey: Guid(d1228d93299ce47a8a5ac1a33513aeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Editor/CopyIcon.png using Guid(d1228d93299ce47a8a5ac1a33513aeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da68642627a7452a071ecfb70680c208') in 0.041999 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 507.325309 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Demos/5J5__projet/shader_graph.unity
-  artifactKey: Guid(b3ffc83a4179de44d9f12777776806b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Demos/5J5__projet/shader_graph.unity using Guid(b3ffc83a4179de44d9f12777776806b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0b0a9c371e4a6d2b4721111003f781') in 0.014891 seconds 
+  Time since last request: 0.477003 seconds.
+  path: Assets/Props/Stylized Crystal/Texture/crystal_17_2.png
+  artifactKey: Guid(6f719c3bb48788e439c27891aa28f61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Stylized Crystal/Texture/crystal_17_2.png using Guid(6f719c3bb48788e439c27891aa28f61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47862769c0ab717610535a9ae3faf95') in 0.021525 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.182897 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Demos/5J5__projet/scene_connexion.unity
-  artifactKey: Guid(172a89f50d5176c43bf3adb66a8d5e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Demos/5J5__projet/scene_connexion.unity using Guid(172a89f50d5176c43bf3adb66a8d5e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bfcdaefe8f526df3f99a1e752657165') in 0.005254 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008342 seconds.
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <8a1c902e1cc24cec8e4dda915647a0cd>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <8a1c902e1cc24cec8e4dda915647a0cd>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <8a1c902e1cc24cec8e4dda915647a0cd>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <8a1c902e1cc24cec8e4dda915647a0cd>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\e2051961\Documents\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\e2051961\Documents\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/Props/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
-Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
-Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/Props/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
-Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <8a1c902e1cc24cec8e4dda915647a0cd>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <8a1c902e1cc24cec8e4dda915647a0cd>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.028 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1028ms)
-		BeginReloadAssembly (126ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (820ms)
-			LoadAssemblies (87ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (255ms)
-				TypeCache.Initialize (245ms)
-					TypeCache.ScanAssembly (239ms)
-				ResolveRequiredComponents (11ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (391ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (101ms)
-				ProcessInitializeOnLoadAttributes (198ms)
-				ProcessInitializeOnLoadMethodAttributes (71ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.40 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5967 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 71 unused Assets / (4.3 MB). Loaded Objects now: 6584.
-Memory consumption went from 0.92 GB to 0.92 GB.
-Total: 4.037900 ms (FindLiveObjects: 0.420700 ms CreateObjectMapping: 0.416000 ms MarkObjects: 2.194500 ms  DeleteObjects: 1.006000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008538 seconds.
-Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/Props/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
-Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
-Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/Props/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
-Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <8a1c902e1cc24cec8e4dda915647a0cd>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <8a1c902e1cc24cec8e4dda915647a0cd>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/Props/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
-Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
-Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/Props/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
-Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <8a1c902e1cc24cec8e4dda915647a0cd>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <8a1c902e1cc24cec8e4dda915647a0cd>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\e2051961\Documents\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\e2051961\Documents\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/Props/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
-Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
-Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/Props/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
-Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <8a1c902e1cc24cec8e4dda915647a0cd>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <8a1c902e1cc24cec8e4dda915647a0cd>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.098 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1099ms)
-		BeginReloadAssembly (118ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (890ms)
-			LoadAssemblies (90ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (280ms)
-				TypeCache.Initialize (269ms)
-					TypeCache.ScanAssembly (264ms)
-				ResolveRequiredComponents (11ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (421ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (108ms)
-				ProcessInitializeOnLoadAttributes (225ms)
-				ProcessInitializeOnLoadMethodAttributes (66ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.30 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5970 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 73 unused Assets / (4.7 MB). Loaded Objects now: 6590.
-Memory consumption went from 0.93 GB to 0.92 GB.
-Total: 4.255400 ms (FindLiveObjects: 0.441100 ms CreateObjectMapping: 0.537100 ms MarkObjects: 2.144500 ms  DeleteObjects: 1.132200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010009 seconds.
-Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/Props/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
-Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
-Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/Props/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
-Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <8a1c902e1cc24cec8e4dda915647a0cd>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <8a1c902e1cc24cec8e4dda915647a0cd>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/Props/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
-Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
-Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/Props/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
-Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <8a1c902e1cc24cec8e4dda915647a0cd>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <8a1c902e1cc24cec8e4dda915647a0cd>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\e2051961\Documents\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\e2051961\Documents\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/Props/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
-Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
-Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/Props/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
-Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <8a1c902e1cc24cec8e4dda915647a0cd>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <6d8d8bfa07a94600b91503349e4a8e4f>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <8a1c902e1cc24cec8e4dda915647a0cd>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.030 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1031ms)
-		BeginReloadAssembly (128ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (821ms)
-			LoadAssemblies (88ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (253ms)
-				TypeCache.Initialize (242ms)
-					TypeCache.ScanAssembly (236ms)
-				ResolveRequiredComponents (11ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (389ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (102ms)
-				ProcessInitializeOnLoadAttributes (201ms)
-				ProcessInitializeOnLoadMethodAttributes (63ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.20 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5970 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 73 unused Assets / (4.7 MB). Loaded Objects now: 6595.
-Memory consumption went from 0.93 GB to 0.92 GB.
-Total: 4.069800 ms (FindLiveObjects: 0.417900 ms CreateObjectMapping: 0.403900 ms MarkObjects: 2.133100 ms  DeleteObjects: 1.114100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 543.245110 seconds.
-  path: Assets/Props/Pure Poly
-  artifactKey: Guid(14e6ae9b63264814dac15d1b3d9beaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Pure Poly using Guid(14e6ae9b63264814dac15d1b3d9beaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab2afd5ad0aa02da42162185205f2c0') in 0.013797 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.760153 seconds.
-  path: Assets/Props/Pure Poly/Free Low Poly Nature Pack
-  artifactKey: Guid(0028c468f1730534d927c7d2082cf79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Pure Poly/Free Low Poly Nature Pack using Guid(0028c468f1730534d927c7d2082cf79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963d3c04360f68ebdb38804f7d07bbd3') in 0.005263 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.587340 seconds.
-  path: Assets/Props/Pure Poly/Free Low Poly Nature Pack/Prefabs
-  artifactKey: Guid(33d9da17d5975244db32a765fa368621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Pure Poly/Free Low Poly Nature Pack/Prefabs using Guid(33d9da17d5975244db32a765fa368621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088c0757c9d533843cdc2a6b80549684') in 0.005210 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.076821 seconds.
-  path: Assets/Props/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Birch_Tree_05.prefab
-  artifactKey: Guid(2554008d6447a2540b44e55f0c0b576e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Birch_Tree_05.prefab using Guid(2554008d6447a2540b44e55f0c0b576e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6247fdbb50ebb56f5c7c1c2c62f2918e') in 0.213515 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Props/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Mushroom_Fantasy_Orange_09.prefab
-  artifactKey: Guid(0ab22827d0f3f0b40a97e9430d684283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Mushroom_Fantasy_Orange_09.prefab using Guid(0ab22827d0f3f0b40a97e9430d684283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446f89324ea44c0a87913ceaf36c01ed') in 0.021729 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Props/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Meadow_07.prefab
-  artifactKey: Guid(cf22a2db10f09a34495e9f83913738c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Meadow_07.prefab using Guid(cf22a2db10f09a34495e9f83913738c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582910400a494284840c0e193bc434ed') in 0.015911 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/DropDown CheckMark.png
+  artifactKey: Guid(fd47c8b4ebfbd4339858d4d23f587519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/DropDown CheckMark.png using Guid(fd47c8b4ebfbd4339858d4d23f587519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a92b3697359661280bf5c69168d2321') in 0.023180 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Props/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Tree_02.prefab
-  artifactKey: Guid(e133dac167ef59c40b7678ba58107c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Tree_02.prefab using Guid(e133dac167ef59c40b7678ba58107c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d833836c9201c9a8e75bf64830e6bb') in 0.019083 seconds 
+  path: Assets/Props/Turntable_platforms/GodRays/Textures/Flare1.png
+  artifactKey: Guid(f021920588fd9764ea1c2868da1d6eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Turntable_platforms/GodRays/Textures/Flare1.png using Guid(f021920588fd9764ea1c2868da1d6eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed01e234722c519b3b95c3a4b024dfea') in 0.013311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003330 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Textures/FlyerPlayershipAlbedo.tif
+  artifactKey: Guid(b28381ec2a3dce5459a8fd396a0eb560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Textures/FlyerPlayershipAlbedo.tif using Guid(b28381ec2a3dce5459a8fd396a0eb560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c159fc18fb84589a0a6d937d6e4f58c7') in 0.016836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013332 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Textures/FlyerPlayershipEmission.tif
+  artifactKey: Guid(88217866776ce4c49944ecb360a5c6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Textures/FlyerPlayershipEmission.tif using Guid(88217866776ce4c49944ecb360a5c6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb6ef0a641ab0ee6013f3ee842f2e36') in 0.012774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.338172 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/Orbitron Black.ttf
+  artifactKey: Guid(495c9e2a934bcc640a8d7427b13cb680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/Orbitron Black.ttf using Guid(495c9e2a934bcc640a8d7427b13cb680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a4d2dfe32c60520987988dbb354f37') in 0.035444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.876297 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/eurof35.ttf
+  artifactKey: Guid(954746d370bc8934299c8c8267543f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/eurof35.ttf using Guid(954746d370bc8934299c8c8267543f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f097fa2e6c77dc1915b215c3fd3d14') in 0.022030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.114080 seconds.
+  path: Assets/Photon/PhotonChat/Demos/DemoChat/Files/Jura-Medium.ttf
+  artifactKey: Guid(5abfb0a229c98b3499cffa6c59c2ffb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonChat/Demos/DemoChat/Files/Jura-Medium.ttf using Guid(5abfb0a229c98b3499cffa6c59c2ffb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ef7a4f7425768ca51bd722cd56f19a') in 0.013332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.126855 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Editor/help.png
+  artifactKey: Guid(9f1212502533cb34188dd6ef094188cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Editor/help.png using Guid(9f1212502533cb34188dd6ef094188cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86953557693e734f6b45d7d749e2d8c0') in 0.012075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.378941 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_0.png
+  artifactKey: Guid(50b54341495978843a6f85583ed4417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_0.png using Guid(50b54341495978843a6f85583ed4417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b51e81a2c788d974798efac601fc50') in 0.013364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030218 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 256px/LDR_LLL1_1.png
+  artifactKey: Guid(0f8fa14b3731cda4e947062e734d5e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 256px/LDR_LLL1_1.png using Guid(0f8fa14b3731cda4e947062e734d5e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5616e25f1ea0849341ee1ccb1adfe155') in 0.012990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041952 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_2.png
+  artifactKey: Guid(a469f920b21fc7c4fb5b950917ce2fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_2.png using Guid(a469f920b21fc7c4fb5b950917ce2fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7589de71e589c0d387b41a1b61f0d923') in 0.012446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.284705 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 256px/LDR_LLL1_3.png
+  artifactKey: Guid(c072b653e98a06e40857d76ca8c7eecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 256px/LDR_LLL1_3.png using Guid(c072b653e98a06e40857d76ca8c7eecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315d0f71555cb9d43012cbfce2923fa0') in 0.013749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042590 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 256px/LDR_LLL1_4.png
+  artifactKey: Guid(b52d5033b68309943a2386c270a90f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 256px/LDR_LLL1_4.png using Guid(b52d5033b68309943a2386c270a90f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced458b11201a7abf54ef695d8dec4f2') in 0.013730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030079 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 256px/LDR_LLL1_5.png
+  artifactKey: Guid(acde5141d5f4f7a4188394bd52c4dc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 256px/LDR_LLL1_5.png using Guid(acde5141d5f4f7a4188394bd52c4dc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2137eff2bf385d602fd803045867e78f') in 0.013099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009727 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 256px/LDR_LLL1_6.png
+  artifactKey: Guid(999434725cbc2be4eb54043b36efd4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 256px/LDR_LLL1_6.png using Guid(999434725cbc2be4eb54043b36efd4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0708efde58698dbcee8d6deab96c5a2b') in 0.012840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.562987 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_7.png
+  artifactKey: Guid(3ac02e7e783571c468f9c086d2384ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_7.png using Guid(3ac02e7e783571c468f9c086d2384ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014f8bdc6401a00cccdeedaea0ffaeba') in 0.013709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010771 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_8.png
+  artifactKey: Guid(c55042318a938344ab23cd7f09dd0076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_8.png using Guid(c55042318a938344ab23cd7f09dd0076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4e271564534c5fbade85f67fa26c89') in 0.012405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028420 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_10.png
+  artifactKey: Guid(afe1e502240079342a0a980484b6da8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_10.png using Guid(afe1e502240079342a0a980484b6da8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6018a083065f3a8311149b14dd09bb80') in 0.012770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027786 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_12.png
+  artifactKey: Guid(980acadb960f8424c94307ec0e585b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_12.png using Guid(980acadb960f8424c94307ec0e585b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b60ec907746b8adcef3d37805c5d46') in 0.013111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.403279 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_14.png
+  artifactKey: Guid(f6439b54b28f3884eb67579dec0b6f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_14.png using Guid(f6439b54b28f3884eb67579dec0b6f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a41d87315c6805db8e32872eb6b8413c') in 0.013245 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/Props/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Forest_Mountain_Moss_01.prefab
-  artifactKey: Guid(512b72c73a22e904d87662ebca8eb1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Forest_Mountain_Moss_01.prefab using Guid(512b72c73a22e904d87662ebca8eb1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9951241c1dd17a84ed566ef91ee3233f') in 0.013746 seconds 
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_16.png
+  artifactKey: Guid(153f7d6dfbe713d4884df0f1e243ba92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_16.png using Guid(153f7d6dfbe713d4884df0f1e243ba92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83296685b5c7c9d58e23186f0b1ca7f') in 0.014590 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Props/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Rock_Moss_Grown_11.prefab
-  artifactKey: Guid(a524090786e7ba545bd5ce3d24c9a3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Rock_Moss_Grown_11.prefab using Guid(a524090786e7ba545bd5ce3d24c9a3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24bfab3a32a5a0afec4070fecd4735cb') in 0.016358 seconds 
+  Time since last request: 0.036775 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_18.png
+  artifactKey: Guid(74aca53eb7273624baffc2bf5e5cc173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_18.png using Guid(74aca53eb7273624baffc2bf5e5cc173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714db7720ce75e3cd4f623d52bd72abb') in 0.013146 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Props/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Mushroom_Fantasy_Orange_10.prefab
-  artifactKey: Guid(eae42a57b046b1a42a79ae6319bccca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Mushroom_Fantasy_Orange_10.prefab using Guid(eae42a57b046b1a42a79ae6319bccca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51db86c8a2699754c479bd678cdb5038') in 0.015126 seconds 
+  Time since last request: 0.035527 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_20.png
+  artifactKey: Guid(6dda07f1420a968449cf4c6620c44d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_20.png using Guid(6dda07f1420a968449cf4c6620c44d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d69ce1c7fdee5a97eb332e7d391fe6') in 0.014920 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Props/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Lake_Ground_04.prefab
-  artifactKey: Guid(66072c42e7f38924f90a2ea3e36cc606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Lake_Ground_04.prefab using Guid(66072c42e7f38924f90a2ea3e36cc606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2de4908619819ae3c5fee21ec9398d') in 0.014924 seconds 
+  Time since last request: 0.290440 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_22.png
+  artifactKey: Guid(df01d03f056c6f445b4b8a0ae054207c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_22.png using Guid(df01d03f056c6f445b4b8a0ae054207c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41f25c64d45b31575b1471f2d96a5de') in 0.013085 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Props/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Forest_Mountain_Moss_02.prefab
-  artifactKey: Guid(034023ff02a37fc47aab6bc6c49bf15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Forest_Mountain_Moss_02.prefab using Guid(034023ff02a37fc47aab6bc6c49bf15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ae8d4ab57db07a3436bde17a8b57a0') in 0.015358 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Props/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Rock_Pile_Forest_Moss_10.prefab
-  artifactKey: Guid(c8134dd87be4906419f13922ddc5bf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Rock_Pile_Forest_Moss_10.prefab using Guid(c8134dd87be4906419f13922ddc5bf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb6469d5aee7c119fb26970fb19ca6e') in 0.014063 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Props/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Tree_10.prefab
-  artifactKey: Guid(273b8f4150121d249ac7e2fd11da7005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Tree_10.prefab using Guid(273b8f4150121d249ac7e2fd11da7005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858f6d3334b572c4f6ab812b7e9f6335') in 0.013799 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Props/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Grass_11.prefab
-  artifactKey: Guid(ef62619642b0df743b22dd5120c6ac4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Grass_11.prefab using Guid(ef62619642b0df743b22dd5120c6ac4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '848b0aba94213bac4e27e18722e82983') in 0.015674 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 64.230408 seconds.
-  path: Assets/Props/SineVFX/TranslucentCrystals/Prefabs/Crystalsv03.prefab
-  artifactKey: Guid(03fc9d38e2dd7c343baa918a99f6d833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SineVFX/TranslucentCrystals/Prefabs/Crystalsv03.prefab using Guid(03fc9d38e2dd7c343baa918a99f6d833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26e5a2724b206a4e6e7bdd817caf38b') in 0.086787 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Props/SineVFX/TranslucentCrystals/Prefabs/Crystalsv06.prefab
-  artifactKey: Guid(4aa7f4f0acab60742bea9a9f6a3bb144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SineVFX/TranslucentCrystals/Prefabs/Crystalsv06.prefab using Guid(4aa7f4f0acab60742bea9a9f6a3bb144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f95f6737ea0c47522f3eaded03c7039') in 0.039399 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Props/SineVFX/TranslucentCrystals/Prefabs/Crystalsv09.prefab
-  artifactKey: Guid(5f285e9508d4e3f4488b284bb80a0b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SineVFX/TranslucentCrystals/Prefabs/Crystalsv09.prefab using Guid(5f285e9508d4e3f4488b284bb80a0b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9221ea3244999506096ceac27b3ba323') in 0.068407 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.800825 seconds.
-  path: Assets/Props/SineVFX/TranslucentCrystals/Prefabs/Gamma/Crystalsv03.prefab
-  artifactKey: Guid(df80741be051bc54c85258e839162dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SineVFX/TranslucentCrystals/Prefabs/Gamma/Crystalsv03.prefab using Guid(df80741be051bc54c85258e839162dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c62b93c78d2d3d636cb3729974343e') in 0.030510 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Props/SineVFX/TranslucentCrystals/Prefabs/Gamma/Crystalsv06.prefab
-  artifactKey: Guid(6045f6974b7e51f49981f0307cfc82bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SineVFX/TranslucentCrystals/Prefabs/Gamma/Crystalsv06.prefab using Guid(6045f6974b7e51f49981f0307cfc82bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5faf6eada88b6b13df1a7ca48515c0') in 0.029826 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.187826 seconds.
-  path: Assets/Props/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv02.mat
-  artifactKey: Guid(d6e4b99a74234c647aecaf9717d11c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv02.mat using Guid(d6e4b99a74234c647aecaf9717d11c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09925181496adf241d16c8d41b4daa4') in 0.046060 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Props/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv04.mat
-  artifactKey: Guid(244b27ac404eb314b925fa45909d0f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv04.mat using Guid(244b27ac404eb314b925fa45909d0f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ff2c0eff45de5e846e68ab1542027b') in 0.032317 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Props/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv06Gamma.mat
-  artifactKey: Guid(8a63bbbf86c4d7545b8e3a680862d24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv06Gamma.mat using Guid(8a63bbbf86c4d7545b8e3a680862d24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c159be5ad8a68c651eeeeb981c22ce4') in 0.030018 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Props/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv06.mat
-  artifactKey: Guid(944e2786b388ae64bb652b63f50a6023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv06.mat using Guid(944e2786b388ae64bb652b63f50a6023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b8a732ec17c21d850c2a25590dc39e') in 0.031467 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.850045 seconds.
-  path: Assets/Props/SineVFX/TranslucentCrystals/Resources/Textures/CrystalMaps/TranslucentCrystal01_Emission.png
-  artifactKey: Guid(c4cb56ed45fb93d428f0b362c9985f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SineVFX/TranslucentCrystals/Resources/Textures/CrystalMaps/TranslucentCrystal01_Emission.png using Guid(c4cb56ed45fb93d428f0b362c9985f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15f7a79d0ec9a14d48ce371430c389f') in 0.139817 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 26.297557 seconds.
-  path: Assets/Props/SineVFX/TranslucentCrystals/Resources/EnvironmentMaterials/PrototypeGrid_Emission.png
-  artifactKey: Guid(4cac81b5211748e4e982bff8014df8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SineVFX/TranslucentCrystals/Resources/EnvironmentMaterials/PrototypeGrid_Emission.png using Guid(4cac81b5211748e4e982bff8014df8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53538d2cef5722f79ba37f0e075921a1') in 0.035733 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 59.732917 seconds.
-  path: Assets/UniGLTF/Tests/UniGLTF/4x4_gray_import_as_srgb.png
-  artifactKey: Guid(0f7acf68f1798ae48a5505519abac457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniGLTF/Tests/UniGLTF/4x4_gray_import_as_srgb.png using Guid(0f7acf68f1798ae48a5505519abac457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00fcdde72843660ba4c8d17fae1e58a0') in 0.014920 seconds 
+  Time since last request: 0.013667 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_24.png
+  artifactKey: Guid(32c6a5f7143b86c44bd5cdee2ff3f8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_24.png using Guid(32c6a5f7143b86c44bd5cdee2ff3f8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d6b22ae37c741d42b06c9fd7fbd638') in 0.013139 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/BoxBright.png
-  artifactKey: Guid(ab6d288fac925ae48bbeb5e02d83dce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/BoxBright.png using Guid(ab6d288fac925ae48bbeb5e02d83dce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce298c02db1c713393fe59b39f4e685') in 0.015520 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.539658 seconds.
-  path: Assets/Props/SineVFX/TranslucentCrystals/Resources/Textures/Ramps/Ramp03.png
-  artifactKey: Guid(0a7522a83361cf046839bedbd9c386c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SineVFX/TranslucentCrystals/Resources/Textures/Ramps/Ramp03.png using Guid(0a7522a83361cf046839bedbd9c386c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058653ed1b878d337acf7d2caa8ad533') in 0.029404 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Props/SineVFX/TranslucentCrystals/Resources/Textures/Ramps/Ramp07v2.png
-  artifactKey: Guid(670ad9afb5c51b542951b338b085f5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SineVFX/TranslucentCrystals/Resources/Textures/Ramps/Ramp07v2.png using Guid(670ad9afb5c51b542951b338b085f5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2249ef6cb7b2f80cac3b75f2260059b7') in 0.026566 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.599661 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Textures/FlyerAsteroidEmissive.tif
-  artifactKey: Guid(bfc02e2f0447eaf4190d17879193f0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Textures/FlyerAsteroidEmissive.tif using Guid(bfc02e2f0447eaf4190d17879193f0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8acbae4d8e43983eb6bce12e08f89ad') in 0.023064 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 36.515013 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp512.png
-  artifactKey: Guid(7377013011b4c3348809ff574abe799e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp512.png using Guid(7377013011b4c3348809ff574abe799e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e98aeee99f1bfab410f7cf25559a6fa') in 0.035536 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.193033 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Textures/Robot_Color.png
-  artifactKey: Guid(1fbb41709a1d9334696860db720026e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Textures/Robot_Color.png using Guid(1fbb41709a1d9334696860db720026e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4bd9477ca2ef3f803ae694ff2e44150') in 0.013781 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Textures/Robot_Normal.png
-  artifactKey: Guid(a1454d7237641fa49a7f66d6bee624ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Textures/Robot_Normal.png using Guid(a1454d7237641fa49a7f66d6bee624ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44272c4367a719e93c49201c8932ce1') in 0.016829 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/VRM/airMan.Textures/Shader_NoneBlack.png
-  artifactKey: Guid(dd06fb6947ef6f64f830e5464be23a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRM/airMan.Textures/Shader_NoneBlack.png using Guid(dd06fb6947ef6f64f830e5464be23a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3457ffada459bd6e0ae386145693b44f') in 0.015646 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 215.006725 seconds.
-  path: Assets/Props/SineVFX/TranslucentCrystals/Resources/Meshes/Materials/TranslucentCrystal01.mat
-  artifactKey: Guid(5662fed03a864504f8e4a9c489b1b70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SineVFX/TranslucentCrystals/Resources/Meshes/Materials/TranslucentCrystal01.mat using Guid(5662fed03a864504f8e4a9c489b1b70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28145069c77f3a7cb38312ad498743fe') in 0.017541 seconds 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 115.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 73 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 72 unused Assets / (4.1 MB). Loaded Objects now: 6715.
-Memory consumption went from 152.1 MB to 148.1 MB.
-Total: 5.526300 ms (FindLiveObjects: 0.444000 ms CreateObjectMapping: 0.460700 ms MarkObjects: 3.427300 ms  DeleteObjects: 1.193900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:srp/default-shader: 00a0da0d000000000000000000000000 -> 0000e00a000e0de00000e000e0000000
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 53.555768 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark@2x.png
-  artifactKey: Guid(c223e0c507e2c6549a2cb97441b62cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark@2x.png using Guid(c223e0c507e2c6549a2cb97441b62cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd1332b0ec98b0c606fda28bd6cac5e') in 0.026915 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.029801 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark@2x.png
-  artifactKey: Guid(9c6313a5316f8a34b852bf94ff96e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark@2x.png using Guid(9c6313a5316f8a34b852bf94ff96e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c221abc10f83cba0165bc89fec3804f') in 0.012185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.026890 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light@2x.png
-  artifactKey: Guid(f5c57327df0fa294c8209aa216435167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light@2x.png using Guid(f5c57327df0fa294c8209aa216435167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68b7d41dac0e891ad5c0d3ca99ab756') in 0.012593 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.562921 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/BoxTextHover.png
-  artifactKey: Guid(13154691f37c1884c865b54d8bd29d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/BoxTextHover.png using Guid(13154691f37c1884c865b54d8bd29d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7fc37139d7cf3a8d688babef0f3349f') in 0.011241 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine_Light.psd
-  artifactKey: Guid(18775b51e3bd42299fd30bd036ea982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine_Light.psd using Guid(18775b51e3bd42299fd30bd036ea982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb74a89d5d5f0f4e682bf80502be93d') in 0.076130 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.452433 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBottom_Light.psd
-  artifactKey: Guid(585b70cb75dd43efbfead809c30a1731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBottom_Light.psd using Guid(585b70cb75dd43efbfead809c30a1731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee03611bcd35fbb12088ce6f3493d27c') in 0.012162 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.505576 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine_Light.psd
-  artifactKey: Guid(49679f302ac6408697f6b9314a38985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine_Light.psd using Guid(49679f302ac6408697f6b9314a38985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ecedf0db535a270b62412890f7ffcc0') in 0.016576 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.010877 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter_Light.psd
-  artifactKey: Guid(6ace62d30f494c948b71d5594afce11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter_Light.psd using Guid(6ace62d30f494c948b71d5594afce11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b360134882399003b78993daf166a27') in 0.018391 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.341963 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo_Light.psd
-  artifactKey: Guid(35ff0937876540d3bd4b6a941df62a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo_Light.psd using Guid(35ff0937876540d3bd4b6a941df62a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1949af8877f9f54c67bd8de862bbbd') in 0.016087 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignFlush_Light.psd
-  artifactKey: Guid(64b9fad609434c489c32b1cdf2004a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignFlush_Light.psd using Guid(64b9fad609434c489c32b1cdf2004a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9de2ada90c8f09aea023bf016d9e9c0') in 0.015254 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignJustified.psd
-  artifactKey: Guid(92027f7f8cfc4feaa477da0dc38d3d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignJustified.psd using Guid(92027f7f8cfc4feaa477da0dc38d3d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2943d9c24dfd0bd34579d56497015e') in 0.013086 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.004690 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignLeft_Light.psd
-  artifactKey: Guid(12736c98af174f91827a26b66d2b01b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignLeft_Light.psd using Guid(12736c98af174f91827a26b66d2b01b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8914e46606c3497f9d0f1dc7402c15') in 0.011859 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.302841 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMiddle_Light.psd
-  artifactKey: Guid(066619c9c9c84f89acb1b48c11a7efe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMiddle_Light.psd using Guid(066619c9c9c84f89acb1b48c11a7efe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e1599aa707c101bdffb209b8b1ae20') in 0.012118 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMidline_Light.psd
-  artifactKey: Guid(bb42b2d967d6427983c901a4ffc8ecd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMidline_Light.psd using Guid(bb42b2d967d6427983c901a4ffc8ecd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd277cbaa8b6312f7a56b272541a741') in 0.011818 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.026506 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignRight_Light.psd
-  artifactKey: Guid(e05ace3bd15740cda0bad60d89092a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignRight_Light.psd using Guid(e05ace3bd15740cda0bad60d89092a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a1d343c9e8010afb484cafc9347c20') in 0.011676 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignTop_Light.psd
-  artifactKey: Guid(ed041e68439749a69d0efa0e3d896c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignTop_Light.psd using Guid(ed041e68439749a69d0efa0e3d896c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea082798a9f51213e7f692feffaebc3') in 0.012235 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.021105 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninemail@2x.png
-  artifactKey: Guid(ddf2e76e8a1f88f46ae1e42277850b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninemail@2x.png using Guid(ddf2e76e8a1f88f46ae1e42277850b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09345d0999953159bfbbfda3eeb3f79') in 0.017089 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.275249 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninunity.png
-  artifactKey: Guid(f9161c6c9e06dc445ada3ee16d991f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninunity.png using Guid(f9161c6c9e06dc445ada3ee16d991f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24f459769266a8f4f63647b7ed3c0bc') in 0.016226 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.025343 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-mine-dark@2x.png
-  artifactKey: Guid(39c95c5cb14167543b9aa5908c94bb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-mine-dark@2x.png using Guid(39c95c5cb14167543b9aa5908c94bb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e7963bbd9b4e8b0bf9c3ae65c79794') in 0.011719 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-mine-light@2x.png
-  artifactKey: Guid(1bceea0c53eecc244a50615c7958486d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-mine-light@2x.png using Guid(1bceea0c53eecc244a50615c7958486d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66915ffc2583c4888e6a1d2a73c9d9a5') in 0.012297 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002010 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-remote-dark@2x.png
-  artifactKey: Guid(a26232d4d188e4440897131ed223d505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-remote-dark@2x.png using Guid(a26232d4d188e4440897131ed223d505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff53a4b7ccdf83be340d4b9d7d9811cf') in 0.011858 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.330872 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-remote-light@2x.png
-  artifactKey: Guid(2c8a8b796d0907747a9518f9458b2259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-remote-light@2x.png using Guid(2c8a8b796d0907747a9518f9458b2259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8a92dbce384e093443832a333a9b5b') in 0.012656 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/clear-dark@2x.png
-  artifactKey: Guid(c98f350e47082844fa2954de4d2d5ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/clear-dark@2x.png using Guid(c98f350e47082844fa2954de4d2d5ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e4b9fe338814d38671f9339dae94fb') in 0.011978 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.027041 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/clear-light@2x.png
-  artifactKey: Guid(c84258b6921bcce45a57f68a07b2143f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/clear-light@2x.png using Guid(c84258b6921bcce45a57f68a07b2143f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599682906857e763714bf71ceede2d62') in 0.011571 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-dark@2x.png
-  artifactKey: Guid(1a2cea5a396ff5d4a8f740bd5d8726b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-dark@2x.png using Guid(1a2cea5a396ff5d4a8f740bd5d8726b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71aee8351592cfa114d1560c9707f3da') in 0.012012 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-light@2x.png
-  artifactKey: Guid(8478a99d8fb61c94ba938c3034d449c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-light@2x.png using Guid(8478a99d8fb61c94ba938c3034d449c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e98d31654dee8d4358dba7141781a48') in 0.012632 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.279589 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-dark@2x.png
-  artifactKey: Guid(158d9c687149a0e499002e08c9420c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-dark@2x.png using Guid(158d9c687149a0e499002e08c9420c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99f100431689a1114c1d86132285a47') in 0.012768 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.024546 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-done-dark@2x.png
-  artifactKey: Guid(fba4512e3548e0548b2cf4f11913e257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-done-dark@2x.png using Guid(fba4512e3548e0548b2cf4f11913e257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ed5c39e8f530213bd34fd1776a3ce1') in 0.013013 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-done-light@2x.png
-  artifactKey: Guid(efbf52d7ee1264d478d63a17b943941a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-done-light@2x.png using Guid(efbf52d7ee1264d478d63a17b943941a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3596df6c84133e1ccf49b185f2b29e2e') in 0.012307 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.009862 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-error-dark@2x.png
-  artifactKey: Guid(0159d5999f4dc4545848ed42cd775ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-error-dark@2x.png using Guid(0159d5999f4dc4545848ed42cd775ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebdde857588837b2ab5f6a7e01c488e7') in 0.011773 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.372187 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-error-light@2x.png
-  artifactKey: Guid(d41e3a51c74c48847a8eb97a319afda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-error-light@2x.png using Guid(d41e3a51c74c48847a8eb97a319afda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c85cb6eb422d45a1859daa00dbf93cb') in 0.012059 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-incoming-dark@2x.png
-  artifactKey: Guid(a9fa02cdd2d760c43a0e69ba0fa49dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-incoming-dark@2x.png using Guid(a9fa02cdd2d760c43a0e69ba0fa49dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9dae67a9414c337f1b07762e7a8a5b') in 0.012228 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.010131 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-incoming-light@2x.png
-  artifactKey: Guid(75d22b424580dde41824299bb20d1de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-incoming-light@2x.png using Guid(75d22b424580dde41824299bb20d1de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa869b27a5bf936ab8a2e26a8128fdb') in 0.011709 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002411 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-light@2x.png
-  artifactKey: Guid(837c493ae228aaf4d977e9138707008d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-light@2x.png using Guid(837c493ae228aaf4d977e9138707008d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04cd649f81ad4695630d326f4faebdb4') in 0.011868 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002342 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-offline-dark@2x.png
-  artifactKey: Guid(c9fb8470579cf8440975e58c5df98216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-offline-dark@2x.png using Guid(c9fb8470579cf8440975e58c5df98216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6220dd9d5694fc3a8238d302dd1ae422') in 0.011794 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.306196 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-offline-light@2x.png
-  artifactKey: Guid(cabe2c11824b4164984e262821760727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-offline-light@2x.png using Guid(cabe2c11824b4164984e262821760727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c99b34b3f0775e35315784d452b39a') in 0.012417 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.026519 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-progress-dark@2x.png
-  artifactKey: Guid(116a8defb66aa304d97c1fd15f044486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-progress-dark@2x.png using Guid(116a8defb66aa304d97c1fd15f044486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6bab0419e189811f63a597e4d6e083') in 0.011291 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-progress-light@2x.png
-  artifactKey: Guid(ae9e7828f0813b04fbe3f839422b2289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-progress-light@2x.png using Guid(ae9e7828f0813b04fbe3f839422b2289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba371cbf2a8619198aeb77f43db0175') in 0.012366 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.028153 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-warning-dark@2x.png
-  artifactKey: Guid(45308e2aea842dd4e87bb30395d6e303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-warning-dark@2x.png using Guid(45308e2aea842dd4e87bb30395d6e303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee16dc140292922bd315637d389ebdc') in 0.011798 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.273144 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhochristmas3.png
-  artifactKey: Guid(6fac4e39926fd9c4ca2ba4416160a857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhochristmas3.png using Guid(6fac4e39926fd9c4ca2ba4416160a857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ca2faf90961e2e4b6130109b760c92') in 0.021812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.190298 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhoshe1.png
-  artifactKey: Guid(f2901efd8bb16bc408ad37f017fbf9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhoshe1.png using Guid(f2901efd8bb16bc408ad37f017fbf9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4b044592c6616eda9fe148e1a239c8') in 0.020685 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000894 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhoshe2.png
-  artifactKey: Guid(17035c204825f6340a252046ab6476fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhoshe2.png using Guid(17035c204825f6340a252046ab6476fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb6414b275b1f43bfacbaa17a6addd8') in 0.037775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconaddedoverlay.png
-  artifactKey: Guid(73d124bf77e463c45942d14136745d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconaddedoverlay.png using Guid(73d124bf77e463c45942d14136745d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ce819fb2da721e7f3c2cb966425a26') in 0.021345 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.784168 seconds.
-  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Spectral LUTs/SpectralLut_PurpleGreen.tga
-  artifactKey: Guid(42183971d24cfe443a346e7ec6e83bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Spectral LUTs/SpectralLut_PurpleGreen.tga using Guid(42183971d24cfe443a346e7ec6e83bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d2a693a1dd0dab9d7dcf749adf0ad6') in 0.015902 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Spectral LUTs/SpectralLut_RedBlue.tga
-  artifactKey: Guid(ff5f3317371838d4fa16ac6c2acf2040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Spectral LUTs/SpectralLut_RedBlue.tga using Guid(ff5f3317371838d4fa16ac6c2acf2040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f90ef1371fc5f6e59897f906ff197ae') in 0.012380 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.416899 seconds.
-  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineKeyframe.png
-  artifactKey: Guid(f9fd2f335364cda41937eab39bf20049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineKeyframe.png using Guid(f9fd2f335364cda41937eab39bf20049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2bb87041c6fa582f19c5f04dfb6c2f7') in 0.010587 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 64.893378 seconds.
-  path: Assets/VRM/airMan.BlendShapes/BlendShape.A.asset
-  artifactKey: Guid(0df6bd5b51ada50478ff9c034780ace1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRM/airMan.BlendShapes/BlendShape.A.asset using Guid(0df6bd5b51ada50478ff9c034780ace1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63d05a69f5d01415bffac0003f853ab') in 0.006602 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/VRM/airMan.BlendShapes/BlendShape.Angry.asset
-  artifactKey: Guid(44679bbeabc1221438609a5ed7f123a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRM/airMan.BlendShapes/BlendShape.Angry.asset using Guid(44679bbeabc1221438609a5ed7f123a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d90992b75b760c00caed620d66a5e4') in 0.005806 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/VRM/airMan.BlendShapes/BlendShape.Blink_R.asset
-  artifactKey: Guid(0725d0656e0e58043a7390ad2fc39af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRM/airMan.BlendShapes/BlendShape.Blink_R.asset using Guid(0725d0656e0e58043a7390ad2fc39af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f9e94eaea54f67eb5c50c12bb123a2') in 0.006216 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.010129 seconds.
-  path: Assets/VRM/airMan.BlendShapes/BlendShape.E.asset
-  artifactKey: Guid(dae44bebce3cb804694d0eac05fb03ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRM/airMan.BlendShapes/BlendShape.E.asset using Guid(dae44bebce3cb804694d0eac05fb03ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8345a7a59036cafffdc6e0943e5b10') in 0.008102 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/VRM/airMan.BlendShapes/BlendShape.Joy.asset
-  artifactKey: Guid(b5668081bdcb86e4c92eecfdeb33f05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRM/airMan.BlendShapes/BlendShape.Joy.asset using Guid(b5668081bdcb86e4c92eecfdeb33f05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610600fa22aca04feea350b6714a453f') in 0.007847 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/VRM/airMan.BlendShapes/LookRight.asset
-  artifactKey: Guid(4ea8a46db5ecf0545abe0d47834b16d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRM/airMan.BlendShapes/LookRight.asset using Guid(4ea8a46db5ecf0545abe0d47834b16d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b01afad490149aa7e9be177c48c7c5f') in 0.008263 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/VRM/airMan.BlendShapes/BlendShape.O.asset
-  artifactKey: Guid(cb93bbdc9454e584bb89bd9c46b61739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRM/airMan.BlendShapes/BlendShape.O.asset using Guid(cb93bbdc9454e584bb89bd9c46b61739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba3f70895a6d2072b23d5d67bb65dc2') in 0.006947 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/VRM/airMan.BlendShapes/BlendShape.Blink_L.asset
-  artifactKey: Guid(2affa9c9cf227484f996e6d92909ce6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRM/airMan.BlendShapes/BlendShape.Blink_L.asset using Guid(2affa9c9cf227484f996e6d92909ce6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21014c14a7abee22c87153f2913c98c3') in 0.007445 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/VRM/airMan.BlendShapes/LookUp.asset
-  artifactKey: Guid(0a03d48efb912bc479f4cabbf1c79e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRM/airMan.BlendShapes/LookUp.asset using Guid(0a03d48efb912bc479f4cabbf1c79e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c56fb67c35d242cc228a9311bddf17') in 0.007063 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/VRM/airMan.BlendShapes/LookDown.asset
-  artifactKey: Guid(168d5485bbb7bf44fa25b975d5e90fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRM/airMan.BlendShapes/LookDown.asset using Guid(168d5485bbb7bf44fa25b975d5e90fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c57823b0863e0940cbd0b706827c17e') in 0.007469 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/VRM/airMan.BlendShapes/BlendShape.Surprised.asset
-  artifactKey: Guid(df5532f5cb6d0a5438250262d4f7e3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRM/airMan.BlendShapes/BlendShape.Surprised.asset using Guid(df5532f5cb6d0a5438250262d4f7e3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2528309a37728923d00a1291947cd458') in 0.006930 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.316792 seconds.
-  path: Assets/VRM/airMan.Textures/MatcapWarp_02.png
-  artifactKey: Guid(bf455c0dcf37c1a48a609d46a08fdafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRM/airMan.Textures/MatcapWarp_02.png using Guid(bf455c0dcf37c1a48a609d46a08fdafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49baff0c2a51724d67b93f323239b6aa') in 0.013479 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/VRM/airMan.Textures/texture_1.png
-  artifactKey: Guid(8a522f5eb4006384293056c88912c912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRM/airMan.Textures/texture_1.png using Guid(8a522f5eb4006384293056c88912c912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e20d885dceade3ed14ad8ec2bf0cb0') in 0.017180 seconds 
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_26.png
+  artifactKey: Guid(09f6c01f98a3ded4daf1afc52a3c260f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_26.png using Guid(09f6c01f98a3ded4daf1afc52a3c260f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee32575bde374a6e8c10be8469c51290') in 0.012588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.316225 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_28.png
+  artifactKey: Guid(02c0a84bd64c6f044954d8bde9b46ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_28.png using Guid(02c0a84bd64c6f044954d8bde9b46ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3bfb822822b5744fe667961b7fd6148') in 0.012646 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/VRM/airMan.Textures/texture_2.normal.png
-  artifactKey: Guid(51ca45f70b66fa944b61b7eebf0b1bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRM/airMan.Textures/texture_2.normal.png using Guid(51ca45f70b66fa944b61b7eebf0b1bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0c76aa4bd724a9cc57ed6c78c7b032') in 0.014606 seconds 
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_30.png
+  artifactKey: Guid(0fa10b21877c61b4db40ba5708815f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_30.png using Guid(0fa10b21877c61b4db40ba5708815f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b3b1a224c779b016bca43d2e880693') in 0.012345 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/VRM/airMan.Textures/Thumbnail.png
-  artifactKey: Guid(f428e3fb8d09c814f9b156487a3bb6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRM/airMan.Textures/Thumbnail.png using Guid(f428e3fb8d09c814f9b156487a3bb6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8695075e15b638dbb022c329bbf080ee') in 0.014160 seconds 
+  Time since last request: 0.012512 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_32.png
+  artifactKey: Guid(87a5e40cc271ea648b583616f6ebe7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_32.png using Guid(87a5e40cc271ea648b583616f6ebe7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7fecec435860f22200091831c852b48') in 0.013791 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/VRM/airMan.Textures/texture_9.normal.png
-  artifactKey: Guid(2df03508e7527054b9ce1254d28aa0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRM/airMan.Textures/texture_9.normal.png using Guid(2df03508e7527054b9ce1254d28aa0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181a55feb0c459257cd1fe12230aded2') in 0.014833 seconds 
+  Time since last request: 0.000018 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_35.png
+  artifactKey: Guid(0a79c155edf9b2d429d4736abee5acdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_35.png using Guid(0a79c155edf9b2d429d4736abee5acdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4c7b71acb05950cd5f0aa266846c8a') in 0.012459 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/VRM/airMan.Textures/texture_7.png
-  artifactKey: Guid(59cc093a4422d5e4fbab05182410cfb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRM/airMan.Textures/texture_7.png using Guid(59cc093a4422d5e4fbab05182410cfb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c323c40953f6eead5daf72b37d80e55e') in 0.015297 seconds 
+  Time since last request: 0.263556 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_36.png
+  artifactKey: Guid(351e95d0e20a54849bd4ce5f9b498934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_36.png using Guid(351e95d0e20a54849bd4ce5f9b498934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5316b0fe4b6f4fce4a181931b4acf540') in 0.012972 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.167679 seconds.
-  path: Assets/VRM/airMan.Meshes/Hair001 (merged).baked.asset
-  artifactKey: Guid(6f40ec508523f444faf37c2e6c98cde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRM/airMan.Meshes/Hair001 (merged).baked.asset using Guid(6f40ec508523f444faf37c2e6c98cde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ebc3a929def1bb1d3344c5af0d1f3ed') in 0.186567 seconds 
+  Time since last request: 0.010762 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_38.png
+  artifactKey: Guid(9660a4ca1ca8425408ac25c641932977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_38.png using Guid(9660a4ca1ca8425408ac25c641932977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f35442397f21d79dbaa02f241019c68') in 0.012860 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.280017 seconds.
-  path: Assets/VRM/airMan.Materials/N00_000_00_EyeHighlight_00_EYE (Instance).asset
-  artifactKey: Guid(806de7d0a62489f498dc69b5c9a241a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRM/airMan.Materials/N00_000_00_EyeHighlight_00_EYE (Instance).asset using Guid(806de7d0a62489f498dc69b5c9a241a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af728d208fb3d4be09066629c4a21c82') in 0.025284 seconds 
+  Time since last request: 0.019631 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_40.png
+  artifactKey: Guid(1a9ce5640cde5934aae0022f020464a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_40.png using Guid(1a9ce5640cde5934aae0022f020464a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45442339d438a9a32db635c029f01bcc') in 0.013774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018378 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_42.png
+  artifactKey: Guid(b266511438fae724f9d3ce6bd26583e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_42.png using Guid(b266511438fae724f9d3ce6bd26583e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a6e6dabc6737fb3b6367986aa54b32') in 0.013379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009810 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_44.png
+  artifactKey: Guid(15e54aa23a938444389469d53765d741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_44.png using Guid(15e54aa23a938444389469d53765d741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5061bec325172639c78f64e1666056f') in 0.013369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.301003 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_46.png
+  artifactKey: Guid(8ecbbcae4cc747a4abbc4adce795d25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_46.png using Guid(8ecbbcae4cc747a4abbc4adce795d25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74bb2d70142538bd0090c510375ec8d9') in 0.013666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010014 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_48.png
+  artifactKey: Guid(aff59c63d25d43f4c938f248837c30fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_48.png using Guid(aff59c63d25d43f4c938f248837c30fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '204d1ac3bfaa98290e6fd37fa55e4310') in 0.013354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027181 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_50.png
+  artifactKey: Guid(d8c290e38ff0425409d0ae6a98c95e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_50.png using Guid(d8c290e38ff0425409d0ae6a98c95e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c1a1938b7a26dc4654533e0e02a990') in 0.012665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.443829 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_52.png
+  artifactKey: Guid(d2e8e90fac2e6a341a38e1c3963c218d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_52.png using Guid(d2e8e90fac2e6a341a38e1c3963c218d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bee8bef1b947e426aa8a568a9f8c923') in 0.014396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025706 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_54.png
+  artifactKey: Guid(936dea238abb0864ab3985a995e16a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_54.png using Guid(936dea238abb0864ab3985a995e16a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547a995a55794aefcea4c9de73178a28') in 0.013398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_56.png
+  artifactKey: Guid(70f23eaf7d8ae9147aa542d20e93733b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_56.png using Guid(70f23eaf7d8ae9147aa542d20e93733b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67d6992a1126d30d8d29cec386647d4') in 0.012302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010795 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_58.png
+  artifactKey: Guid(85a45a6d8b2ffb84987d2b028ecfb220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_58.png using Guid(85a45a6d8b2ffb84987d2b028ecfb220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312626597ee24b894e3abe16411b16e9') in 0.012948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_61.png
+  artifactKey: Guid(119591e0bb084e848835d237546b3882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_61.png using Guid(119591e0bb084e848835d237546b3882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc54e76d6dff956d98900d029db6efe') in 0.013286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.321925 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_62.png
+  artifactKey: Guid(a03c400b0e3959f428ee99dfc6cfc263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_62.png using Guid(a03c400b0e3959f428ee99dfc6cfc263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857465377740e37fd1c5328b51eec8f7') in 0.013637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010536 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Lens Dirt/LensDirt00.png
+  artifactKey: Guid(69e847bbff1cf5449a4ee0bbd045dbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Lens Dirt/LensDirt00.png using Guid(69e847bbff1cf5449a4ee0bbd045dbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f589782ae338d9bcb9d0e109348310') in 0.016546 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/VRM/airMan.Materials/N00_000_00_HairBack_00_HAIR (Instance).asset
-  artifactKey: Guid(6804daa8f90bab348ab334fed116b714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRM/airMan.Materials/N00_000_00_HairBack_00_HAIR (Instance).asset using Guid(6804daa8f90bab348ab334fed116b714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de87d516d16eca632fd19c1880b25126') in 0.023200 seconds 
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Lens Dirt/LensDirt02.png
+  artifactKey: Guid(a2960ffde020f27409e070d92fb2e00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Lens Dirt/LensDirt02.png using Guid(a2960ffde020f27409e070d92fb2e00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574b9b402ae133efb37d9947ee314b36') in 0.014316 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/VRM/airMan.Materials/N00_000_Hair_00_HAIR (Instance).asset
-  artifactKey: Guid(6d2df2f590bce8e4584f076d3a40972f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRM/airMan.Materials/N00_000_Hair_00_HAIR (Instance).asset using Guid(6d2df2f590bce8e4584f076d3a40972f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0112aef4f80d73dcf898e8a35d4499f9') in 0.023124 seconds 
+  Time since last request: 0.256443 seconds.
+  path: Assets/UniGLTF/Runtime/Scenes/LookDev/cubemap/lilienstein_1k.exr
+  artifactKey: Guid(eaa0683a2f7e00340b3560fd1e46bc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF/Runtime/Scenes/LookDev/cubemap/lilienstein_1k.exr using Guid(eaa0683a2f7e00340b3560fd1e46bc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b94548e8887227f3fa6ca9172a0234') in 0.032304 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/VRM/airMan.Materials/N00_000_00_FaceBrow_00_FACE (Instance).asset
-  artifactKey: Guid(ca8d1cfad311dfe4aa18740a1d3c1da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRM/airMan.Materials/N00_000_00_FaceBrow_00_FACE (Instance).asset using Guid(ca8d1cfad311dfe4aa18740a1d3c1da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55213aef516b86b9fbc1478f2b3bc167') in 0.021956 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 0.020087 seconds.
+  path: Assets/UniGLTF/Runtime/Scenes/LookDev/cubemap/moonless_golf_1k.exr
+  artifactKey: Guid(dea35129ed799314ebfe4b3cc8fa7ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF/Runtime/Scenes/LookDev/cubemap/moonless_golf_1k.exr using Guid(dea35129ed799314ebfe4b3cc8fa7ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9ff686177dec57c5e06b813b9bbfd2') in 0.016956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046081 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/LUTs/NeutralLdrLut.png
+  artifactKey: Guid(4f98e9c96c8a48541b5eb704e92d99b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/LUTs/NeutralLdrLut.png using Guid(4f98e9c96c8a48541b5eb704e92d99b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c28fe42a0c3e579c54c9f6279d38a0d') in 0.012715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.361058 seconds.
+  path: Assets/Photon/PhotonChat/Demos/DemoChat/Files/OutlinedSquaredBox.png
+  artifactKey: Guid(ea7134547a5488b41a6bb5243b4ec2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonChat/Demos/DemoChat/Files/OutlinedSquaredBox.png using Guid(ea7134547a5488b41a6bb5243b4ec2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99ad9b556b51ff2352590ccbd829b85') in 0.011727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031544 seconds.
+  path: Assets/Props/Turntable_platforms/Textures/platform1.png
+  artifactKey: Guid(6da442030800f974686646aa553250e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Turntable_platforms/Textures/platform1.png using Guid(6da442030800f974686646aa553250e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac8ab469eb5578035d8dd7b3920bf8f') in 0.034944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Props/Turntable_platforms/Textures/platform3.png
+  artifactKey: Guid(39099aee48cdfa34293c59a268d17146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Turntable_platforms/Textures/platform3.png using Guid(39099aee48cdfa34293c59a268d17146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b5b9378212a4bbeffff61ed391580f') in 0.015452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.486327 seconds.
+  path: Assets/Props/Pure Poly/Free Low Poly Nature Pack/Textures/PP_Color_Palette.png
+  artifactKey: Guid(cffb506ec5b6cc94498def65473d32ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Pure Poly/Free Low Poly Nature Pack/Textures/PP_Color_Palette.png using Guid(cffb506ec5b6cc94498def65473d32ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61bd8fdabaa1e6c03fa558f83895480') in 0.013596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042766 seconds.
+  path: Assets/Props/SineVFX/TranslucentCrystals/Resources/EnvironmentMaterials/PrototypeGrid_Albedo.png
+  artifactKey: Guid(b90de2f130cc1dd4683082ffe5c9c95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/TranslucentCrystals/Resources/EnvironmentMaterials/PrototypeGrid_Albedo.png using Guid(b90de2f130cc1dd4683082ffe5c9c95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cad5c8737d9d7b102fb55e1c645f5e1') in 0.012554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028297 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Icons/PunIcon-128.png
+  artifactKey: Guid(bd293dc32f4aaf94e8274f2fac2cdf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Icons/PunIcon-128.png using Guid(bd293dc32f4aaf94e8274f2fac2cdf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907f9e317ec7251058ca3ea5d63b78cf') in 0.018589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.362437 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/PunIcon-White-129.png
+  artifactKey: Guid(56bbc6b42271d4177ac313247f47ac1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/PunIcon-White-129.png using Guid(56bbc6b42271d4177ac313247f47ac1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '437c650ec89c8ef5f072396e17ddfba7') in 0.017726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.089519 seconds.
+  path: Assets/Props/SineVFX/TranslucentCrystals/Resources/Textures/Ramps/Ramp01.png
+  artifactKey: Guid(2efaa2ddf7595af4987d403f6a48a8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/TranslucentCrystals/Resources/Textures/Ramps/Ramp01.png using Guid(2efaa2ddf7595af4987d403f6a48a8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e419d927b25c50859b7c3d5f21f90ff3') in 0.012376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.417216 seconds.
+  path: Assets/Props/SineVFX/TranslucentCrystals/Resources/Textures/Ramps/Ramp03.png
+  artifactKey: Guid(0a7522a83361cf046839bedbd9c386c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/TranslucentCrystals/Resources/Textures/Ramps/Ramp03.png using Guid(0a7522a83361cf046839bedbd9c386c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae95e16e8b9cedb5ff482e40443a9406') in 0.013542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014130 seconds.
+  path: Assets/Props/SineVFX/TranslucentCrystals/Resources/Textures/Ramps/Ramp05.png
+  artifactKey: Guid(abb7aa6a3dcf95847a943519b29ec1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/TranslucentCrystals/Resources/Textures/Ramps/Ramp05.png using Guid(abb7aa6a3dcf95847a943519b29ec1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3bf96e89666be3c8d69e0a4fa891457') in 0.011729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.328192 seconds.
+  path: Assets/Props/SineVFX/TranslucentCrystals/Resources/Textures/Ramps/Ramp07.png
+  artifactKey: Guid(c101f99da83d80d4db8cd526fb7aca89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/TranslucentCrystals/Resources/Textures/Ramps/Ramp07.png using Guid(c101f99da83d80d4db8cd526fb7aca89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a7e75eaf2ca0ef64c5b27269c14db5') in 0.012050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030387 seconds.
+  path: Assets/Props/SineVFX/TranslucentCrystals/Resources/Textures/Ramps/Ramp08.png
+  artifactKey: Guid(c342b9d016cc18e40a814439d5ae360d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/TranslucentCrystals/Resources/Textures/Ramps/Ramp08.png using Guid(c342b9d016cc18e40a814439d5ae360d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ccb21c6fa1d6959e0e4be35bb49e2db') in 0.011315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022149 seconds.
+  path: Assets/Props/SineVFX/TranslucentCrystals/Scenes/DemoSceneGamma/ReflectionProbe-0.exr
+  artifactKey: Guid(01002d6e01ad23a41b427f8dda71563f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/TranslucentCrystals/Scenes/DemoSceneGamma/ReflectionProbe-0.exr using Guid(01002d6e01ad23a41b427f8dda71563f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587815c713081f581fd51c7f519118eb') in 0.010764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.349621 seconds.
+  path: Assets/Props/SineVFX/TranslucentCrystals/Scenes/DemoScene/ReflectionProbe-1.exr
+  artifactKey: Guid(d409b6aa76a6f2640bd570a73ceee5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/TranslucentCrystals/Scenes/DemoScene/ReflectionProbe-1.exr using Guid(d409b6aa76a6f2640bd570a73ceee5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efdd44c644c89ac8d1177bd940655ef') in 0.016478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041176 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/SMAA/SearchTex.tga
+  artifactKey: Guid(d99701099481a2f489610e977df6dcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/SMAA/SearchTex.tga using Guid(d99701099481a2f489610e977df6dcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '803cd866f32ecc0e8f35776ccbe254a6') in 0.011017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029740 seconds.
+  path: Assets/Props/Turntable_platforms/GodRays/Textures/Shine3.png
+  artifactKey: Guid(bfe76327c7cf27b4fade21f854e5c3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Turntable_platforms/GodRays/Textures/Shine3.png using Guid(bfe76327c7cf27b4fade21f854e5c3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3767599ffc56d356c3a257298ddd1e') in 0.011859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.672650 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Spectral LUTs/SpectralLut_BlueRed.tga
+  artifactKey: Guid(318cbcd94840f1d48aca4d86234dc2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Spectral LUTs/SpectralLut_BlueRed.tga using Guid(318cbcd94840f1d48aca4d86234dc2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4993cadb0582ebcec7c5759a13aad91b') in 0.012453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010753 seconds.
+  path: Assets/Props/SineVFX/PostProcessingV2/Textures/Spectral LUTs/SpectralLut_PurpleGreen.tga
+  artifactKey: Guid(42183971d24cfe443a346e7ec6e83bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/PostProcessingV2/Textures/Spectral LUTs/SpectralLut_PurpleGreen.tga using Guid(42183971d24cfe443a346e7ec6e83bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530e006be8fde16b3a754c1ba264ddcc') in 0.010796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.359461 seconds.
+  path: Assets/UniGLTF/Runtime/Scenes/LookDev/cubemap/spruit_sunrise_1k.exr
+  artifactKey: Guid(e01f860a15768ec41be07e810596d178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF/Runtime/Scenes/LookDev/cubemap/spruit_sunrise_1k.exr using Guid(e01f860a15768ec41be07e810596d178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e145c043040900b09c6fab24078299f7') in 0.017957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.114188 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/Toggle.png
+  artifactKey: Guid(b213d4a4b20760f49a105e29da3e4a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/Toggle.png using Guid(b213d4a4b20760f49a105e29da3e4a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2dad31873a3d6b3e670714f6b87417') in 0.014905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.088993 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/ToggleHover.png
+  artifactKey: Guid(b5771695f174e1143b3090393989b688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/ToggleHover.png using Guid(b5771695f174e1143b3090393989b688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f5d5e123dc5616955d5b37021b8170') in 0.011806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025831 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/ToggleOnHover.png
+  artifactKey: Guid(e10a16d9e8c6b844db2d3c1c5e4f231e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/ToggleOnHover.png using Guid(e10a16d9e8c6b844db2d3c1c5e4f231e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5c8cc74f1f4dfce2bf44858c31775e') in 0.011785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.450134 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/toHub.png
+  artifactKey: Guid(56d51860189dbec438e8e3fba90c46cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/toHub.png using Guid(56d51860189dbec438e8e3fba90c46cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7608207340349f583855bf1750625936') in 0.011315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.087105 seconds.
+  path: Assets/Props/SineVFX/TranslucentCrystals/Resources/Textures/CrystalMaps/TranslucentCrystal01_Mask.png
+  artifactKey: Guid(db56133bdb0993a40b90a1241d093e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/TranslucentCrystals/Resources/Textures/CrystalMaps/TranslucentCrystal01_Mask.png using Guid(db56133bdb0993a40b90a1241d093e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2f018b64254b1e302fb5c8353be83b') in 0.014733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.403498 seconds.
+  path: Assets/Props/SineVFX/TranslucentCrystals/Resources/Textures/CrystalMaps/TranslucentCrystal01_Normal.png
+  artifactKey: Guid(fbacd829ce7fbb14ea63d4c6afcc5f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SineVFX/TranslucentCrystals/Resources/Textures/CrystalMaps/TranslucentCrystal01_Normal.png using Guid(fbacd829ce7fbb14ea63d4c6afcc5f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6054ba567d683b79e5aa22c5e62b68cb') in 0.017882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024548 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Textures/UnitTexture.png
+  artifactKey: Guid(df33d7843e7ff98489b55381f6cdd866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Textures/UnitTexture.png using Guid(df33d7843e7ff98489b55381f6cdd866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4434d24edd5f4833c9ad33758ee897') in 0.013170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.073263 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Textures/UnitTextureRed.png
+  artifactKey: Guid(9349ff1a2d6d7804486fef5d7c3a67de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Textures/UnitTextureRed.png using Guid(9349ff1a2d6d7804486fef5d7c3a67de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35990f82b5a145074a11342ef55fe38') in 0.011875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 969.653969 seconds.
+  path: Assets/ShaderGraph/Shader Graphs_trail.mat
+  artifactKey: Guid(cb045177f199e6d41acae4b15363269c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderGraph/Shader Graphs_trail.mat using Guid(cb045177f199e6d41acae4b15363269c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025d88aad93ad5b13aaa353e8de7ab2b') in 0.018935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.547607 seconds.
+  path: Assets/ShaderGraph/Shader Graphs_trail.mat
+  artifactKey: Guid(cb045177f199e6d41acae4b15363269c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderGraph/Shader Graphs_trail.mat using Guid(cb045177f199e6d41acae4b15363269c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd447e26d172dde6710b38f03f12587be') in 1.309735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 125.382736 seconds.
+  path: Assets/ShaderGraph/Shader Graphs_trail.mat
+  artifactKey: Guid(cb045177f199e6d41acae4b15363269c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderGraph/Shader Graphs_trail.mat using Guid(cb045177f199e6d41acae4b15363269c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e527c04bc03be59019ec5bb31accbbd9') in 1.335293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.359091 seconds.
+  path: Assets/ShaderGraph/trail.shadergraph
+  artifactKey: Guid(cd5cf0927ebb6a548b906917ae31f053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderGraph/trail.shadergraph using Guid(cd5cf0927ebb6a548b906917ae31f053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432c695937f0a9906e529a0714d68601') in 0.014348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.004942 seconds.
+  path: Assets/ShaderGraph/Shader Graphs_trail.mat
+  artifactKey: Guid(cb045177f199e6d41acae4b15363269c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderGraph/Shader Graphs_trail.mat using Guid(cb045177f199e6d41acae4b15363269c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ca3279ae47056a6de152be6e69796a') in 0.014202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 119.244168 seconds.
+  path: Assets/ShaderGraph/trailTexture.png
+  artifactKey: Guid(86ed1c3c44ec00f43b91b88e3795a791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderGraph/trailTexture.png using Guid(86ed1c3c44ec00f43b91b88e3795a791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69890ecb6dd68326cab88e3ec2e4ff42') in 0.011153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 216.075901 seconds.
+  path: Assets/trailTexture2.png
+  artifactKey: Guid(9c3d078aa0f689341b268c7cf36e918e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/trailTexture2.png using Guid(9c3d078aa0f689341b268c7cf36e918e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd11fca16b71e6faba815bae93f08528') in 0.021544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 435.912058 seconds.
+  path: Assets/ShaderGraph/Shader Graphs_trail.mat
+  artifactKey: Guid(cb045177f199e6d41acae4b15363269c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderGraph/Shader Graphs_trail.mat using Guid(cb045177f199e6d41acae4b15363269c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eadcb25401a8bcaf6d9561336607f6ab') in 0.017209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.761608 seconds.
+  path: Assets/ShaderGraph/flamestexture.png
+  artifactKey: Guid(a5f82da25cf57774da62d0580a14a5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderGraph/flamestexture.png using Guid(a5f82da25cf57774da62d0580a14a5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1308e14f681a6384a51c6dbbe29c2b1c') in 0.012413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 145.470141 seconds.
+  path: Assets/ShaderGraph/Shader Graphs_trail.mat
+  artifactKey: Guid(cb045177f199e6d41acae4b15363269c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderGraph/Shader Graphs_trail.mat using Guid(cb045177f199e6d41acae4b15363269c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3818aa7f8eb04664217fbc1327a01e31') in 0.015074 seconds 
