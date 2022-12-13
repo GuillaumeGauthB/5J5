@@ -15,7 +15,7 @@ C:/Users/miss_/OneDrive/Documents/TPJeu/5J5
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-62633
+59269
 Successfully changed project path to: C:/Users/miss_/OneDrive/Documents/TPJeu/5J5
 C:/Users/miss_/OneDrive/Documents/TPJeu/5J5
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/miss_/OneDrive/Documents/TPJeu/5J5
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 111.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 128.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.16f1 (7321c9670bc2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.1.16f1/Editor/Data/Resources/UnitySubsystems
@@ -59,99 +59,247 @@ Direct3D:
     Vendor:   NVIDIA
     VRAM:     8032 MB
     Driver:   31.0.15.2698
+Shader 'MTE/Specialized/Mali 400/Surface/3 Textures/Bumped': fallback shader 'MTE/Specialized/Mali 400/Legacy/3 Textures/Diffuse' not found
+Shader 'MTE/Specialized/Mali 400/Surface/2 Textures/Bumped': fallback shader 'MTE/Specialized/Mali 400/Legacy/2 Textures/Diffuse' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2022.1.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2022.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2022.1.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2022.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002392 seconds.
+Registered in 0.002832 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 101.93 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 93.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.635 seconds
+- Completed reload, in  0.496 seconds
 Domain Reload Profiling:
-	ReloadAssembly (635ms)
-		BeginReloadAssembly (97ms)
+	ReloadAssembly (497ms)
+		BeginReloadAssembly (50ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (442ms)
-			LoadAssemblies (94ms)
+		EndReloadAssembly (367ms)
+			LoadAssemblies (49ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (118ms)
-				TypeCache.Initialize (117ms)
-					TypeCache.ScanAssembly (116ms)
+			SetupTypeCache (76ms)
+				TypeCache.Initialize (76ms)
+					TypeCache.ScanAssembly (75ms)
 				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (255ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (231ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (102ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (94ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (105ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				ProcessInitializeOnLoadAttributes (94ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006788 seconds.
+Registered in 0.004834 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\miss_\OneDrive\Documents\TPJeu\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\miss_\OneDrive\Documents\TPJeu\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 100.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 91.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Initializing Mesh Terrain Editor v4.0.0b1 on Unity 2022.1.16f1...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:⁬⁯‫⁮​‍⁯‏‭‪​‭‌⁯‫‏‫⁫‪‬‎⁪‍⁭‪‮‎‭‭‫‭​⁬⁭‬⁭‏‬‏‎‮ (object)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[MTE]Cannot find Amplify Shader Editor, features based on ASE might be disabled.
+Please upgrade ASE to latest version and restart Unity.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MTE.MTEDebug:⁪‌⁭‍‬⁫⁯⁪‌‮⁫⁯‬‎‏‭‌‍⁯⁮⁯‎​⁮⁭⁮⁪⁮⁭‍‏⁯‪⁪‎⁭‏‍​‎‮ (object)
+MTE.MTEDebug:LogWarning (string)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Initializing Mesh Terrain Editor...Done
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:⁬⁯‫⁮​‍⁯‏‭‪​‭‌⁯‫‏‫⁫‪‬‎⁪‍⁭‪‮‎‭‭‫‭​⁬⁭‬⁭‏‬‏‎‮ (object)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
 Mono: successfully reloaded assembly
-- Completed reload, in  1.180 seconds
+- Completed reload, in  1.247 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1181ms)
-		BeginReloadAssembly (94ms)
+	ReloadAssembly (1248ms)
+		BeginReloadAssembly (83ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (998ms)
-			LoadAssemblies (83ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1091ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (256ms)
-				TypeCache.Initialize (245ms)
-					TypeCache.ScanAssembly (241ms)
-				ResolveRequiredComponents (11ms)
+			SetupTypeCache (224ms)
+				TypeCache.Initialize (215ms)
+					TypeCache.ScanAssembly (212ms)
+				ResolveRequiredComponents (9ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (555ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (671ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (100ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (258ms)
-				ProcessInitializeOnLoadMethodAttributes (93ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (425ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Shader 'MTE/Specialized/Mali 400/Surface/2 Textures/Bumped': fallback shader 'MTE/Specialized/Mali 400/Legacy/2 Textures/Diffuse' not found
+Shader 'MTE/Specialized/Mali 400/Surface/3 Textures/Bumped': fallback shader 'MTE/Specialized/Mali 400/Legacy/3 Textures/Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6204 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (0.6 MB). Loaded Objects now: 6718.
+Memory consumption went from 1.13 GB to 1.13 GB.
+Total: 3.491900 ms (FindLiveObjects: 0.372900 ms CreateObjectMapping: 0.227200 ms MarkObjects: 2.606300 ms  DeleteObjects: 0.284600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 700561.377661 seconds.
+  path: Assets/VRM/airMan.Textures/Thumbnail.png
+  artifactKey: Guid(f428e3fb8d09c814f9b156487a3bb6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRM/airMan.Textures/Thumbnail.png using Guid(f428e3fb8d09c814f9b156487a3bb6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8695075e15b638dbb022c329bbf080ee') in 0.111947 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004845 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\miss_\OneDrive\Documents\TPJeu\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\miss_\OneDrive\Documents\TPJeu\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6043 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (350.7 KB). Loaded Objects now: 6511.
-Memory consumption went from 0.94 GB to 0.94 GB.
-Total: 3.976900 ms (FindLiveObjects: 0.526300 ms CreateObjectMapping: 0.337200 ms MarkObjects: 2.944200 ms  DeleteObjects: 0.167400 ms)
+Initializing Mesh Terrain Editor v4.0.0b1 on Unity 2022.1.16f1...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:⁬⁯‫⁮​‍⁯‏‭‪​‭‌⁯‫‏‫⁫‪‬‎⁪‍⁭‪‮‎‭‭‫‭​⁬⁭‬⁭‏‬‏‎‮ (object)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[MTE]Cannot find Amplify Shader Editor, features based on ASE might be disabled.
+Please upgrade ASE to latest version and restart Unity.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MTE.MTEDebug:⁪‌⁭‍‬⁫⁯⁪‌‮⁫⁯‬‎‏‭‌‍⁯⁮⁯‎​⁮⁭⁮⁪⁮⁭‍‏⁯‪⁪‎⁭‏‍​‎‮ (object)
+MTE.MTEDebug:LogWarning (string)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Initializing Mesh Terrain Editor...Done
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:⁬⁯‫⁮​‍⁯‏‭‪​‭‌⁯‫‏‫⁫‪‬‎⁪‍⁭‪‮‎‭‭‫‭​⁬⁭‬⁭‏‬‏‎‮ (object)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.188 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1188ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1017ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (215ms)
+				TypeCache.Initialize (206ms)
+					TypeCache.ScanAssembly (201ms)
+				ResolveRequiredComponents (9ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (649ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (468ms)
+				ProcessInitializeOnLoadMethodAttributes (91ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Shader 'MTE/Specialized/Mali 400/Surface/2 Textures/Bumped': fallback shader 'MTE/Specialized/Mali 400/Legacy/2 Textures/Diffuse' not found
+Shader 'MTE/Specialized/Mali 400/Surface/3 Textures/Bumped': fallback shader 'MTE/Specialized/Mali 400/Legacy/3 Textures/Diffuse' not found
+Refreshing native plugins compatible for Editor in 2.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5946 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (311.4 KB). Loaded Objects now: 6727.
+Memory consumption went from 1.07 GB to 1.07 GB.
+Total: 3.451100 ms (FindLiveObjects: 0.363300 ms CreateObjectMapping: 0.242400 ms MarkObjects: 2.767400 ms  DeleteObjects: 0.077200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,51 +315,291 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004852 seconds.
+Registered in 0.005086 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\miss_\OneDrive\Documents\TPJeu\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\miss_\OneDrive\Documents\TPJeu\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Initializing Mesh Terrain Editor v4.0.0b1 on Unity 2022.1.16f1...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:⁬⁯‫⁮​‍⁯‏‭‪​‭‌⁯‫‏‫⁫‪‬‎⁪‍⁭‪‮‎‭‭‫‭​⁬⁭‬⁭‏‬‏‎‮ (object)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[MTE]Cannot find Amplify Shader Editor, features based on ASE might be disabled.
+Please upgrade ASE to latest version and restart Unity.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MTE.MTEDebug:⁪‌⁭‍‬⁫⁯⁪‌‮⁫⁯‬‎‏‭‌‍⁯⁮⁯‎​⁮⁭⁮⁪⁮⁭‍‏⁯‪⁪‎⁭‏‍​‎‮ (object)
+MTE.MTEDebug:LogWarning (string)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Initializing Mesh Terrain Editor...Done
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:⁬⁯‫⁮​‍⁯‏‭‪​‭‌⁯‫‏‫⁫‪‬‎⁪‍⁭‪‮‎‭‭‫‭​⁬⁭‬⁭‏‬‏‎‮ (object)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
 Mono: successfully reloaded assembly
-- Completed reload, in  0.943 seconds
+- Completed reload, in  1.211 seconds
 Domain Reload Profiling:
-	ReloadAssembly (943ms)
-		BeginReloadAssembly (103ms)
+	ReloadAssembly (1212ms)
+		BeginReloadAssembly (107ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (765ms)
-			LoadAssemblies (72ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1040ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (249ms)
-				TypeCache.Initialize (235ms)
-					TypeCache.ScanAssembly (230ms)
-				ResolveRequiredComponents (14ms)
+			SetupTypeCache (225ms)
+				TypeCache.Initialize (215ms)
+					TypeCache.ScanAssembly (208ms)
+				ResolveRequiredComponents (10ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (360ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (645ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (469ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Shader 'MTE/Specialized/Mali 400/Surface/2 Textures/Bumped': fallback shader 'MTE/Specialized/Mali 400/Legacy/2 Textures/Diffuse' not found
+Shader 'MTE/Specialized/Mali 400/Surface/3 Textures/Bumped': fallback shader 'MTE/Specialized/Mali 400/Legacy/3 Textures/Diffuse' not found
+Refreshing native plugins compatible for Editor in 2.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5946 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (312.5 KB). Loaded Objects now: 6733.
+Memory consumption went from 1.07 GB to 1.07 GB.
+Total: 3.836900 ms (FindLiveObjects: 0.395600 ms CreateObjectMapping: 0.409500 ms MarkObjects: 2.925400 ms  DeleteObjects: 0.105200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004792 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\miss_\OneDrive\Documents\TPJeu\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\miss_\OneDrive\Documents\TPJeu\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initializing Mesh Terrain Editor v4.0.0b1 on Unity 2022.1.16f1...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:⁬⁯‫⁮​‍⁯‏‭‪​‭‌⁯‫‏‫⁫‪‬‎⁪‍⁭‪‮‎‭‭‫‭​⁬⁭‬⁭‏‬‏‎‮ (object)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[MTE]Cannot find Amplify Shader Editor, features based on ASE might be disabled.
+Please upgrade ASE to latest version and restart Unity.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MTE.MTEDebug:⁪‌⁭‍‬⁫⁯⁪‌‮⁫⁯‬‎‏‭‌‍⁯⁮⁯‎​⁮⁭⁮⁪⁮⁭‍‏⁯‪⁪‎⁭‏‍​‎‮ (object)
+MTE.MTEDebug:LogWarning (string)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Initializing Mesh Terrain Editor...Done
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:⁬⁯‫⁮​‍⁯‏‭‪​‭‌⁯‫‏‫⁫‪‬‎⁪‍⁭‪‮‎‭‭‫‭​⁬⁭‬⁭‏‬‏‎‮ (object)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.173 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1173ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1006ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (219ms)
+				TypeCache.Initialize (207ms)
+					TypeCache.ScanAssembly (201ms)
+				ResolveRequiredComponents (11ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (618ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (451ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Shader 'MTE/Specialized/Mali 400/Surface/2 Textures/Bumped': fallback shader 'MTE/Specialized/Mali 400/Legacy/2 Textures/Diffuse' not found
+Shader 'MTE/Specialized/Mali 400/Surface/3 Textures/Bumped': fallback shader 'MTE/Specialized/Mali 400/Legacy/3 Textures/Diffuse' not found
+Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5946 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (311.4 KB). Loaded Objects now: 6739.
+Memory consumption went from 1.07 GB to 1.07 GB.
+Total: 3.402600 ms (FindLiveObjects: 0.365600 ms CreateObjectMapping: 0.249100 ms MarkObjects: 2.713600 ms  DeleteObjects: 0.073100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005833 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\miss_\OneDrive\Documents\TPJeu\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\miss_\OneDrive\Documents\TPJeu\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initializing Mesh Terrain Editor v4.0.0b1 on Unity 2022.1.16f1...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:⁬⁯‫⁮​‍⁯‏‭‪​‭‌⁯‫‏‫⁫‪‬‎⁪‍⁭‪‮‎‭‭‫‭​⁬⁭‬⁭‏‬‏‎‮ (object)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[MTE]Cannot find Amplify Shader Editor, features based on ASE might be disabled.
+Please upgrade ASE to latest version and restart Unity.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MTE.MTEDebug:⁪‌⁭‍‬⁫⁯⁪‌‮⁫⁯‬‎‏‭‌‍⁯⁮⁯‎​⁮⁭⁮⁪⁮⁭‍‏⁯‪⁪‎⁭‏‍​‎‮ (object)
+MTE.MTEDebug:LogWarning (string)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Initializing Mesh Terrain Editor...Done
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:⁬⁯‫⁮​‍⁯‏‭‪​‭‌⁯‫‏‫⁫‪‬‎⁪‍⁭‪‮‎‭‭‫‭​⁬⁭‬⁭‏‬‏‎‮ (object)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.147 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1148ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (989ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+				TypeCache.Initialize (197ms)
+					TypeCache.ScanAssembly (192ms)
+				ResolveRequiredComponents (11ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (626ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (6ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (209ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (461ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.97 ms, found 3 plugins.
+Shader 'MTE/Specialized/Mali 400/Surface/2 Textures/Bumped': fallback shader 'MTE/Specialized/Mali 400/Legacy/2 Textures/Diffuse' not found
+Shader 'MTE/Specialized/Mali 400/Surface/3 Textures/Bumped': fallback shader 'MTE/Specialized/Mali 400/Legacy/3 Textures/Diffuse' not found
+Refreshing native plugins compatible for Editor in 2.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5898 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (309.9 KB). Loaded Objects now: 6521.
-Memory consumption went from 0.91 GB to 0.91 GB.
-Total: 3.064500 ms (FindLiveObjects: 0.315000 ms CreateObjectMapping: 0.214300 ms MarkObjects: 2.472400 ms  DeleteObjects: 0.061900 ms)
+Unloading 5946 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (311.4 KB). Loaded Objects now: 6745.
+Memory consumption went from 1.07 GB to 1.07 GB.
+Total: 3.609200 ms (FindLiveObjects: 0.457500 ms CreateObjectMapping: 0.263500 ms MarkObjects: 2.829000 ms  DeleteObjects: 0.057600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -226,16 +614,130 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 537318.127347 seconds.
-  path: Assets/X Bot@Slow Run.fbx
-  artifactKey: Guid(dd73122387a261d4b93ae82c61aaff4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/X Bot@Slow Run.fbx using Guid(dd73122387a261d4b93ae82c61aaff4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d0eaebe55cad01d418349a8aa95999') in 0.057867 seconds 
+  Time since last request: 626.618461 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Building Combination/BuildingAT07_b.prefab
+  artifactKey: Guid(9c899610785b0c344a60a99f81a7b599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Building Combination/BuildingAT07_b.prefab using Guid(9c899610785b0c344a60a99f81a7b599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1911a592f548fcfb8e0d5254e7ed853a') in 0.598870 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 220.358828 seconds.
-  path: Assets/Gloopy/MaterielGloopy/N00_000_00_EyeHighlight_00_EYE__Instance_.mat
-  artifactKey: Guid(eb79dbcabe6888946b865423aa841dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gloopy/MaterielGloopy/N00_000_00_EyeHighlight_00_EYE__Instance_.mat using Guid(eb79dbcabe6888946b865423aa841dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0839d26cbbd5da72dcb396e298026b') in 0.271665 seconds 
+  Time since last request: 0.000039 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Building Combination/BuildingAT07_c.prefab
+  artifactKey: Guid(8c6bba77413370b469adb3b6233d098e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Building Combination/BuildingAT07_c.prefab using Guid(8c6bba77413370b469adb3b6233d098e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9a6d36b498a2a1e95ffa25909341a7') in 0.044098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.979101 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Vegetation/Vine01_b02.prefab
+  artifactKey: Guid(57e05925a943368449d724762e92632e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Vegetation/Vine01_b02.prefab using Guid(57e05925a943368449d724762e92632e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b64205f3f1f387313fd8da45874fe4c') in 0.021809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.338412 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Furniture/Table01_a02.prefab
+  artifactKey: Guid(95cfd78d41b57b847a8d5a80df5d6edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Furniture/Table01_a02.prefab using Guid(95cfd78d41b57b847a8d5a80df5d6edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8848c546fe8e62f0377125442aac920') in 0.026001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.408090 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Decoration/Vane01_a01.prefab
+  artifactKey: Guid(e8623453a3709ad429e35b16a63634ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Decoration/Vane01_a01.prefab using Guid(e8623453a3709ad429e35b16a63634ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dab476cde050b5620cc399fe2503eed') in 0.019716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.367404 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Structures/Parts/Wood_path/rpgpp_lt_wood_path_01b.prefab
+  artifactKey: Guid(0ba258545da721e488ecb71ffd143b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Structures/Parts/Wood_path/rpgpp_lt_wood_path_01b.prefab using Guid(0ba258545da721e488ecb71ffd143b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ccad21a008e96306a4896dc92db5056') in 0.033281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.882395 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Wall_decor/Banners/rpgpp_lt_banner_01b.prefab
+  artifactKey: Guid(002f7a569314a244fb643e8ea8d00376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Wall_decor/Banners/rpgpp_lt_banner_01b.prefab using Guid(002f7a569314a244fb643e8ea8d00376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ba9e1344491fc9acf52c7cf1baa035') in 0.027219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.413674 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Furniture/Chairs/rpgpp_lt_chair_01b.prefab
+  artifactKey: Guid(7a77ea810bbc0db4992e500affe32dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Furniture/Chairs/rpgpp_lt_chair_01b.prefab using Guid(7a77ea810bbc0db4992e500affe32dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4cf968ec8f2fad8c5ff4e1321524c9') in 0.024414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.855995 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Paths/RockPath3/rock_path_3.prefab
+  artifactKey: Guid(b895630072c8e7f458a51b9ffa6ca8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Paths/RockPath3/rock_path_3.prefab using Guid(b895630072c8e7f458a51b9ffa6ca8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f266e59246012e59e05a75330efe266b') in 0.020159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.180229 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SCharacter_Bird2.prefab
+  artifactKey: Guid(6d8c53370341c254eb80f72f77a48dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SCharacter_Bird2.prefab using Guid(6d8c53370341c254eb80f72f77a48dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca6f15486244ed95ef5c33b3797bd08') in 0.038985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001663 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SCharacter_Butterfly.prefab
+  artifactKey: Guid(18b8af6b3106d4940a5e534dc18c0344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SCharacter_Butterfly.prefab using Guid(18b8af6b3106d4940a5e534dc18c0344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2350b131401a3ed99c8c6e1ee3941113') in 0.023770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_LiliPad.prefab
+  artifactKey: Guid(c9bb692f8b5490743a59d75a7995b81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_LiliPad.prefab using Guid(c9bb692f8b5490743a59d75a7995b81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74db654fe9ee109b991202c54723a765') in 0.028547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SCharacter_Fish.prefab
+  artifactKey: Guid(925bc3fd925fd0c4c80d7e83b67ba239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SCharacter_Fish.prefab using Guid(925bc3fd925fd0c4c80d7e83b67ba239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68da814ebf001631504e1a720ae2910d') in 0.035922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_LiliBlossom.prefab
+  artifactKey: Guid(e896a7f6f83380b40972e13f5039022a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_LiliBlossom.prefab using Guid(e896a7f6f83380b40972e13f5039022a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97caee87c1e8f57020d3e135cf1ea491') in 0.033273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_Rock1.prefab
+  artifactKey: Guid(e86571f2f1251004b98a744302eca0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_Rock1.prefab using Guid(e86571f2f1251004b98a744302eca0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac22518a1e8f8587c774a2d42146d53') in 0.037982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_SmallRocks.prefab
+  artifactKey: Guid(8bf68561aec61914b8418e72b44a57dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_SmallRocks.prefab using Guid(8bf68561aec61914b8418e72b44a57dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73790bd623de68ac61da97bc1500db5') in 0.037019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_Leaf.prefab
+  artifactKey: Guid(8ae7718c33e89b042b204b36902c7745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_Leaf.prefab using Guid(8ae7718c33e89b042b204b36902c7745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4df15f1707d028b165a44b1bafaa70') in 0.028379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_MossRocks1.prefab
+  artifactKey: Guid(55ffe20335c698d4fbf469301e953712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_MossRocks1.prefab using Guid(55ffe20335c698d4fbf469301e953712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097f97cbde86a321cb36144c17b954fa') in 0.024749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_Tree.prefab
+  artifactKey: Guid(fac5acd5ad489214781636c608a0c628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_Tree.prefab using Guid(fac5acd5ad489214781636c608a0c628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f299d5e4e2b7295f7b46bc33edade9d6') in 0.023185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SCharacter_Squirrel.prefab
+  artifactKey: Guid(4a7d6cee9f1328e468c9f485779e2c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SCharacter_Squirrel.prefab using Guid(4a7d6cee9f1328e468c9f485779e2c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb79350be866aeef1da27837cec1507e') in 0.030449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_StickBlack.prefab
+  artifactKey: Guid(f900edf8c5b608246b6a17324ef82ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_StickBlack.prefab using Guid(f900edf8c5b608246b6a17324ef82ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd924de5c2e2fd69646b166eac4fe725c') in 0.030914 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

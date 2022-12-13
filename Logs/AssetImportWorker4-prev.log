@@ -15,7 +15,7 @@ C:/Users/miss_/OneDrive/Documents/TPJeu/5J5
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-62633
+59269
 Successfully changed project path to: C:/Users/miss_/OneDrive/Documents/TPJeu/5J5
 C:/Users/miss_/OneDrive/Documents/TPJeu/5J5
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/miss_/OneDrive/Documents/TPJeu/5J5
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 137.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 123.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.16f1 (7321c9670bc2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.1.16f1/Editor/Data/Resources/UnitySubsystems
@@ -59,99 +59,141 @@ Direct3D:
     Vendor:   NVIDIA
     VRAM:     8032 MB
     Driver:   31.0.15.2698
+Shader 'MTE/Specialized/Mali 400/Surface/3 Textures/Bumped': fallback shader 'MTE/Specialized/Mali 400/Legacy/3 Textures/Diffuse' not found
+Shader 'MTE/Specialized/Mali 400/Surface/2 Textures/Bumped': fallback shader 'MTE/Specialized/Mali 400/Legacy/2 Textures/Diffuse' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2022.1.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2022.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2022.1.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2022.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001984 seconds.
+Registered in 0.001934 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 93.88 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 89.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.508 seconds
+- Completed reload, in  0.476 seconds
 Domain Reload Profiling:
-	ReloadAssembly (508ms)
-		BeginReloadAssembly (52ms)
+	ReloadAssembly (476ms)
+		BeginReloadAssembly (46ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (381ms)
-			LoadAssemblies (51ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (357ms)
+			LoadAssemblies (45ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (76ms)
 				TypeCache.Initialize (76ms)
 					TypeCache.ScanAssembly (75ms)
 				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (244ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (221ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (94ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (89ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (105ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004869 seconds.
+Registered in 0.004837 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\miss_\OneDrive\Documents\TPJeu\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\miss_\OneDrive\Documents\TPJeu\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 91.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 92.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Initializing Mesh Terrain Editor v4.0.0b1 on Unity 2022.1.16f1...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:⁬⁯‫⁮​‍⁯‏‭‪​‭‌⁯‫‏‫⁫‪‬‎⁪‍⁭‪‮‎‭‭‫‭​⁬⁭‬⁭‏‬‏‎‮ (object)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[MTE]Cannot find Amplify Shader Editor, features based on ASE might be disabled.
+Please upgrade ASE to latest version and restart Unity.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MTE.MTEDebug:⁪‌⁭‍‬⁫⁯⁪‌‮⁫⁯‬‎‏‭‌‍⁯⁮⁯‎​⁮⁭⁮⁪⁮⁭‍‏⁯‪⁪‎⁭‏‍​‎‮ (object)
+MTE.MTEDebug:LogWarning (string)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Initializing Mesh Terrain Editor...Done
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:⁬⁯‫⁮​‍⁯‏‭‪​‭‌⁯‫‏‫⁫‪‬‎⁪‍⁭‪‮‎‭‭‫‭​⁬⁭‬⁭‏‬‏‎‮ (object)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
 Mono: successfully reloaded assembly
-- Completed reload, in  1.088 seconds
+- Completed reload, in  1.295 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1089ms)
-		BeginReloadAssembly (84ms)
+	ReloadAssembly (1296ms)
+		BeginReloadAssembly (78ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (922ms)
-			LoadAssemblies (83ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (1136ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (247ms)
-				TypeCache.Initialize (238ms)
-					TypeCache.ScanAssembly (234ms)
-				ResolveRequiredComponents (9ms)
+			SetupTypeCache (255ms)
+				TypeCache.Initialize (243ms)
+					TypeCache.ScanAssembly (238ms)
+				ResolveRequiredComponents (12ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (488ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (689ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (2ms)
 				SetLoadedEditorAssemblies (6ms)
 				RefreshPlugins (92ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (235ms)
-				ProcessInitializeOnLoadMethodAttributes (62ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (435ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Shader 'MTE/Specialized/Mali 400/Surface/2 Textures/Bumped': fallback shader 'MTE/Specialized/Mali 400/Legacy/2 Textures/Diffuse' not found
+Shader 'MTE/Specialized/Mali 400/Surface/3 Textures/Bumped': fallback shader 'MTE/Specialized/Mali 400/Legacy/3 Textures/Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6048 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (350.6 KB). Loaded Objects now: 6516.
-Memory consumption went from 0.94 GB to 0.94 GB.
-Total: 4.470700 ms (FindLiveObjects: 0.554000 ms CreateObjectMapping: 0.293000 ms MarkObjects: 3.466800 ms  DeleteObjects: 0.155300 ms)
+Unloading 6204 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (0.6 MB). Loaded Objects now: 6719.
+Memory consumption went from 1.13 GB to 1.13 GB.
+Total: 4.939900 ms (FindLiveObjects: 0.604700 ms CreateObjectMapping: 0.390800 ms MarkObjects: 3.473500 ms  DeleteObjects: 0.469600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,61 +208,443 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 537909.783915 seconds.
-  path: Assets/Gloopy/MaterielGloopy/GloopyBody.mat
-  artifactKey: Guid(3ddb32a2ff7de7146b55653ba07d010a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gloopy/MaterielGloopy/GloopyBody.mat using Guid(3ddb32a2ff7de7146b55653ba07d010a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67aa58d8634ac95105e52e8d2215f082') in 1.081595 seconds 
+  Time since last request: 701329.878046 seconds.
+  path: Assets/Fantasy Skybox FREE
+  artifactKey: Guid(2f9cedb13f82cae47b414f6db0e68aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE using Guid(2f9cedb13f82cae47b414f6db0e68aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b73744ad8c3e773cba716ec0f8d7a2') in 0.016863 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.041551 seconds.
-  path: Assets/Gloopy/MaterielGloopy/GloobyEyeHighlight.mat
-  artifactKey: Guid(eb79dbcabe6888946b865423aa841dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gloopy/MaterielGloopy/GloobyEyeHighlight.mat using Guid(eb79dbcabe6888946b865423aa841dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd763f778e6cbf89dc5139066d69c408') in 0.026255 seconds 
+  Time since last request: 18130.547054 seconds.
+  path: Assets/Low Poly Pack
+  artifactKey: Guid(9516220ec08dd5f469f5b4596c57fa83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack using Guid(9516220ec08dd5f469f5b4596c57fa83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be12c7bc9d2c105bd37b6e3d2f905b2') in 0.007617 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.878869 seconds.
-  path: Assets/Gloopy/MaterielGloopy/GloopyIris.mat
-  artifactKey: Guid(7852c32bfdbbeb742afb6c197ddef57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gloopy/MaterielGloopy/GloopyIris.mat using Guid(7852c32bfdbbeb742afb6c197ddef57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d7e09f57e3171bad8d7b4de7b23b42') in 0.025932 seconds 
+  Time since last request: 2.311985 seconds.
+  path: Assets/Low Poly Pack/Prefabs
+  artifactKey: Guid(50013c34966fde84c911f142c76c41e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs using Guid(50013c34966fde84c911f142c76c41e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e927eb9687c2d03df6b0a68d77e222') in 0.007677 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.135794 seconds.
-  path: Assets/Gloopy/MaterielGloopy/GloopyFace.mat
-  artifactKey: Guid(f2478f263fe33f649b044b7b86e3e10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gloopy/MaterielGloopy/GloopyFace.mat using Guid(f2478f263fe33f649b044b7b86e3e10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f26b7f690e616ce272ef31d7a8db94') in 0.019186 seconds 
+  Time since last request: 0.077296 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Armguard Broken 1.prefab
+  artifactKey: Guid(35e4a4d3206f838419cf858736f163bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Armguard Broken 1.prefab using Guid(35e4a4d3206f838419cf858736f163bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164c793120995f5218c4a6df0e9be1da') in 0.566623 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.801757 seconds.
-  path: Assets/Gloopy/MaterielGloopy/GloopyBrows.mat
-  artifactKey: Guid(593f5860329fa9247b5f2a62efe4d082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gloopy/MaterielGloopy/GloopyBrows.mat using Guid(593f5860329fa9247b5f2a62efe4d082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aaf71151cc16ed9221e35cccfc4cfc8') in 0.027926 seconds 
+  Time since last request: 0.000035 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Boulder 2.prefab
+  artifactKey: Guid(5a3829a008b29c5489fb0fc97b0d0644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Boulder 2.prefab using Guid(5a3829a008b29c5489fb0fc97b0d0644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84444965629f125d8813c9bfae2c2776') in 0.042817 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.261149 seconds.
-  path: Assets/Gloopy/MaterielGloopy/GloopyMouth.mat
-  artifactKey: Guid(72e7a837d912cc047b00fbbbd4c8c390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gloopy/MaterielGloopy/GloopyMouth.mat using Guid(72e7a837d912cc047b00fbbbd4c8c390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3ce9b227722f3ed7f85f392ed17bcc') in 0.019016 seconds 
+  Time since last request: 0.000042 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Chest Full 1.prefab
+  artifactKey: Guid(f78fd514528f556439abb8c22718f55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Chest Full 1.prefab using Guid(f78fd514528f556439abb8c22718f55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360c5d7e3302c2db0258449b30365fa3') in 0.026929 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.945076 seconds.
-  path: Assets/Gloopy/MaterielGloopy/GloopyHair1.mat
-  artifactKey: Guid(87ccc9a6ce30e8444ba57c22cd1bd6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gloopy/MaterielGloopy/GloopyHair1.mat using Guid(87ccc9a6ce30e8444ba57c22cd1bd6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d6cb6e19b443a7399683c131247087') in 0.022215 seconds 
+  Time since last request: 0.000046 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Fence 12.prefab
+  artifactKey: Guid(284eef7aaf455e74ba044ae95b9d444b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Fence 12.prefab using Guid(284eef7aaf455e74ba044ae95b9d444b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4a188514d784656f8e754fd47ae7a1') in 0.034504 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.606221 seconds.
-  path: Assets/Gloopy/MaterielGloopy/GloopyHair2.mat
-  artifactKey: Guid(6a003ddf6d6e78e498e123691e4b1f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gloopy/MaterielGloopy/GloopyHair2.mat using Guid(6a003ddf6d6e78e498e123691e4b1f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264f4dcc53214d949c29c0e858787c2d') in 0.020596 seconds 
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Coin 1.prefab
+  artifactKey: Guid(1d6ed692f1427524db8fabe416dc1318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Coin 1.prefab using Guid(1d6ed692f1427524db8fabe416dc1318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc42dfdd87c187cd98e6b2085777601') in 0.030894 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.922333 seconds.
-  path: Assets/Gloopy/MaterielGloopy/GloopyClothes.mat
-  artifactKey: Guid(bd74a13e2e10a6a4587193b727c53ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gloopy/MaterielGloopy/GloopyClothes.mat using Guid(bd74a13e2e10a6a4587193b727c53ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7075ca3c88f91d5d44d2fc9fba38d9a1') in 0.030647 seconds 
+  Time since last request: 0.000040 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Bonfire lit 2.prefab
+  artifactKey: Guid(ae92a6c4592a360499ec67fefac0166a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Bonfire lit 2.prefab using Guid(ae92a6c4592a360499ec67fefac0166a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc70722d98193dc2f17de8781e9e66dd') in 0.029909 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.707067 seconds.
-  path: Assets/Gloopy/Gloopy@Slow Run.fbx
-  artifactKey: Guid(88f24dea2ce520942ba83187f5274b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gloopy/Gloopy@Slow Run.fbx using Guid(88f24dea2ce520942ba83187f5274b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36559f5775a455e0b1aa9c4412136767') in 0.113133 seconds 
+  Time since last request: 0.000065 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Crate 1.prefab
+  artifactKey: Guid(169308e2f93272b49a59dd291344f24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Crate 1.prefab using Guid(169308e2f93272b49a59dd291344f24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a874342fe8db278039b9a7e7d1e5c79') in 0.026799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Bridge 4.prefab
+  artifactKey: Guid(289c14d7d70dcde409a6dbe0c59f39e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Bridge 4.prefab using Guid(289c14d7d70dcde409a6dbe0c59f39e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808c89788ef45203ab74c4f2b775df3f') in 0.029232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Fence 10.prefab
+  artifactKey: Guid(5bc383449a755104f8e136bc52275e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Fence 10.prefab using Guid(5bc383449a755104f8e136bc52275e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c3ede7d1494477fcc6036637c3f686') in 0.031354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Fence Post 1.prefab
+  artifactKey: Guid(d83dac02df32a434584bdf88ed473616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Fence Post 1.prefab using Guid(d83dac02df32a434584bdf88ed473616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c34ad1b081d7df088507e694f86dcee') in 0.032241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Boulder 3.prefab
+  artifactKey: Guid(e4202489aa6d8594fbfb3404e8807249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Boulder 3.prefab using Guid(e4202489aa6d8594fbfb3404e8807249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5c54d4539993ceb9e4ede2e6400e35') in 0.020784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Fence 9.prefab
+  artifactKey: Guid(49a11734fa3a2ac428d43a131d5a25a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Fence 9.prefab using Guid(49a11734fa3a2ac428d43a131d5a25a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad7eefbf37a3afb92ef548aa4c5862c') in 0.028597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Crystal Cluster 2.prefab
+  artifactKey: Guid(0558fc74f98924e488de1212480993b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Crystal Cluster 2.prefab using Guid(0558fc74f98924e488de1212480993b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bcbda49ec4d5e7fdcc6fc8307fb148d') in 0.025178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Fence 5.prefab
+  artifactKey: Guid(1c9f6514c2e99c64abe8cf2157e6dbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Fence 5.prefab using Guid(1c9f6514c2e99c64abe8cf2157e6dbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e78dd534a45f684772bc00a9cc5bd74') in 0.028664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Fence 13.prefab
+  artifactKey: Guid(19fb82fa14da5a647961518923083942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Fence 13.prefab using Guid(19fb82fa14da5a647961518923083942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a165f52638691f7596fcfec3b021a51') in 0.034128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Cloud 2.prefab
+  artifactKey: Guid(58a04ed3b9a72fe4eb0b19e2cba9eba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Cloud 2.prefab using Guid(58a04ed3b9a72fe4eb0b19e2cba9eba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676853072969bae747f2804b8c5e70fd') in 0.024937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Fence 6.prefab
+  artifactKey: Guid(87c0d68ed8e25a04f9a1b63bdd16a020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Fence 6.prefab using Guid(87c0d68ed8e25a04f9a1b63bdd16a020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57b2cf2bea28958388cf0a6c3606cd2') in 0.032255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Fence 1.prefab
+  artifactKey: Guid(a25d61682454fa2439cc2ba56cb48917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Fence 1.prefab using Guid(a25d61682454fa2439cc2ba56cb48917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aaca53f07fd4159cf760fb8de915ce3') in 0.031738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Bonfire Unlit 1.prefab
+  artifactKey: Guid(5d6a864563377694ab13365cc005a7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Bonfire Unlit 1.prefab using Guid(5d6a864563377694ab13365cc005a7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ad6a491134482c64d20d32148ad901') in 0.024232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Fence Stone 1.prefab
+  artifactKey: Guid(acbab5eace6dabd45a503fb7bd33e858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Fence Stone 1.prefab using Guid(acbab5eace6dabd45a503fb7bd33e858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573576b7c92bc7105c4481fe2134d065') in 0.031415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Cloud 3.prefab
+  artifactKey: Guid(94c51fd839663604fa1027f8f1329fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Cloud 3.prefab using Guid(94c51fd839663604fa1027f8f1329fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b7e70ee1b653805fe39913066e3b93') in 0.028224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Fence 2.prefab
+  artifactKey: Guid(cc1ee661331ae144aabb2d23cf0827d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Fence 2.prefab using Guid(cc1ee661331ae144aabb2d23cf0827d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff9915b7c7768a4fc2dabf114481cb9') in 0.030145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Bridge 3.prefab
+  artifactKey: Guid(df5b36654945ab74ba66ca24a5578817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Bridge 3.prefab using Guid(df5b36654945ab74ba66ca24a5578817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de8d2c9249584305035eebbcb018db3') in 0.033415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Cloud 1.prefab
+  artifactKey: Guid(fb72e3a55f4f3f844858ec5895b57046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Cloud 1.prefab using Guid(fb72e3a55f4f3f844858ec5895b57046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc9e10a4a11aebf13d484ad804a3b0b') in 0.022849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Crystal 1.prefab
+  artifactKey: Guid(ec6889f30c9f5f749b42a54bd8316f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Crystal 1.prefab using Guid(ec6889f30c9f5f749b42a54bd8316f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d15d4c3ef2aa31d0225706c3c9d23e7') in 0.026289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Ballista Cart 1.prefab
+  artifactKey: Guid(a0c43f7e01b99334da4263fe5629f0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Ballista Cart 1.prefab using Guid(a0c43f7e01b99334da4263fe5629f0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0e92316c9ac2fecb0ec024a2a56c6e') in 0.030527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.195239 seconds.
+  path: Assets/Low Poly Pack/Materials
+  artifactKey: Guid(53efa1d18050e04479f7919fbb428f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Materials using Guid(53efa1d18050e04479f7919fbb428f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef929f8b45ed1285e7d9842cc156a676') in 0.005111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.068164 seconds.
+  path: Assets/Low Poly Pack/Materials/Bridges.mat
+  artifactKey: Guid(b90fe993707cdff408baac3a77628b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Materials/Bridges.mat using Guid(b90fe993707cdff408baac3a77628b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bca54df36545ac53ba3df190eb8f8f5') in 0.048196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Low Poly Pack/Materials/lambert3.mat
+  artifactKey: Guid(a931ea0e765cd4c46a032792a0e50f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Materials/lambert3.mat using Guid(a931ea0e765cd4c46a032792a0e50f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799347b8517985f90bb8853ffef23b13') in 0.029729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Low Poly Pack/Materials/TowerHutBallista.mat
+  artifactKey: Guid(50df01dd7003c404fb38a44140d6bc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Materials/TowerHutBallista.mat using Guid(50df01dd7003c404fb38a44140d6bc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc2d59d045570c8607242b172bdc013') in 0.032616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Low Poly Pack/Materials/TreesClouds.mat
+  artifactKey: Guid(a753b03c471661143a91d106d1eb7eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Materials/TreesClouds.mat using Guid(a753b03c471661143a91d106d1eb7eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4f06aed8a115758a7da37d39c76896') in 0.023957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Low Poly Pack/Materials/TerrainDecor.mat
+  artifactKey: Guid(9dc36e3045297fd4c874c98d482d2754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Materials/TerrainDecor.mat using Guid(9dc36e3045297fd4c874c98d482d2754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc9fe0c939c986bd936757c37922d8c') in 0.025260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Low Poly Pack/Materials/Mountains.mat
+  artifactKey: Guid(1f982cd990c529c4b9b25040e49f8aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Materials/Mountains.mat using Guid(1f982cd990c529c4b9b25040e49f8aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d7d79f6152da98cbb4298aeceda54e') in 0.020603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.551842 seconds.
+  path: Assets/Low Poly Pack/Materials/Textures/Bridges_Bridges_AlbedoTransparency.png
+  artifactKey: Guid(2233c80df410e624ba46a8bcf9342ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Materials/Textures/Bridges_Bridges_AlbedoTransparency.png using Guid(2233c80df410e624ba46a8bcf9342ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db61baca25b00a87c1b3847516e18488') in 0.033066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Low Poly Pack/Materials/Textures/Bridges_Bridges_AO.png
+  artifactKey: Guid(34cd93ca88864404da1d640807a62f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Materials/Textures/Bridges_Bridges_AO.png using Guid(34cd93ca88864404da1d640807a62f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8b8692b8323f511d7a7a6158eb30f0') in 0.026098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 147.516997 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Fence Stone 2.prefab
+  artifactKey: Guid(e44b38c017aeece49a9321dcd0823936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Fence Stone 2.prefab using Guid(e44b38c017aeece49a9321dcd0823936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4563e7117e11864cb3012e3e83ebc8c') in 0.026118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024542 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Flower 3.prefab
+  artifactKey: Guid(83aee47f473f53045a26a7ac2eace6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Flower 3.prefab using Guid(83aee47f473f53045a26a7ac2eace6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbbd1917793a319bde04e80c6d964284') in 0.026728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Human4Testing.fbx
+  artifactKey: Guid(f451faa7654c27b4590eb2d19cef56e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Human4Testing.fbx using Guid(f451faa7654c27b4590eb2d19cef56e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b128ff9800ada2d183974e07b1de8d') in 0.051997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Flower 11.prefab
+  artifactKey: Guid(4bbdb682d36a87242ac792bf74de496f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Flower 11.prefab using Guid(4bbdb682d36a87242ac792bf74de496f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e20f7f24632ec4112592bffe740f57e') in 0.028980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Leather Coat Damaged 1.prefab
+  artifactKey: Guid(e3be1ee9d0528c7448db2b52befdb773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Leather Coat Damaged 1.prefab using Guid(e3be1ee9d0528c7448db2b52befdb773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fbd9669bbd57188b60c7d4af0f38f1f') in 0.030415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Mountain Path 2.prefab
+  artifactKey: Guid(61e64ae3cc5bf3f4a93d09823b522552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Mountain Path 2.prefab using Guid(61e64ae3cc5bf3f4a93d09823b522552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd551e281cf7c1d7500dd953660819ee') in 0.032490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Mountain Cave 2.prefab
+  artifactKey: Guid(b655dc2668ba8bb47ae34ee356e5b6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Mountain Cave 2.prefab using Guid(b655dc2668ba8bb47ae34ee356e5b6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20902b8d0d79a6b1d5b0274a4c04a1f') in 0.025364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Low Poly Pack/Prefabs/IceSheet 2.prefab
+  artifactKey: Guid(a368f28b76e074f44945fec8863acb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/IceSheet 2.prefab using Guid(a368f28b76e074f44945fec8863acb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a9573002e169cdc755678ac4ca2f62') in 0.023798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Lake Circular 1.prefab
+  artifactKey: Guid(e58dc3da36714794686295a9d1569eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Lake Circular 1.prefab using Guid(e58dc3da36714794686295a9d1569eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6d3ea1fbae1ec8afe0fd4a271c2488') in 0.023502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Mountain Bg 2.prefab
+  artifactKey: Guid(0b386d8382b3b304f9450e3ea935fdea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Mountain Bg 2.prefab using Guid(0b386d8382b3b304f9450e3ea935fdea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a68a42fb876faf66ecb649ed308a940') in 0.025549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Grass Blade Set 2.prefab
+  artifactKey: Guid(19e6350c649059b40b6a8aa097550024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Grass Blade Set 2.prefab using Guid(19e6350c649059b40b6a8aa097550024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ae920fa54dcafdf28a8b8222f7b236') in 0.023245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Flower 7.prefab
+  artifactKey: Guid(e392ee297fc8e994f819f50e1a06330a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Flower 7.prefab using Guid(e392ee297fc8e994f819f50e1a06330a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda44ab4547b0441f4740512b2ab9404') in 0.034352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Grass Blade 2.prefab
+  artifactKey: Guid(09ee4be4f1d26da48a27a295aa68ac3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Grass Blade 2.prefab using Guid(09ee4be4f1d26da48a27a295aa68ac3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c30c9877b4364b1478826a7da9b1451') in 0.025083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Grass Blade Set 1.prefab
+  artifactKey: Guid(f6e35b1e3e9d7644caf064b0793ccc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Grass Blade Set 1.prefab using Guid(f6e35b1e3e9d7644caf064b0793ccc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f4831f187bb17fa6d9c678252f7070') in 0.026805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Flower 13.prefab
+  artifactKey: Guid(7669eb9ed2d05c9498179584afaabb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Flower 13.prefab using Guid(7669eb9ed2d05c9498179584afaabb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9216f293deca2fdd3bcc6d67026da086') in 0.026008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Flower 8.prefab
+  artifactKey: Guid(9d71aeea648852f45bc7e9dc1e8e98e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Flower 8.prefab using Guid(9d71aeea648852f45bc7e9dc1e8e98e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0e9898f06fba5a6c5ceae4654a86dc') in 0.031159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Flower 2.prefab
+  artifactKey: Guid(68cfb8870bd4c654f876330f60cb719a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Flower 2.prefab using Guid(68cfb8870bd4c654f876330f60cb719a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65523f2038dd0ffa6f70b9ab709c16ee') in 0.028596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Grass Blade 1.prefab
+  artifactKey: Guid(3813ff2690e524647bc3f23fda984c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Grass Blade 1.prefab using Guid(3813ff2690e524647bc3f23fda984c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f9759e569aed1693722fdffd363270') in 0.026833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.131424 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Mountain Path 4.prefab
+  artifactKey: Guid(45698c51ae40e3544bf405765d9fccba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Mountain Path 4.prefab using Guid(45698c51ae40e3544bf405765d9fccba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da665b8bf68a3029d233f8f9dbbccc7d') in 0.024049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Signpost 1.prefab
+  artifactKey: Guid(d93766c4560fdfe4794faa4b13f5b62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Signpost 1.prefab using Guid(d93766c4560fdfe4794faa4b13f5b62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0495ea0f53372eb76f20d9273251d48f') in 0.036083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Rock 3.prefab
+  artifactKey: Guid(c3057579327b43e4582b33e1580c5a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Rock 3.prefab using Guid(c3057579327b43e4582b33e1580c5a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d71ab9e38a2cb5640112903f0f4ac1') in 0.020027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Rock 1.prefab
+  artifactKey: Guid(e08be5de8b1a9c840956038b791f54f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Rock 1.prefab using Guid(e08be5de8b1a9c840956038b791f54f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a26eb7c5e9866423f508f0297ae7584') in 0.021451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Rock 4.prefab
+  artifactKey: Guid(52be1848cebbbfc409887785e7be958e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Rock 4.prefab using Guid(52be1848cebbbfc409887785e7be958e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c92ba19df9e7daa2497630bde479aae') in 0.021318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Sign Post 1.prefab
+  artifactKey: Guid(6ba5a2260d1a06c4f97e1b4c336b7968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Sign Post 1.prefab using Guid(6ba5a2260d1a06c4f97e1b4c336b7968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d7c6ee407c1d696b2ed77e8a5f655a') in 0.025873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Stalactite 4.prefab
+  artifactKey: Guid(702deeea21e8df743826017783c114e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Stalactite 4.prefab using Guid(702deeea21e8df743826017783c114e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b701974b3ea7ed48b6e457ba0eae84fc') in 0.021365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Snow Mound 2.prefab
+  artifactKey: Guid(ed936be4cf487e44698415833151369c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Snow Mound 2.prefab using Guid(ed936be4cf487e44698415833151369c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9a6ab02537fc5b5e6ae27e43c5f6f2') in 0.026333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Stalagmite 2.prefab
+  artifactKey: Guid(9206fa0384f39fb46b66da85fc1c1f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Stalagmite 2.prefab using Guid(9206fa0384f39fb46b66da85fc1c1f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fac20fcb5cc71ed6a393412e1999f48') in 0.020691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Snow Mound 4.prefab
+  artifactKey: Guid(87afd3bb0baa7ac4bbe206a761924e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Snow Mound 4.prefab using Guid(87afd3bb0baa7ac4bbe206a761924e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46af469d6a1f51073c0379fbb37e06f5') in 0.022849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Stalactite 3.prefab
+  artifactKey: Guid(37c69ea674fa7ac46915de023086fba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Stalactite 3.prefab using Guid(37c69ea674fa7ac46915de023086fba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1539b690d7738f1c5b952f64c6fe3fa4') in 0.019176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Stalactite 1.prefab
+  artifactKey: Guid(f73069fc4cfe0e744854cab306047227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Stalactite 1.prefab using Guid(f73069fc4cfe0e744854cab306047227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1557b51b83682e318a6f61add1a7df54') in 0.018686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.325820 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Stalagmite 3.prefab
+  artifactKey: Guid(354256f0d21164a4188bb34c83655014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Stalagmite 3.prefab using Guid(354256f0d21164a4188bb34c83655014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fea7f59a723870e249d8eff55a1543b') in 0.019952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Tree 2.prefab
+  artifactKey: Guid(92c52a94263fb134d9012f2d05a74027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Tree 2.prefab using Guid(92c52a94263fb134d9012f2d05a74027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1503af6695af6d5fa0f4c9ecbce2564') in 0.032021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Sword Standard 1.prefab
+  artifactKey: Guid(44dc59ac0b1e9cb45923004f4e0e5c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Sword Standard 1.prefab using Guid(44dc59ac0b1e9cb45923004f4e0e5c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a56aa7fd0269fd44df8fe8536d567ae') in 0.024972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Tree 1.prefab
+  artifactKey: Guid(29d29ac1f846ed44a88cc66348b9092c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Tree 1.prefab using Guid(29d29ac1f846ed44a88cc66348b9092c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8696a2f9f894fa05db60f3ac2665eeaf') in 0.022482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Watchtower 1.prefab
+  artifactKey: Guid(07b034239f313de41ad2273d5d230958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Watchtower 1.prefab using Guid(07b034239f313de41ad2273d5d230958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0fa17235dcd42cee963ff1ab450637') in 0.030468 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

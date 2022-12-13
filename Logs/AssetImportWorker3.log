@@ -15,7 +15,7 @@ C:/Users/miss_/OneDrive/Documents/TPJeu/5J5
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-64900
+54690
 Successfully changed project path to: C:/Users/miss_/OneDrive/Documents/TPJeu/5J5
 C:/Users/miss_/OneDrive/Documents/TPJeu/5J5
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/miss_/OneDrive/Documents/TPJeu/5J5
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 118.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 126.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.16f1 (7321c9670bc2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.1.16f1/Editor/Data/Resources/UnitySubsystems
@@ -59,99 +59,141 @@ Direct3D:
     Vendor:   NVIDIA
     VRAM:     8032 MB
     Driver:   31.0.15.2698
+Shader 'MTE/Specialized/Mali 400/Surface/3 Textures/Bumped': fallback shader 'MTE/Specialized/Mali 400/Legacy/3 Textures/Diffuse' not found
+Shader 'MTE/Specialized/Mali 400/Surface/2 Textures/Bumped': fallback shader 'MTE/Specialized/Mali 400/Legacy/2 Textures/Diffuse' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2022.1.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2022.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2022.1.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56688
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2022.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002377 seconds.
+Registered in 0.002413 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 110.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 106.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.637 seconds
+- Completed reload, in  0.588 seconds
 Domain Reload Profiling:
-	ReloadAssembly (637ms)
-		BeginReloadAssembly (79ms)
+	ReloadAssembly (589ms)
+		BeginReloadAssembly (56ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (473ms)
-			LoadAssemblies (77ms)
+		EndReloadAssembly (454ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (103ms)
-				TypeCache.Initialize (102ms)
-					TypeCache.ScanAssembly (100ms)
-				ResolveRequiredComponents (1ms)
+			SetupTypeCache (110ms)
+				TypeCache.Initialize (109ms)
+					TypeCache.ScanAssembly (107ms)
+				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (288ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (275ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (7ms)
-				RefreshPlugins (111ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (107ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (117ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				ProcessInitializeOnLoadAttributes (118ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005818 seconds.
+Registered in 0.005720 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\miss_\OneDrive\Documents\TPJeu\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\miss_\OneDrive\Documents\TPJeu\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 92.11 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 108.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Initializing Mesh Terrain Editor v4.0.0b1 on Unity 2022.1.16f1...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:⁬⁯‫⁮​‍⁯‏‭‪​‭‌⁯‫‏‫⁫‪‬‎⁪‍⁭‪‮‎‭‭‫‭​⁬⁭‬⁭‏‬‏‎‮ (object)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[MTE]Cannot find Amplify Shader Editor, features based on ASE might be disabled.
+Please upgrade ASE to latest version and restart Unity.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MTE.MTEDebug:⁪‌⁭‍‬⁫⁯⁪‌‮⁫⁯‬‎‏‭‌‍⁯⁮⁯‎​⁮⁭⁮⁪⁮⁭‍‏⁯‪⁪‎⁭‏‍​‎‮ (object)
+MTE.MTEDebug:LogWarning (string)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Initializing Mesh Terrain Editor...Done
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:⁬⁯‫⁮​‍⁯‏‭‪​‭‌⁯‫‏‫⁫‪‬‎⁪‍⁭‪‮‎‭‭‫‭​⁬⁭‬⁭‏‬‏‎‮ (object)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
+_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
 Mono: successfully reloaded assembly
-- Completed reload, in  1.072 seconds
+- Completed reload, in  1.500 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1073ms)
-		BeginReloadAssembly (85ms)
+	ReloadAssembly (1501ms)
+		BeginReloadAssembly (95ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (905ms)
-			LoadAssemblies (87ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1319ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (229ms)
-				TypeCache.Initialize (219ms)
-					TypeCache.ScanAssembly (216ms)
-				ResolveRequiredComponents (9ms)
+			SetupTypeCache (283ms)
+				TypeCache.Initialize (272ms)
+					TypeCache.ScanAssembly (268ms)
+				ResolveRequiredComponents (10ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (499ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (810ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (92ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (245ms)
-				ProcessInitializeOnLoadMethodAttributes (62ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (109ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (522ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
+Shader 'MTE/Specialized/Mali 400/Surface/3 Textures/Bumped': fallback shader 'MTE/Specialized/Mali 400/Legacy/3 Textures/Diffuse' not found
+Shader 'MTE/Specialized/Mali 400/Surface/2 Textures/Bumped': fallback shader 'MTE/Specialized/Mali 400/Legacy/2 Textures/Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6049 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (351.5 KB). Loaded Objects now: 6503.
-Memory consumption went from 0.94 GB to 0.94 GB.
-Total: 3.251200 ms (FindLiveObjects: 0.377400 ms CreateObjectMapping: 0.258800 ms MarkObjects: 2.453800 ms  DeleteObjects: 0.159900 ms)
+Unloading 6205 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (0.6 MB). Loaded Objects now: 6723.
+Memory consumption went from 1.14 GB to 1.14 GB.
+Total: 5.802300 ms (FindLiveObjects: 0.710800 ms CreateObjectMapping: 0.465600 ms MarkObjects: 4.085000 ms  DeleteObjects: 0.538500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,168 +208,46 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2353.063076 seconds.
-  path: Assets/Scenes/Gloopy.Textures/texture_1.png
-  artifactKey: Guid(82decc515d9c385488c04c9a8877d4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Gloopy.Textures/texture_1.png using Guid(82decc515d9c385488c04c9a8877d4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6a563974c27bfdb7ba0142e72e2175') in 0.115343 seconds 
+  Time since last request: 144188.967018 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Bridge 5.prefab
+  artifactKey: Guid(f456e1752dee85b43821625103305665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Bridge 5.prefab using Guid(f456e1752dee85b43821625103305665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8fc589e4af145605bc50a8f879b2982') in 0.287100 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Scenes/Gloopy.Textures/texture_10.png
-  artifactKey: Guid(ce3d0189ac8782841bb54f6f75dfa1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Gloopy.Textures/texture_10.png using Guid(ce3d0189ac8782841bb54f6f75dfa1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841d5dcd947f1f013f6f99aca26bb16f') in 0.029416 seconds 
+  Time since last request: 0.000160 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Chest Empty 1.prefab
+  artifactKey: Guid(e0cb0124bd984994995b21fde50ed544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Chest Empty 1.prefab using Guid(e0cb0124bd984994995b21fde50ed544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d1ac4cd505c92b29917702823d5e7a') in 0.081652 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Scenes/Gloopy.Textures/texture_4.png
-  artifactKey: Guid(479a7fb814440cc4485c35378c4c376d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Gloopy.Textures/texture_4.png using Guid(479a7fb814440cc4485c35378c4c376d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755bb4a9ad84898a59819ada0bf9dc8b') in 0.019966 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004686 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\miss_\OneDrive\Documents\TPJeu\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\miss_\OneDrive\Documents\TPJeu\5J5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.957 seconds
-Domain Reload Profiling:
-	ReloadAssembly (958ms)
-		BeginReloadAssembly (119ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (766ms)
-			LoadAssemblies (79ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (231ms)
-				TypeCache.Initialize (221ms)
-					TypeCache.ScanAssembly (216ms)
-				ResolveRequiredComponents (10ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (373ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (214ms)
-				ProcessInitializeOnLoadMethodAttributes (73ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5898 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (309.9 KB). Loaded Objects now: 6511.
-Memory consumption went from 0.91 GB to 0.91 GB.
-Total: 3.920100 ms (FindLiveObjects: 0.439000 ms CreateObjectMapping: 0.255900 ms MarkObjects: 3.154200 ms  DeleteObjects: 0.069800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 0.000085 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Bridge 2.prefab
+  artifactKey: Guid(9d3188b7379e16041b37854fd9eebded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Bridge 2.prefab using Guid(9d3188b7379e16041b37854fd9eebded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d76fbcdc4165230ee9e2c54913dfe4e') in 0.059858 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 754.165981 seconds.
-  path: Assets/Scenes/Gloopy Variant.prefab
-  artifactKey: Guid(eb9f1fca573305c41b505e7f40418b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Gloopy Variant.prefab using Guid(eb9f1fca573305c41b505e7f40418b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Slow Run' used by the Animation component 'Gloopy Variant' must be marked as Legacy.
-The AnimationClip 'Slow Run' used by the Animation component 'J_Bip_C_Hips' must be marked as Legacy.
-The AnimationClip 'Slow Run' used by the Animation component 'Gloopy Variant(Clone)' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
-UnityEditor.GameObjectInspector:GetPreviewData (bool)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules\Animation\Animation.cpp line 2084]
-
-The AnimationClip 'Slow Run' used by the Animation component 'J_Bip_C_Hips' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
-UnityEditor.GameObjectInspector:GetPreviewData (bool)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules\Animation\Animation.cpp line 2084]
-
-The AnimationClip 'Slow Run' used by the Animation component 'J_Bip_C_Hips' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
-UnityEditor.GameObjectInspector:GetPreviewData (bool)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules\Animation\Animation.cpp line 2084]
-
-The AnimationClip 'Slow Run' used by the Animation component 'Gloopy Variant(Clone)AnimatorPreview' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
-UnityEditor.GameObjectInspector:GetPreviewData (bool)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules\Animation\Animation.cpp line 2084]
-
- -> (artifact id: '9c2437065ac35c6ca42f1abb6681a82f') in 7.362940 seconds 
+  Time since last request: 0.000078 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Cloud 3.prefab
+  artifactKey: Guid(94c51fd839663604fa1027f8f1329fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Cloud 3.prefab using Guid(94c51fd839663604fa1027f8f1329fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ccc5d5c3bdb3566821dc64bd6683a18') in 0.055139 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 74.366886 seconds.
-  path: Assets/Scenes/Gloopy.Materials/N00_000_00_EyeHighlight_00_EYE (Instance).asset
-  artifactKey: Guid(965cb783558620444858ea4813333f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Gloopy.Materials/N00_000_00_EyeHighlight_00_EYE (Instance).asset using Guid(965cb783558620444858ea4813333f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc37379b2b367fe67a7a385e0b90661d') in 0.070186 seconds 
+  Time since last request: 0.000045 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Ballista Arrow 1.prefab
+  artifactKey: Guid(ef7990befb94b684cae767d8ff3373f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Ballista Arrow 1.prefab using Guid(ef7990befb94b684cae767d8ff3373f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb8b170f51d57d705450e22bb3b5167') in 0.056246 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Scenes/Gloopy.Materials/N00_000_00_Face_00_SKIN (Instance).asset
-  artifactKey: Guid(429b6785a9ca923469ed1e993d50b89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Gloopy.Materials/N00_000_00_Face_00_SKIN (Instance).asset using Guid(429b6785a9ca923469ed1e993d50b89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0ff2fcd3dbad2e497aad824ba2c858') in 0.055999 seconds 
+  Time since last request: 0.000039 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Crystal 2.prefab
+  artifactKey: Guid(e45d0242a8ef6ff4bb33e1c0b2f47af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Crystal 2.prefab using Guid(e45d0242a8ef6ff4bb33e1c0b2f47af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8433cd2084a08b92ace326cf8bb714a2') in 0.051299 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Scenes/Gloopy.Materials/N00_000_00_EyeIris_00_EYE (Instance).asset
-  artifactKey: Guid(366a4b8221a70ae4aa0365d56f7a937e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Gloopy.Materials/N00_000_00_EyeIris_00_EYE (Instance).asset using Guid(366a4b8221a70ae4aa0365d56f7a937e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702b17d620923c7ab659660922916ef9') in 0.047795 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Scenes/Gloopy.Materials/N00_000_00_HairBack_00_HAIR (Instance).asset
-  artifactKey: Guid(c7d6ec6c604f2d44aac240a1f9fced29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Gloopy.Materials/N00_000_00_HairBack_00_HAIR (Instance).asset using Guid(c7d6ec6c604f2d44aac240a1f9fced29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c84d5e087b486329ce5e32d8ec03dc3c') in 0.043063 seconds 
+  Time since last request: 0.000051 seconds.
+  path: Assets/Low Poly Pack/Prefabs/Bridge 6.prefab
+  artifactKey: Guid(9ff0a9823cbf1284a9a62ebc08041d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Prefabs/Bridge 6.prefab using Guid(9ff0a9823cbf1284a9a62ebc08041d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a27656c2a001b027b8696112a4dfce') in 0.070078 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
