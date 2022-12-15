@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/Photon/PhotonUnityNetworking/Demos/5J5__projet/shader_graph.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
