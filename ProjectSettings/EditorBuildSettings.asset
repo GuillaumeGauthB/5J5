@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Photon/PhotonUnityNetworking/Demos/5J5__projet/scenes/Scene_connexion.unity
+    guid: db317b7c5c451764e98005db530ee1f8
+  - enabled: 1
+    path: Assets/Photon/PhotonUnityNetworking/Demos/5J5__projet/5J5_Jeu.unity
+    guid: 8a6e16961e39a95429bc115261053a5d
   m_configObjects: {}
