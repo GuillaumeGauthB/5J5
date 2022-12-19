@@ -33,6 +33,8 @@ public class Connexion : MonoBehaviourPunCallbacks
     public void Update()
     {
         //Debug.Log("actual: " + cachedRoomList.Count);
+        //Debug.Log("name: "+PhotonNetwork.CurrentRoom.Name);
+        //Debug.Log("lobby: " + PhotonNetwork.CurrentLobby.Name);
     }
 
     private void Awake()
@@ -112,6 +114,15 @@ public class Connexion : MonoBehaviourPunCallbacks
                 Debug.Log("photon: " + PhotonNetwork.CountOfRooms);
                 if(roomList.Count == 1)
                     Debug.Log("actual: " + roomList[0].Name);
+
+                // Debug.Log(PhotonNetwork.CurrentLobby.Name);
+                //Debug.Log(PhotonNetwork.CurrentRoom.Name);
+
+                Debug.Log(PhotonNetwork.CurrentLobby.Name != "" ? PhotonNetwork.CurrentLobby.Name : "pas de lobby");
+
+                //if (roomList.Count == 0)
+                //    return;
+
                 /*foreach (KeyValuePair<string, RoomInfo> kv in cachedRoomList)
                 {
                     RoomInfo info = kv.Value;
@@ -123,7 +134,8 @@ public class Connexion : MonoBehaviourPunCallbacks
                     }
 
                 }*/
-
+                //return;
+                //PhotonNetwork.JoinRandomRoom();
                 for (int i = 0; i < roomList.Count; i++)
                 {
                     RoomInfo info = roomList[i];
@@ -192,6 +204,7 @@ public class Connexion : MonoBehaviourPunCallbacks
         // Load la scene
         if (PhotonNetwork.CurrentRoom.PlayerCount == 1)
         {
+            //feedbackText.text = System.Environment.NewLine + PhotonNetwork.CurrentLobby.Name;
             PhotonNetwork.CurrentRoom.IsVisible = true;
             /*ExitGames.Client.Photon.Hashtable table = new ExitGames.Client.Photon.Hashtable();
                 table.Add("secret", PlayerPrefs.GetString("code_value"));
@@ -206,15 +219,17 @@ public class Connexion : MonoBehaviourPunCallbacks
 
     public void CreateNewRoomWithPW()
     {
-        if (roomNames.Contains(PlayerPrefs.GetString("code_value")))
-            return;
+        //if (roomNames.Contains(PlayerPrefs.GetString("code_value")))
+        //    return;
         ExitGames.Client.Photon.Hashtable table = new ExitGames.Client.Photon.Hashtable();
-            table.Add("secret", PlayerPrefs.GetString("code_value"));
+        //    table.Add("secret", PlayerPrefs.GetString("code_value"));
 
         RoomOptions roomOptions = new RoomOptions();
         roomOptions.CustomRoomProperties = table;
         roomOptions.MaxPlayers = 2;
+        roomOptions.IsVisible = true;
 
-        PhotonNetwork.CreateRoom(PlayerPrefs.GetString("code_value"), roomOptions);
+        PhotonNetwork.CreateRoom(PlayerPrefs.GetString("code_value"), roomOptions, customLobby);
+        //PhotonNetwork.JoinOrCreateRoom(PlayerPrefs.GetString("code_value"), roomOptions, customLobby);
     }
 }

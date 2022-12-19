@@ -22,6 +22,11 @@ public class joueur_local : MonoBehaviourPunCallbacks
     // Update is called once per frame
     void Update()
     {
+        // Debug.Log(PhotonNetwork.CurrentRoom.Name);
+        // Debug.Log(PhotonNetwork.CurrentLobby.Name);
+        Debug.Log("offline: " + PhotonNetwork.CurrentRoom.IsOffline);
+        Debug.Log("visible: " + PhotonNetwork.CurrentRoom.IsVisible);
+        GameObject.Find("nom_salle").GetComponent<Text>().text = "Nom de salle: "+PhotonNetwork.CurrentRoom.Name+"   Nom lobby: "+PhotonNetwork.CurrentLobby.Name+"    Joueurs dans salle: "+PhotonNetwork.CurrentRoom.PlayerCount;
         if (photonView.IsMine)
         {
             ProcessInputs();
