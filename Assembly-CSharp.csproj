@@ -63,6 +63,7 @@
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextButtonTransition.cs" />
     <Compile Include="Assets\Aligned Games\Polygonal Foliage Asset Package\Scripts\Behaviour\FlyCameraBehaviour.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
+    <Compile Include="Assets\gestionnaire_jeu.cs" />
     <Compile Include="Assets\AN Interactive Physical Door Pack\Scripts\AN_PlugScript.cs" />
     <Compile Include="Assets\AN Interactive Physical Door Pack\Scripts\AN_HeroInteractive.cs" />
     <Compile Include="Assets\AN Interactive Physical Door Pack\Scripts\AN_DoorKey.cs" />

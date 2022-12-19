@@ -319,6 +319,7 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/PhotonUnityNetworking.Utilities.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
 "Assets/Photon/PhotonUnityNetworking/Demos/5J5__projet/Scripts/Connexion.cs"
+"Assets/Photon/PhotonUnityNetworking/Demos/5J5__projet/Scripts/gestion_cam.cs"
 "Assets/Photon/PhotonUnityNetworking/Demos/5J5__projet/Scripts/gestion_connexion.cs"
 "Assets/Photon/PhotonUnityNetworking/Demos/5J5__projet/Scripts/InputFieldNom.cs"
 "Assets/Photon/PhotonUnityNetworking/Demos/5J5__projet/Scripts/InputFieldPW.cs"

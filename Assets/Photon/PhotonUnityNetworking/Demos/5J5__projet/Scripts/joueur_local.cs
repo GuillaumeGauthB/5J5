@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class joueur_local : MonoBehaviourPunCallbacks
 {
+    public static GameObject LocalPlayerInstance;
      public PhotonView photonView;
      public CharacterController characterController;
     public float speed = 200.0f;
@@ -16,7 +17,7 @@ public class joueur_local : MonoBehaviourPunCallbacks
     // Start is called before the first frame update
     void Start()
     {
-        characterController = GetComponent<CharacterController>();
+        this.characterController = GetComponent<CharacterController>();
     }
 
     // Update is called once per frame
@@ -24,27 +25,28 @@ public class joueur_local : MonoBehaviourPunCallbacks
     {
         // Debug.Log(PhotonNetwork.CurrentRoom.Name);
         // Debug.Log(PhotonNetwork.CurrentLobby.Name);
-        Debug.Log("offline: " + PhotonNetwork.CurrentRoom.IsOffline);
-        Debug.Log("visible: " + PhotonNetwork.CurrentRoom.IsVisible);
+        //Debug.Log("offline: " + PhotonNetwork.CurrentRoom.IsOffline);
+        //Debug.Log("visible: " + PhotonNetwork.CurrentRoom.IsVisible);
         GameObject.Find("nom_salle").GetComponent<Text>().text = "Nom de salle: "+PhotonNetwork.CurrentRoom.Name+"   Nom lobby: "+PhotonNetwork.CurrentLobby.Name+"    Joueurs dans salle: "+PhotonNetwork.CurrentRoom.PlayerCount;
         if (photonView.IsMine)
         {
             ProcessInputs();
+            LocalPlayerInstance = gameObject;
         }
     }
 
     private void ProcessInputs()
     {
-        if (characterController.isGrounded)
+        if (this.characterController.isGrounded)
         {
-            moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-            moveDirection = transform.TransformDirection(moveDirection);
-            moveDirection *= speed;
+            this.moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+            this.moveDirection = transform.TransformDirection(moveDirection);
+            this.moveDirection *= speed;
         }
-        moveDirection.y -= gravity * Time.deltaTime;
+        this.moveDirection.y -= gravity * Time.deltaTime;
         characterController.Move(moveDirection * Time.deltaTime);
         //use the mouse to look around
-        transform.Rotate(0, Input.GetAxis("Mouse X") * rotateSpeed, 0);
+        this.transform.Rotate(0, Input.GetAxis("Mouse X") * rotateSpeed, 0);
         //lock the cursor in center of screen
         Cursor.lockState = CursorLockMode.Locked;
     }

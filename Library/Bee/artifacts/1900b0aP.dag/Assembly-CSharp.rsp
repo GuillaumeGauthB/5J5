@@ -350,6 +350,7 @@
 "Assets/AN Interactive Physical Door Pack/Scripts/AN_HeroController.cs"
 "Assets/AN Interactive Physical Door Pack/Scripts/AN_HeroInteractive.cs"
 "Assets/AN Interactive Physical Door Pack/Scripts/AN_PlugScript.cs"
+"Assets/gestionnaire_jeu.cs"
 "Assets/Photon/PhotonChat/Demos/Common/EventSystemSpawner.cs"
 "Assets/Photon/PhotonChat/Demos/Common/OnStartDelete.cs"
 "Assets/Photon/PhotonChat/Demos/Common/TextButtonTransition.cs"
