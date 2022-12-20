@@ -32,18 +32,27 @@ public class joueur_local : MonoBehaviourPunCallbacks
         {
             ProcessInputs();
             LocalPlayerInstance = gameObject;
+            Debug.Log(this.characterController.isGrounded);
         }
     }
 
     private void ProcessInputs()
     {
-        if (this.characterController.isGrounded)
-        {
+            
             this.moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+            
             this.moveDirection = transform.TransformDirection(moveDirection);
             this.moveDirection *= speed;
-        }
+            
+            
         this.moveDirection.y -= gravity * Time.deltaTime;
+        if (Input.GetAxis("Horizontal") == 0 && Input.GetAxis("Vertical") == 0)
+        {
+            this.GetComponent<Animator>().SetBool("Marche", false);
+        }else
+        {
+            this.GetComponent<Animator>().SetBool("Marche", true);
+        }
         characterController.Move(moveDirection * Time.deltaTime);
         //use the mouse to look around
         this.transform.Rotate(0, Input.GetAxis("Mouse X") * rotateSpeed, 0);

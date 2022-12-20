@@ -20,14 +20,22 @@ ModelImporter:
     removeConstantScaleCurves: 0
     motionNodeName: 
     rigImportErrors: 
-    rigImportWarnings: 
+    rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Bone length in
+      copied configuration does not match position in animation file:\n\t'J_Bip_L_UpperLeg'
+      : position error = 91.202301 mm\n\t'J_Bip_L_LowerLeg' : position error = 367.988739
+      mm\n\t'J_Bip_L_Foot' : position error = 430.876892 mm\n\t'J_Bip_L_ToeBase'
+      : position error = 148.802750 mm\n\t'J_Bip_R_UpperLeg' : position error = 91.202301
+      mm\n\t'J_Bip_R_LowerLeg' : position error = 367.988739 mm\n\t'J_Bip_R_Foot'
+      : position error = 430.876892 mm\n\t'J_Bip_R_ToeBase' : position error = 148.802750
+      mm\nRoot scale mis-match. Copied Avatar Rig Configuration has (1,1,1) and animation
+      file has (2.5,2.5,2.5). Ensure files use same import units.\n"
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -56,7 +64,7 @@ ModelImporter:
     weldVertices: 1
     bakeAxisConversion: 0
     preserveHierarchy: 0
-    skinWeightsMode: 0
+    skinWeightsMode: 1
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
@@ -96,12 +104,12 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
-    skeletonHasParents: 1
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0

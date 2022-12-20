@@ -3173,11 +3173,11 @@ GameObject:
   - component: {fileID: 7940783085190041821}
   m_Layer: 0
   m_Name: airMan
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6476271715861456894
 Transform:
   m_ObjectHideFlags: 0
@@ -3198,7 +3198,7 @@ Transform:
   - {fileID: 5018807503979075151}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 1.8451566, y: -5.4940014, z: -0.5784652}
 --- !u!114 &8629391287680188707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3234,21 +3234,21 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5592158882585581778}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: d3f5ac4991b5de94f8ce53fdc0422344, type: 2}
   m_Controller: {fileID: 9100000, guid: 96b14fe140d6fe945854a6c617c37e01, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
     are already bound by a Humanoid avatar. These transforms can only be changed
     by Humanoid clips.\n\tTransform 'J_Bip_R_Ring2'\n\tTransform 'J_Bip_R_UpperLeg'\n\tTransform
     'J_Bip_C_UpperChest'\n\tTransform 'J_Bip_R_LowerArm'\n\tTransform 'J_Bip_L_Middle2'\n\tTransform
-    'J_Bip_C_Neck'\n\tTransform 'J_Bip_L_UpperLeg'\n\tTransform 'J_Bip_L_Index1'\n\tTransform
-    'J_Bip_R_Little2'\n\tTransform 'J_Bip_R_UpperArm'\n\tand more ...\n\tFrom animation
-    clip 'Standing Idle'\n\tFrom animation clip 'Walking'"
+    'J_Bip_L_UpperLeg'\n\tTransform 'J_Bip_L_Index1'\n\tTransform 'J_Bip_R_Little2'\n\tTransform
+    'J_Bip_R_UpperArm'\n\tTransform 'J_Bip_L_UpperArm'\n\tand more ...\n\tFrom animation
+    clip 'Standing Idle'"
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -3486,7 +3486,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5592158882585581778}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b8c4a61274f60b4ea5fb4299cfdbf14, type: 3}
   m_Name: 
@@ -3516,7 +3516,7 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   Synchronization: 3
-  OwnershipTransfer: 0
+  OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
   - {fileID: 5592158882585581781}

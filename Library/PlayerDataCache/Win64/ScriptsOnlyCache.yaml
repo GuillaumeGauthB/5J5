@@ -7,6 +7,8 @@ ScriptsOnlyBuild:
     - Connexion
     - InputFieldNom
     - InputFieldPW
+    - Lever1
+    - Lever2
     - Photon.Pun.Demo.Asteroids.Asteroid
     - Photon.Pun.Demo.Asteroids.Bullet
     - Photon.Pun.Demo.Asteroids.Spaceship
@@ -16,9 +18,13 @@ ScriptsOnlyBuild:
     - Photon.Pun.Demo.PunBasics.PlayerUI
     - Photon.Pun.Demo.SlotRacer.PlayerControl
     - Photon.Pun.Demo.SlotRacer.Utils.SplineWalker
+    - Puzzle1
     - gestion_cam
     - joueur_local
     PhotonUnityNetworking.Editor.dll:
+    - Photon.Pun.PhotonAnimatorViewEditor
+    - Photon.Pun.PhotonTransformViewEditor
+    - Photon.Pun.PhotonViewInspector
     - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
     - Photon.Pun.PhotonAnimatorView
@@ -29,6 +35,12 @@ ScriptsOnlyBuild:
     UniHumanoid.dll:
     - UniHumanoid.AvatarDescription
     - UniHumanoid.HumanPoseClip
+    UniVRM.Editor.dll:
+    - VRM.VRMBlendShapeProxyEditor
+    - VRM.VRMFirstPersonEditor
+    - VRM.VRMLookAtHeadEditor
+    - VRM.VRMMetaEditor
+    - VRM.VRMMetaObjectEditor
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -95,12 +107,17 @@ ScriptsOnlyBuild:
     - UnityEngine.Timeline.ActivationPlayableAsset
     - UnityEngine.Timeline.ActivationTrack
     - UnityEngine.Timeline.AnimationTrack
+    - UnityEngine.Timeline.AudioPlayableAsset
+    - UnityEngine.Timeline.AudioTrack
+    - UnityEngine.Timeline.MarkerTrack
     - UnityEngine.Timeline.TimelineAsset
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -179,6 +196,8 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Style
     - TMPro.VertexGradient
     Unity.Timeline:
+    - UnityEngine.Timeline.AudioClipProperties
+    - UnityEngine.Timeline.AudioMixerProperties
     - UnityEngine.Timeline.MarkerList
     - UnityEngine.Timeline.TimelineAsset/EditorSettings
     - UnityEngine.Timeline.TimelineClip
@@ -286,6 +305,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 90
@@ -345,6 +368,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9304}
     - Class: 114
+      Script: {instanceID: 9324}
+    - Class: 114
       Script: {instanceID: 9672}
     - Class: 114
       Script: {instanceID: 9848}
@@ -365,12 +390,24 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12762}
     - Class: 114
+      Script: {instanceID: 12804}
+    - Class: 114
       Script: {instanceID: 13164}
     - Class: 114
+      Script: {instanceID: 13358}
+    - Class: 114
       Script: {instanceID: 14126}
+    - Class: 114
+      Script: {instanceID: 204240}
+    - Class: 114
+      Script: {instanceID: 204498}
+    - Class: 114
+      Script: {instanceID: 204514}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
@@ -3230,8 +3267,27 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8ae9bd782e0d6faca1848a1d0817c51d
+    assemblyName: PhotonUnityNetworking.Demos.dll
+    namespaceName: 
+    className: Puzzle1
+  - hash:
+      serializedVersion: 2
+      Hash: 8ae9bd782e0d6faca1848a1d0817c51d
+    assemblyName: PhotonUnityNetworking.Demos.dll
+    namespaceName: 
+    className: Lever1
+  - hash:
+      serializedVersion: 2
+      Hash: 8ae9bd782e0d6faca1848a1d0817c51d
+    assemblyName: PhotonUnityNetworking.Demos.dll
+    namespaceName: 
+    className: Lever2
   platform: 19
   scenePathNames:
   - Assets/Photon/PhotonUnityNetworking/Demos/5J5__projet/scenes/Scene_connexion.unity
   - Assets/Photon/PhotonUnityNetworking/Demos/5J5__projet/5J5_Jeu.unity
-  playerPath: C:/Users/guill/OneDrive/Bureau/test_builld/TP - 5J5.exe
+  playerPath: "C:/Users/jpoir/Desktop/Coll\xE8ge/ExperimentationEnJeu/5j5/builds/TP
+    - 5J5.exe"
