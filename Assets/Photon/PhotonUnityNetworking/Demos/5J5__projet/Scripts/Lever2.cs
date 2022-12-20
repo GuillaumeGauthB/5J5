@@ -18,12 +18,12 @@ public class Lever2 : Puzzle1
     }
     private void OnTriggerStay(Collider other) {
         if (other.gameObject.tag == "Player") {
-            puzzle2Active = true;
+            Puzzle1.puzzle2Active = true;
         }
     }
     private void OnTriggerExit(Collider other) {
         if (other.gameObject.tag == "Player") {
-            puzzle2Active = false;
+            Puzzle1.puzzle2Active = false;
         }
     }
 }

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Puzzle1 : MonoBehaviour
 {
-    public bool puzzle1Active = false;
-    public bool puzzle2Active = false;
+    public static bool puzzle1Active = false;
+    public static bool puzzle2Active = false;
     public GameObject anim;
     // Start is called before the first frame update
     void Start()
